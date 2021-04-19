@@ -52,11 +52,11 @@ Duration: 10 mins
 
    ![](images/rg-lob.png "Resource groups")
 
-13. Click on the azure-sap-SUFFIX Resource group and confirm whether you have all the below resources deployed successfully.
+13. Click on the aiw-sap-SUFFIX Resource group and confirm whether you have all the below resources deployed successfully.
 
    ![](images/portal_resources.PNG "Resource groups")
 
-   * In the Resource group we have one **Virtual Machine**, **Kubernetes Service**, **Storage account** and **Log Analytics workspace** deployed.
+   * In the Resource group we have one **Virtual Machine**, **Logic App**, **Service Bus** and **IoT Hub** deployed.
 
    * **Virtual Machine**: You will be using the Virtual Machine which is already open on the left side of the page to perform all the Lab exercises.
 
