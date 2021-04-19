@@ -2,7 +2,7 @@
   "Name": "AIW-SAP-on-Azure",
   "Language": "English",
   "Files": [
-        {
+    {
       "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/README.md",
       "Order": 1
     },
