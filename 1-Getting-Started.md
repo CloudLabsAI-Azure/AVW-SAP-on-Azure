@@ -16,31 +16,25 @@ Duration: 10 mins
 
 2. When you click on Azure portal, the edge browser welcome screen will pop up, select **Get started**.
 
-   ![](images/edge-get-started-window.png "Get started")
 
 3. On the next window, click on **Confirm**.
 
-   ![](./images/edge-confirm.png "Confirm")
 
 4. You can close the popup which is shown below.
 
-   ![](images/edge-continue.png "Confirm")
 
 5. Now, you will see two tabs in the edge browser, close the first tab named **Microsoft Edge** to move to the other tab.
 
-   ![](images/close-tab.png "Close Tab")
 
 6. On the **Sign into Microsoft Azure** tab, you will see the login screen, enter the following username, and, then click on **Next**.
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-   ![](images/azure-login-enter-email.png "Enter Email")
 
 7. Now enter the following password and click on **Sign in**. 
 
    * Password: <inject key="AzureAdUserPassword"></inject>
 
-   ![](images/azure-login-enter-password1.png "Enter Password")
 
 8. If you see the pop-up **Stay Signed in?**, click on No
 
@@ -50,11 +44,9 @@ Duration: 10 mins
 
 12. Now you can see Azure Portal Dashboard, click on **Resource groups** to see the resource groups.
 
-   ![](images/rg-lob.png "Resource groups")
 
 13. Click on the aiw-sap-SUFFIX Resource group and confirm whether you have all the below resources deployed successfully.
 
-   ![](images/portal_resources.PNG "Resource groups")
 
    * In the Resource group we have one **Virtual Machine**, **Logic App**, **Service Bus** and **IoT Hub** deployed.
 
