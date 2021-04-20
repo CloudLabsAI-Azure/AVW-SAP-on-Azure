@@ -6,7 +6,7 @@ Duration: 10 mins
 
 1. Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab.
 
-   ![](/media/M2-Ex1-Environment.png)
+  ![](/media/M2-Ex1-Environment.png)
    
 2. To get the lab environment details, you can select the **Environment Details** tab. Additionally, the credentials will also be sent to your email address provided during registration. You will see Deployment ID value on **Environment Details** tab, use it wherever you see SUFFIX or DeploymentID in lab steps. 
 
