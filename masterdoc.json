@@ -7,19 +7,19 @@
       "Order": 1
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/1-Getting-Started.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/Module2-DataInsights/1-Getting-Started.md",
       "Order": 2
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/2.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/Module2-DataInsights/2.md",
       "Order": 3
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/3.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/Module2-DataInsights/3.md",
       "Order": 4
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/3.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/Module2-DataInsights/3.md",
       "Order": 5
     }
   ]
