@@ -1,6 +1,14 @@
-# AIW-SAP-on-Azure
+# Azure Immersion Workshop SAP on Azure
 
 ## Overview
+
+SAP on Azure solutions help you optimise your enterprise resource planning (ERP) in the cloud using the security features, reliability and scalable SAP-certified infrastructure of Azure.
+
+When managing a global, distributed supply chain and manufacturing environment, companies face challenges with constrained bandwidth, latency, and massive volumes of data that can adversely affect execution and quality scenarios.
+
+SAP will use Microsoft Azure to run these solutions in a software-as-a-service (SaaS) model that can help reduce the customer’s need to manage the software and underlying infrastructure while accelerating time to value of supply chain applications. Customers will be able to scale globally by leveraging Azure which offers enterprise-grade compute, storage, and network services to support mission-critical performance and business continuity to run SAP Digital Supply Chain solutions.
+
+
 
 ## Hands-on Labs Scenario
 
