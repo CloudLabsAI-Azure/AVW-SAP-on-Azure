@@ -21,7 +21,7 @@ In this exercise, you will log in to the Azure Portal and review the pre-deploye
 
 ## Login to Azure Portal
 
-1. let us start by logging into the Azure Portal to check the resources deployed for the lab environment. In the JumpVM on the left, click on the Azure portal shortcut of Microsoft Edge browser which is available on the desktop.
+1. Let us start by logging into the Azure Portal to check the resources deployed for the lab environment. In the JumpVM on the left, click on the Azure portal shortcut of Microsoft Edge browser which is available on the desktop.
 
    ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex1-azureportal.png?raw=true)
 
@@ -49,7 +49,7 @@ In this exercise, you will log in to the Azure Portal and review the pre-deploye
 
    ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex1-rg.png?raw=true)
 
-1. Click on the **aiw-sap-SUFFIX** Resource group and confirm whether you have all the below resources deployed successfully.
+1. Click on the **aiw-sap-<inject key="DeploymentID" />** Resource group and confirm whether you have all the below resources deployed successfully.
 
    * In the Resource group we have one **Virtual Machine**, **Logic App**, **Service Bus** and **IoT Hub** deployed.
 
