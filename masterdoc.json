@@ -21,6 +21,10 @@
     {
       "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/Module2-DataInsights/4.md",
       "Order": 5
+    },
+        {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/Module2-Productivity/1.md",
+      "Order": 6
     }
   ]
 } ]
