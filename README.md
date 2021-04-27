@@ -12,21 +12,23 @@ SAP will use Microsoft Azure to run these solutions in a software-as-a-service (
 
 ## Hands-on Labs Scenario
 
-The following labs provide you a quick and easy way to get started with SAP on Azure. 
-
-For the purposes of these exercises, let’s consider Contoso is a large shipping company. 
-
+For the purpose of the lab, let’s consider Contoso which is a large company which handles logistics. 
 They are in charge of shipping the vaccines across the world. The vaccines will not be useful if the temperature of the storage containers exceeds 30 degree.
 
-Contoso has already included the temperature sensors within the packages.
+Hence, one of the core functions of Contoso's vaccine supply chain is to keep vaccine products properly refrigerated along every step in their journey. They are required to maintain proper temperatures for products that cannot tolerate excessive heat especially in places with extremely hot climates, unreliable connections to electricity, and weak transportation infrastructure. Temperature monitoring is a critical thing for Contoso to assess vaccine handling quality, detect malfunctioning equipment, and understand if it has negatively impacted vaccine potency and safety.
 
-In order to help Contoso to monitor the shipping packages, you will retrieve the data from the sensors and monitor it.
+For this, Contoso has included IoT devices with temperature sensors in each package. Contoso is giving the opportunity to you to connect those devices in an Azure IoT Solution and retrieve the temperature readings from the package which will be then used to monitor and place a replacement order for any vaccine that gets damaged.
 
-If the temperature goes above 30°, the vaccine is damaged and must be replaced
+## Lab Context
 
-To replace the vaccine, a sales order is automatically created in SAP ECC in case the measured temperature is above 30°
+The following labs provide you a quick and easy way to get started with SAP on Azure. 
 
-For excel users the current sales order SAP ECC will be displayed in Excel
+The vaccines will not be useful if the temperature of the storage containers exceeds 30 degree. Contoso has already included the temperature sensors within the packages.
+
+In order to help Contoso to monitor the shipping packages, you will retrieve the data from the sensors using Azure IoT Hub and monitor it .
+If the temperature goes above 30°, the vaccine is damaged and must be replaced. To replace the vaccine, a sales order is automatically created in SAP ECC in case the measured temperature is above 30°
+
+You will also see how to view/get the current sales orders in Excel, PowerBI, Outlook, and Teams.
 
 
 
