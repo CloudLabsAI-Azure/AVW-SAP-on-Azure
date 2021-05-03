@@ -28,7 +28,7 @@ The vaccines will not be useful if the temperature of the storage containers exc
 In order to help Contoso to monitor the shipping packages, you will retrieve the data from the sensors using Azure IoT Hub and monitor it .
 If the temperature goes above 30°, the vaccine is damaged and must be replaced. To replace the vaccine, a sales order is automatically created in SAP ECC in case the measured temperature is above 30°
 
-You will also see how to view/get the current sales orders in Excel, PowerBI, Outlook, and Teams.
+You will also see view/get the current sales orders in Excel, PowerBI, Outlook, and Teams.
 
 
 
