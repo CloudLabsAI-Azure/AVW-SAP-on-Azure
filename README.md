@@ -9,7 +9,6 @@ When managing a global, distributed supply chain and manufacturing environment, 
 SAP will use Microsoft Azure to run these solutions in a software-as-a-service (SaaS) model that can help reduce the customer’s need to manage the software and underlying infrastructure while accelerating time to value of supply chain applications. Customers will be able to scale globally by leveraging Azure which offers enterprise-grade compute, storage, and network services to support mission-critical performance and business continuity to run SAP Digital Supply Chain solutions.
 
 
-
 ## Hands-on Labs Scenario
 
 For the purpose of the lab, let’s consider Contoso which is a large company which handles logistics. 
@@ -21,14 +20,14 @@ For this, Contoso has included IoT devices with temperature sensors in each pack
 
 ## Lab Context
 
-The following labs provide you a quick and easy way to get started with SAP on Azure. 
+The following lab provide you a quick and easy way to get started with SAP on Azure. 
 
 The vaccines will not be useful if the temperature of the storage containers exceeds 30 degree. Contoso has already included the temperature sensors within the packages.
 
 In order to help Contoso to monitor the shipping packages, you will retrieve the data from the sensors using Azure IoT Hub and monitor it .
 If the temperature goes above 30°, the vaccine is damaged and must be replaced. To replace the vaccine, a sales order is automatically created in SAP ECC in case the measured temperature is above 30°
 
-You will also see view/get the current sales orders in Excel, PowerBI, Outlook, and Teams.
+You will also enable viewing the current sales orders in Excel, PowerBI, Outlook, and Teams.
 
 
 
