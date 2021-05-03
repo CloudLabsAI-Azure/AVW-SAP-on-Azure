@@ -20,7 +20,7 @@ For this, Contoso has included IoT devices with temperature sensors in each pack
 
 ## Lab Context
 
-The following lab provide you a quick and easy way to get started with SAP on Azure. 
+This lab provides you a quick and easy way to get started with SAP on Azure. 
 
 The vaccines will not be useful if the temperature of the storage containers exceeds 30 degree. Contoso has already included the temperature sensors within the packages.
 
