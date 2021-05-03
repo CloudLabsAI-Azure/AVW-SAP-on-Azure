@@ -25,6 +25,10 @@
         {
       "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/Module2-Productivity/1.md",
       "Order": 6
+    },
+            {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/Module3-App-innovation/1.md",
+      "Order": 7
     }
   ]
 } ]
