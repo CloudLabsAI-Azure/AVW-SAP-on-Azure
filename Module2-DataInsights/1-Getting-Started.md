@@ -1,4 +1,5 @@
-# Module 2: Exercise 1: Getting Started with Azure 
+# Module 2: 
+# Exercise 1: Getting Started with Azure 
 Duration: 10 mins
 
 ## Overview
