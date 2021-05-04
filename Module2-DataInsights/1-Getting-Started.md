@@ -3,13 +3,13 @@ Duration: 10 mins
 
 ## Overview
 
-In this exercise, you will log in to the Azure Portal and review the pre-deployed resources.
+In this exercise, you will log in to the Azure Portal and review the pre-deployed resources as part of the lab environment.
 
 ## Instructions
 
 ### Getting Started with Lab
 
-1. Once the environment is provisioned, a virtual machine and lab guide will get loaded into your browser. Use this virtual machine throughout the workshop to perform the lab.
+1. Environment is already provisioned and you are provided with a virtual machine and lab guide to be performed. Use this Virtual Machine (will be referred to as Jump VM or LabVM in some places) throughout the workshop to perform the lab.
 
     ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex1-Environment.png?raw=true)
    
