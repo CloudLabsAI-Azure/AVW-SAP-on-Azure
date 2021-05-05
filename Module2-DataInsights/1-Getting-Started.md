@@ -10,11 +10,11 @@ In this exercise, you will log in to the Azure Portal and review the pre-deploye
 
 ### Getting Started with Lab
 
-1. The environment is already provisioned and you are provided with a virtual machine and lab guide to be performed. Use this Virtual Machine (will be referred to as Jump VM or LabVM in some places) throughout the workshop to perform the lab.
+1. Once the environment is provisioned, a virtual machine and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the the lab.
 
     ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex1-Environment.png?raw=true)
    
-2. To get the lab environment details, you can select the **Environment Details** tab. Additionally, the credentials will also be sent to your email address provided during registration. You will see the Deployment ID value on the **Environment Details** tab, use it wherever you see SUFFIX or DeploymentID in lab steps. 
+2. To get the lab environment details, you can select the **Environment Details** tab. Additionally, the credentials will also be sent to your email address provided during registration.
 
    ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex1-Environmentdetails.png?raw=true)
    
@@ -24,7 +24,7 @@ In this exercise, you will log in to the Azure Portal and review the pre-deploye
 
 ## Task 1: Log in to Azure Portal and verify the pre-deployed resources
 
-1. Let us start by logging into the Azure Portal to check the resources deployed for the lab environment. In the JumpVM on the left, click on the Azure portal desktop icon as shown below.
+1. Let us start by logging into the Azure Portal to check the resources deployed for the lab environment. In the virtual machine (VM) on the left, click on the Azure portal desktop icon as shown below.
 
    ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex1-azureportal.png?raw=true)
 
