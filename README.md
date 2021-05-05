@@ -2,7 +2,7 @@
 
 ## Overview
 
-SAP on Azure solutions helps you optimise your Enterprise Resource Planning (ERP) in the cloud using the security features, reliability, and scalable SAP-certified infrastructure of Azure.
+SAP on Azure solution helps you optimise your Enterprise Resource Planning (ERP) in the cloud using the security features, reliability, and scalable SAP-certified infrastructure of Azure.
 
 When managing a global, distributed supply chain and manufacturing environment, companies face challenges with constrained bandwidth, latency issues, and massive volumes of data that can adversely influence execution and quality scenarios.
 
