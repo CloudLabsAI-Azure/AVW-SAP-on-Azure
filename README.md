@@ -1,4 +1,4 @@
-# Azure Immersion Workshop SAP on Azure
+# Azure Immersion Workshop: SAP on Azure
 
 ## Overview
 
