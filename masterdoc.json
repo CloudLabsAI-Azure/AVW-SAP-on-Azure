@@ -23,24 +23,28 @@
       "Order": 5
     },
         {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/Module2-Productivity/1.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/Module2-DataInsights/5.md",
       "Order": 6
+    },
+        {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/Module2-Productivity/1.md",
+      "Order": 7
     },
             {
       "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/Module3-App-innovation/1.md",
-      "Order": 7
-    },
-                {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/Module3-App-innovation/2.md",
       "Order": 8
     },
                 {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/Module3-App-innovation/3.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/Module3-App-innovation/2.md",
       "Order": 9
     },
                 {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/Module3-App-innovation/4.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/Module3-App-innovation/3.md",
       "Order": 10
+    },
+                {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/Module3-App-innovation/4.md",
+      "Order": 11
     }
   ]
 } ]
