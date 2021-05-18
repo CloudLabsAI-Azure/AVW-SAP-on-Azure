@@ -1,4 +1,5 @@
-# Module 2: 
+# Module 2: Data Insights
+
 # Exercise 1: Getting Started with Azure 
 Duration: 10 mins
 
