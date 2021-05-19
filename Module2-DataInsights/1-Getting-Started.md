@@ -53,7 +53,7 @@ In this exercise, you will log in to the Azure Portal and review the pre-deploye
 
    ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex1-rg.png?raw=true)
 
-1. Click on the **aiw-sap-<inject key="DeploymentID" />**  Resource group and confirm whether you have all the below resources deployed successfully.
+1. Click on the **aiw-sap-<inject key="DeploymentID" enableCopy="false" />** &nbsp Resource group and confirm whether you have all the below resources deployed successfully.
 
    * In the Resource group we have one **Virtual Machine**, **Logic App**, **Service Bus** and **IoT Hub** deployed.
 
