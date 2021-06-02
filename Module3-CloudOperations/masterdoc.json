@@ -1,0 +1,14 @@
+[ {
+  "Name": "AIW-SAP-on-Azure",
+  "Language": "English",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/Module3-CloudOperations/1.md",
+      "Order": 1
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/Module3-CloudOperations/2.md",
+      "Order": 2
+    }
+  ]
+} ]
