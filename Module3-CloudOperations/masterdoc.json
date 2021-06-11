@@ -12,11 +12,11 @@
     },
     {
       "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/Module3-CloudOperations/3.md",
-      "Order": 1
+      "Order": 3
     },
     {
       "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/Module3-CloudOperations/4.md",
-      "Order": 2
+      "Order": 4
     }
   ]
 } ]
