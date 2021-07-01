@@ -25,7 +25,8 @@ To achieve these requirements, you will be configuring a route in the Azure IoT 
 
 You will also enable viewing the current sales orders in Excel, PowerBI, Outlook, and Teams.
 
+Below is the diagram of the **Solution architecture** that you will implement in this module.
 
-
+![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex4-architecture.png?raw=true)
 
 
