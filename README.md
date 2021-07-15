@@ -25,7 +25,7 @@ This lab includes the following modules.
 
 ## 1. Module2-DataInsights
 
-In this module, you will be configuring a route in the Azure IoT Hub to direct the messages to the service bus queue as soon as the temperature reaches 30°C/86°F or more. Then you will configure a Logic App to be triggered by a Service Bus queue which will send an e-mail notification to you whenever a message is added to the queue and automatically creates a sales order in the SAP system.
+In this module, you will connect to the Azure IoT Hub device and send telemetry data from the device to Azure IoT Hub. You will then configure a route in the Azure IoT Hub to direct the messages to the service bus queue as soon as the temperature reaches 30°C/86°F or more. Then you will configure a Logic App to be triggered by a Service Bus queue which will send an e-mail notification to you whenever a message is added to the queue and automatically creates a sales order in the SAP system.
 
 You will also enable viewing the current sales orders in Excel, PowerBI, Outlook, and Teams.
 
