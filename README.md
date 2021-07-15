@@ -37,7 +37,7 @@ Below is the diagram of the **Solution architecture** that you will implement in
 
 ## 2. Module2-Productivity
 
-In this module, you will be configuring a Logic App to display the SAP ERP data in Teams and send an email of the latest sales order data to Outlook at regular intervals.
+In this module, you will configure a Logic App to display the SAP ERP data in Teams and send an email of the latest sales order data to Outlook at regular intervals.
 
 Below is the diagram of the **Solution architecture** that you will implement in this module.
 
@@ -45,10 +45,10 @@ Below is the diagram of the **Solution architecture** that you will implement in
 
 ## Module 3: App Innovation
 
-In this module, you will create a custom connector and Power App then add the custom connector to the app, which will be used to connect to your SAP System. Then, you will create and train the AI model to process the information from documents using AI Builder. You will configure a workflow to process information from the documents by using an AI model, send the Product Information to the Manager over email for approval and add products to the catalog once the request is approved by the Manager. You will also trigger the workflow and verify the products that are added to the catalog by the workflow.
+In this module, you will create a custom connector and Power App then add the custom connector to the app, which will be used to connect to your SAP System. Then, you will create and train the AI model to process the information from documents using AI Builder. You will also configure a workflow to process information from the documents by using an AI model, send the Product Information to the Manager over email for approval and add products to the catalog once the request is approved by the Manager. You will then trigger the workflow and verify the products that are added to the catalog by the workflow.
 
 ## Module 3: Cloud Operations, Governance, Security
 
-In this module, you will review the pre-deployed SAP HANA resources, connect to the SAP HANA database and verify the status of the database. You will also review the CPU and memory metrics of the SAP HANA instances that are being monitored, then review the pre-configured action groups, alert rules, and alerts fired by Azure Monitor. You will also read through the instructions of enabling the enable Azure Defender for SAP HANA VM's, configuring, enabling backup for the SAP HANA database running on an Azure Virtual Machine, and running an on-demand backup for the SAP HANA database and restoring it.
+In this module, you will review the pre-deployed SAP HANA resources, connect to the SAP HANA database and verify the status of the database. You will also review the CPU and memory metrics of the SAP HANA instances that are being monitored, then review the pre-configured action groups, alert rules, and alerts fired by Azure Monitor. You will also learn how to enable Azure Defender for SAP HANA VMs, configure, and enable backup for the SAP HANA database running on an Azure Virtual Machine, and how to perform an on-demand backup for the SAP HANA database and restore it.
 
 
