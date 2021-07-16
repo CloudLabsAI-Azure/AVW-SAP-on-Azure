@@ -25,7 +25,9 @@ Contoso also wants to integrate the SAP system and Microsoft Azure to view the S
 
 This lab includes the following modules. 
 
-## 1. Module2-DataInsights
+## 1. Module 2 - DataInsights
+
+This module covers how to use Power BI, Analytics, AI, and IoT to extend and innovate data insights with SAP on Azure.
 
 In this module, you will review the pre-deployed resources, connect to the Azure IoT Hub device and send telemetry data from the device to Azure IoT Hub. You will then configure a route in the Azure IoT Hub to direct the messages to the service bus queue as soon as the temperature reaches 30°C/86°F or more. Then you will configure a Logic App to be triggered by a Service Bus queue which will send an e-mail notification to you whenever a message is added to the queue and automatically creates a sales order in the SAP system.
 
@@ -35,7 +37,9 @@ Below is the diagram of the **Solution architecture** that you will implement in
 
 ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex4-architecture.png?raw=true)
 
-## 2. Module2-Productivity
+## 2. Module 2 - Productivity
+
+This module covers how to use SAP on Azure to improve productivity and collaboration in your workplace.
 
 In this module, you will configure a Logic App to display the SAP ERP data in Teams and send an email of the latest sales order data to Outlook at regular intervals.
 
@@ -43,12 +47,14 @@ Below is the diagram of the **Solution architecture** that you will implement in
 
 ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex6-architecture.png?raw=true)
 
-## Module 3: App Innovation
+## Module 3 - App Innovation
+
+This module covers how to innovate using Artificial Intelligence, Machine Learning, and Power Apps with SAP running on Azure.
 
 In this module, you will create a custom connector and Power App then add the custom connector to the app, which will be used to connect to your SAP System. Then, you will create and train the AI model to process the information from documents using AI Builder. You will also configure a workflow to process information from the documents by using an AI model, send the Product Information to the Manager over email for approval and add products to the catalog once the request is approved by the Manager. You will then trigger the workflow and verify the products that are added to the catalog by the workflow.
 
-## Module 3: Cloud Operations, Governance, Security
+## Module 3 - Cloud Operations, Governance, Security
+
+This module covers how to operate and govern the SAP system running on Azure.
 
 In this module, you will review the pre-deployed SAP HANA resources, connect to the SAP HANA database and verify the status of the database. You will also review the CPU and memory metrics of the SAP HANA instances that are being monitored, then review the pre-configured action groups, alert rules, and alerts fired by Azure Monitor. You will also learn how to enable Azure Defender for SAP HANA VMs, configure, and enable backup for the SAP HANA database running on an Azure Virtual Machine, and how to perform an on-demand backup for the SAP HANA database and restore it.
-
-
