@@ -25,7 +25,7 @@ Contoso also wants to integrate the SAP system and Microsoft Azure to view the S
 
 This lab includes the following modules. 
 
-## 1. Module 2 - DataInsights
+## 1. [Module 2 - DataInsights](./Module2-DataInsights)
 
 This module covers how to use Power BI, Analytics, AI, and IoT to extend and innovate data insights with SAP on Azure.
 
@@ -37,7 +37,7 @@ Below is the diagram of the **Solution architecture** that you will implement in
 
 ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex4-architecture.png?raw=true)
 
-## 2. Module 2 - Productivity
+## 2. [Module 2 - Productivity](./Module 2 - Productivity)
 
 This module covers how to use SAP on Azure to improve productivity and collaboration in your workplace.
 
@@ -47,13 +47,13 @@ Below is the diagram of the **Solution architecture** that you will implement in
 
 ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex6-architecture.png?raw=true)
 
-## Module 3 - App Innovation
+## [Module 3 - App Innovation](./Module 3 - App Innovation)
 
 This module covers how to innovate using Artificial Intelligence, Machine Learning, and Power Apps with SAP running on Azure.
 
 In this module, you will create a custom connector and Power App then add the custom connector to the app, which will be used to connect to your SAP System. Then, you will create and train the AI model to process the information from documents using AI Builder. You will also configure a workflow to process information from the documents by using an AI model, send the Product Information to the Manager over email for approval and add products to the catalog once the request is approved by the Manager. You will then trigger the workflow and verify the products that are added to the catalog by the workflow.
 
-## Module 3 - Cloud Operations, Governance, Security
+## [Module 3 - Cloud Operations, Governance, Security](./Module 3 - Cloud Operations, Governance, Security)
 
 This module covers how to operate and govern the SAP system running on Azure.
 
