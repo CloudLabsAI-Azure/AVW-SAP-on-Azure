@@ -23,6 +23,8 @@ Contoso wants to make sure that the vaccine is not exposed to unstable temperatu
 
 Contoso also wants to integrate the SAP system and Microsoft Azure to view the Sales Order data in a Teams channel or through an e-mail in Outlook. Contoso uses SAP Systems to store information related to the products they provide. Currently, the process to add a new product into the catalog is by first sending the Product Information to the Manager over email for approval. Once approved, the product details are entered manually into the catalog via the SAP Fiori Web Application. Contoso now wants to eliminate the manual procedure and transform their manual business processes to digital, automated processes using Power Apps, Power Automate.
 
+Contoso hosted large-scale workloads on Azure, such as SAP, and wants to address security, governance, performance, and cost concerns of deployments in one or more regions. It will leverage governance, which is an ongoing process of managing, monitoring, and auditing the use of Azure resources in order to meet the organization's goals and requirements. Contoso also wants to apply specific security controls to the operating system, data, and SAP application using Azure Security Center.
+
 This lab includes the following modules. 
 
 ## 1. Module 2 - DataInsights
