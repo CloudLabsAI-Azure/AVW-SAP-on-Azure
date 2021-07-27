@@ -49,7 +49,7 @@ Below is the diagram of the **Solution architecture** that you will implement in
 
 ## Module 3 - App Innovation
 
-This module covers how to innovate using Artificial Intelligence, Machine Learning, and Power Apps with SAP running on Azure.
+The SAP platform provides a foundation for innovation for many companies and can handle various workloads natively. This module covers how to innovate using Artificial Intelligence, Machine Learning, and Power Apps with SAP running on Azure.
 
 In this module, you will create a custom connector and Power App then add the custom connector to the app, which will be used to connect to your SAP System. Then, you will create and train the AI model to process the information from documents using AI Builder. You will also configure a workflow to process information from the documents by using an AI model, send the Product Information to the Manager over email for approval and add products to the catalog once the request is approved by the Manager. You will then trigger the workflow and verify the products that are added to the catalog by the workflow.
 
