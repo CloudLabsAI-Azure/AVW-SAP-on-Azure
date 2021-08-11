@@ -2,7 +2,7 @@
 
 ### 4 August 2021
   - Minor update 
-  - Screenshots and Inject Keys have been updated in Module 2 and Module 3.
+  - Screenshots have been updated in Module 2 and 3, also Dynamic values of lab environment have been implemented in lab guide for Moludes 2 and 3.
   
 ------------------
 
