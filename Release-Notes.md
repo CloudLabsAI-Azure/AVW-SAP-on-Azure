@@ -1,11 +1,13 @@
 # Release Notes
 
-### 11 August 2021
+### 4 August 2021
+  - Minor update in Lab Guide.
   - Few Inject Keys have been updated in Module 2 and Module 3.
   
 ------------------
 
 ### 27 July 2021
+  - Minor update in Lab Guide.
   - Changes have been made in Readme.md file.
-  - Overview has been added to the Module3-CloudOperations, Exercise 1 and Exercise 3.
+  - Overview has been updated for the Module3-CloudOperations, Exercise 1 and Exercise 3.
   
