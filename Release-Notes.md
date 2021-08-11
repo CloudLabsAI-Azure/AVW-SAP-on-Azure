@@ -2,7 +2,7 @@
 
 ### 4 August 2021
   - Minor update 
-  - Few screenshots and Inject Keys have been updated in Module 2 and Module 3.
+  - Screenshots and Inject Keys have been updated in Module 2 and Module 3.
   
 ------------------
 
