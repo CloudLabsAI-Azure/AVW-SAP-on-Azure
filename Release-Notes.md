@@ -1,5 +1,14 @@
 # Release Notes
 
+### 23 September 2021
+  - Major updates in the Lab Guide.
+  - [Module2-DataInsights, Exercise 2](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/main/Module2-DataInsights/2.md) For signing-up an account in SAP and ES5, the UI got updated. Instructions and screenshots have been added to the lab guide accordingly.
+  - A note has been added in the lab guide to access the latest UI of logic apps in Module 2.
+  - [Module3-App-innovation, Exercise 1](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/main/Module3-App-innovation/1.md) The UI got updated for creating the custom connector that is used to connect to SAP system. Screenshots and instructions have been updated in the lab guide.
+  - Few notes, instructions and screenshots have been added to the lab guide for better understanding of user.  
+
+--------------
+
 ### 26 August 2021
   - Major update in the Lab Guide.
   - [Module2-Productivity, Exercise 6, Task 1.1.7](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/main/Module2-Productivity/1.md) While configuring the Logic App workflow, **Post a message (V3)** action is being added as a part of the workflow but, it is no longer available. Updated the instructions in the lab guide accordingly to configure the **Post message in chat or channel** action that performs the same task as **Post a message (V3)** action.
