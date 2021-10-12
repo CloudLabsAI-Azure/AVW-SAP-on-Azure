@@ -1,6 +1,14 @@
 # Release Notes
 
 ### 23 September 2021
+
+  - Minor updates in the Lab Guide.
+  - Updated the instructions and screenshots as per new UI and added notes in the lab guide for better user experience.
+
+
+--------------
+
+### 23 September 2021
   - Major updates in the Lab Guide.
   - [Module2-DataInsights, Exercise 2](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/main/Module2-DataInsights/2.md) For signing-up an account in SAP and ES5, the UI got updated. Instructions and screenshots have been added to the lab guide accordingly.
   - A note has been added in the lab guide to access the latest UI of logic apps in Module 2.
