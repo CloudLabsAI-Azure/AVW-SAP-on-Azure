@@ -1,5 +1,21 @@
 # Release Notes
 
+### 14 January 2022
+
+  - Minor updates in the Lab Guide.
+  - Updated the instructions and screenshots as per new UI while adding the Service Bus trigger in the Logic App Workflow in the lab guide.
+
+### 8 November 2021
+
+  - Minor updates in the Lab Guide.
+  - Updated the instructions and screenshots as per new UI in the lab guide.
+
+### 12 October 2021
+
+  - Minor updates in the Lab Guide.
+  - Updated the instructions and added notes in the lab guide for better user experience.
+ 
+
 ### 23 September 2021
 
   - Minor updates in the Lab Guide.
