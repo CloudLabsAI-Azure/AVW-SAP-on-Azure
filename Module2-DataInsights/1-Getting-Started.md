@@ -11,7 +11,7 @@ In this exercise, you will log in to the Azure Portal and review the pre-deploye
 
 ### Getting Started with Lab
 
-1. Once the environment is provisioned, a virtual machine and lab guide will get loaded into your browser. Use this virtual machine throughout the workshop to perform the lab.
+1. Once the environment is provisioned, a Virtual Machine and lab guide will get loaded into your browser. Use this virtual machine throughout the workshop to perform the lab.
 
     ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex1-Environment.png?raw=true)
    
