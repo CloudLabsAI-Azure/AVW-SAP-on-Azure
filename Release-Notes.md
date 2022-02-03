@@ -1,5 +1,10 @@
 # Release Notes
 
+### 03 February 2022
+
+  - Minor updates in the Lab Guide.
+  - Updated the instructions and screenshots as per new UI and enhanced few instructions in the lab guide for better user experience.
+
 ### 14 January 2022
 
   - Minor updates in the Lab Guide.
