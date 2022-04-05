@@ -3,7 +3,7 @@
 ### 05 April 2022
 
   - Minor updates in the Lab Guide.
-  - Updated the instructions and screenshots as per new UI for monitoring the alerts in the lab guide for better user experience.
+  - Updated the instructions and screenshots in the lab guide as per new UI for monitoring the alerts in Azure Monitor for better user experience.
 
 --------------
 
