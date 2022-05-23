@@ -27,7 +27,7 @@ Contoso hosted large-scale workloads with SAP on Azure, and wants to address sec
 
 This lab includes the following modules. 
 
-## 1. Module 2 - DataInsights
+## Module 2 - DataInsights
 
 This module covers how to use Power BI, Analytics, AI, and IoT to extend and innovate data insights with SAP on Azure.
 
@@ -39,7 +39,7 @@ Below is the diagram of the **Solution architecture** that you will implement in
 
 ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex4-architecture.png?raw=true)
 
-## 2. Module 2 - Productivity
+## Module 2 - Productivity
 
 This module covers how to use SAP on Azure to improve productivity and collaboration in your workplace.
 
