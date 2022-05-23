@@ -13,15 +13,15 @@ In this exercise, you will log in to the Azure Portal and review the pre-deploye
 
 1. Once the environment is provisioned, a Virtual Machine and lab guide will get loaded into your browser. Use this virtual machine throughout the workshop to perform the lab.
 
-    ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex1-Environment.png?raw=true)
+    ![](../media/M2-Ex1-Environmentv2.png)
    
 2. To get the lab environment details, you can select the **Environment Details** tab. Additionally, the credentials will also be sent to your email address provided during registration.
 
-   ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex1-Environmentdetails.png?raw=true)
+   ![](../media/M2-Ex1-Environmentdetailsv2.png)
    
 3. You can also open the Lab Guide on a separate full window by selecting the **Split Window** button on the bottom right corner.
 
-   ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex1-Splitwindow.png?raw=true)
+   ![](../media/M2-Ex1-Splitwindowv2.png)
 
 ## Task 1: Log in to Azure Portal and verify the pre-deployed resources
 
