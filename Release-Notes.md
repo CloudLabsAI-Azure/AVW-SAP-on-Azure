@@ -4,11 +4,21 @@
 
    - Major updates in the Lab Guide.
 
-       - [Module2-DataInsights, Exercise 2](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/main/Module2-DataInsights/2.md#exercise-2-access-sap-systems) Automated the SAP credentials. User can directly login into SAP ES5 Demo Account.
-       - [Module2-DataInsights, Exercise 3](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Module2-DataInsights/3.md#task-1-review-the-pre-created-iot-device-in-azure-iot-hub) Automated the deployment of Devices in IOT Hub.
-       - [Module2-DataInsights, Exercise 4](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Module2-DataInsights/4.md#exercise-4implement-iot-remote-monitoring-and-notifications) Automated the deployment of queues and SAS policy in IOT Hub Namspace.
-       - Automated the custom endpoint and routing rule in the Azure IoT hub.
-       - Automated the Logic App which creates the SAP Sales order via Odata in aiw-sap-iothub-DID resource group.
+       - [Module2-DataInsights, Exercise 2](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/main/Module2-DataInsights/2.md#exercise-2-access-sap-systems): 
+        
+          The SAP user account and an ES5 Demo Account to get access to the SAP Gateway demo system has been pre-created and the user credentails are directly provided in the lab guide.
+       - [Module2-DataInsights, Exercise 3, Task 2](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Module2-DataInsights/3.md#task-1-review-the-pre-created-iot-device-in-azure-iot-hub):
+       
+          The task for creating the Devices in IOT hub has been updated. Attendees will be reviewing the task as the resource along with the deivice has been created now as part of pre-requisite.
+          
+       - [Module2-DataInsights, Exercise 4](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/main/Module2-DataInsights/4.md#exercise-4implement-iot-remote-monitoring-and-notifications):
+       
+           - **Task 2:** The task for adding the custom endpoint and routing rule to the Azure IoT hub has been updated. Attendees will be reviewing the task as the custom endpoint and routing rule has been created in the IOT Hub Namspace as a part of pre-requisite.
+
+           - **Task 3:** The task for configuring the Logic App is updated. Kindly find the updated Content information below:
+
+              a. Previously, attendees used to create the Logic App. But now, attendees will be reviewing the pre-created Logic App and re-establish the API connection.
+       
        - [Module2-Productivity, Exercise 6](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Module2-Productivity/1.md#exercise-6-extending-productivity-using-teams-and-outlook) Automated the Logic App which displays SAP ERP data in Teams within the resource group aiw-sap-iothub-DID.
        - [Module3-App-innovation, Exercise 1](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Module3-App-innovation/1.md#exercise-1-create-power-app-and-add-custom-connector-to-connect-to-sap-system) Creation of Canvas app has been automated. Added the instuctions to import Canvas App and add Custom Connector to SAP System.
        - [Module3-App-innovation, Exercise 2](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Module3-App-innovation/2.md#exercise-2-use-ai-builder-to-create-a-collection-and-train-the-model) Creation on AI Models has been automated. 
