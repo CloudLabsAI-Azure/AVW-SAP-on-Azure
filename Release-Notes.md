@@ -1,5 +1,19 @@
 # Release Notes
 
+### 02 August 2022
+
+   - Major updates in the Lab Guide.
+
+       - [Module2-DataInsights, Exercise 2](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/main/Module2-DataInsights/2.md#exercise-2-access-sap-systems) Automated the SAP credentials. User can directly login into SAP ES5 Demo Account.
+       - [Module2-DataInsights, Exercise 3](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Module2-DataInsights/3.md#task-1-review-the-pre-created-iot-device-in-azure-iot-hub) Automated the deployment of Devices in IOT Hub.
+       - [Module2-DataInsights, Exercise 4](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Module2-DataInsights/4.md#exercise-4implement-iot-remote-monitoring-and-notifications) Automated the deployment of queues and SAS policy in IOT Hub Namspace.
+       - Automated the custom endpoint and routing rule in the Azure IoT hub.
+       - Automated the Logic App which creates the SAP Sales order via Odata in aiw-sap-iothub-DID resource group.
+       - [Module2-Productivity, Exercise 6](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Module2-Productivity/1.md#exercise-6-extending-productivity-using-teams-and-outlook) Automated the Logic App which displays SAP ERP data in Teams within the resource group aiw-sap-iothub-DID.
+       - [Module3-App-innovation, Exercise 1](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Module3-App-innovation/1.md#exercise-1-create-power-app-and-add-custom-connector-to-connect-to-sap-system) Creation of Canvas app has been automated. Added the instuctions to import Canvas App and add Custom Connector to SAP System.
+       - [Module3-App-innovation, Exercise 2](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Module3-App-innovation/2.md#exercise-2-use-ai-builder-to-create-a-collection-and-train-the-model) Creation on AI Models has been automated. 
+       - [Module3-App-innovation, Exercise 3](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Module3-App-innovation/3.1.md#exercise-3-create-flow-to-automate-the-process) Automated the deployment of workflow in the Power Automate. Updated the instructions to add connections and to import the workflow in Power Automate.
+
 ### 05 April 2022
 
   - Minor updates in the Lab Guide.
