@@ -15,14 +15,31 @@
        
            - **Task 2:** The task for adding the custom endpoint and routing rule to the Azure IoT hub has been updated. Attendees will be reviewing the task as the custom endpoint and routing rule has been created in the IOT Hub Namspace as a part of pre-requisite.
 
-           - **Task 3:** The task for configuring the Logic App is updated. Kindly find the updated Content information below:
+           - **Task 3:** The task for configuring the Logic App for creating a SAP Sales order via Odata has been updated. Kindly find the updated Content information below:
 
               a. Previously, attendees used to create the Logic App. But now, attendees will be reviewing the pre-created Logic App and re-establish the API connection.
        
-       - [Module2-Productivity, Exercise 6](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Module2-Productivity/1.md#exercise-6-extending-productivity-using-teams-and-outlook) Automated the Logic App which displays SAP ERP data in Teams within the resource group aiw-sap-iothub-DID.
-       - [Module3-App-innovation, Exercise 1](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Module3-App-innovation/1.md#exercise-1-create-power-app-and-add-custom-connector-to-connect-to-sap-system) Creation of Canvas app has been automated. Added the instuctions to import Canvas App and add Custom Connector to SAP System.
-       - [Module3-App-innovation, Exercise 2](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Module3-App-innovation/2.md#exercise-2-use-ai-builder-to-create-a-collection-and-train-the-model) Creation on AI Models has been automated. 
-       - [Module3-App-innovation, Exercise 3](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Module3-App-innovation/3.1.md#exercise-3-create-flow-to-automate-the-process) Automated the deployment of workflow in the Power Automate. Updated the instructions to add connections and to import the workflow in Power Automate.
+       - [Module2-Productivity, Exercise 6, Task 1](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Module2-Productivity/1.md#exercise-6-extending-productivity-using-teams-and-outlook):
+       
+         The task for configuring the Logic App to display SAP ERP data in Teams has been updated. Kindly find the updated Content information below:
+         
+            - Previously, attendees used to create the Logic App. But now, attendees will be reviewing the pre-created Logic App and renew the authorization to Teams and Office365 to use it.
+         
+       - [Module3-App-innovation, Exercise 1, Task 2](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Module3-App-innovation/1.md#exercise-1-create-power-app-and-add-custom-connector-to-connect-to-sap-system):
+       
+         The task for creating the canvas app and add custom Connector has been updated. Kindly find the updated Content information below:
+       
+            - Previously, attendees used to create the canvas app in Power Apps portal. But now, attendeeds will import the canvas app and will add conenctor to it.
+       
+       - [Module3-App-innovation, Exercise 2, Task 1](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Module3-App-innovation/2.md#exercise-2-use-ai-builder-to-create-a-collection-and-train-the-model):
+       
+          The task for creatig the AI Model has been updated. Attendees will be reviewing the pre-built AI Model and test it.
+          
+       - [Module3-App-innovation, Exercise 3](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Module3-App-innovation/3.1.md#exercise-3-create-flow-to-automate-the-process): 
+
+          The task for creating the workflow in Power Automate has been updated. Kindly find the updated Content information below:
+         
+           - Previously  attendees used to create the workflow in Power Automate to process information from the form using an AI model and add products to the catalog. But now, attendees will import the workflow and create conenctions like Office 365 Outlook, Microsoft Dataverse, Microsoft Teams which makes you to access your data while building flows.
 
 ### 05 April 2022
 
