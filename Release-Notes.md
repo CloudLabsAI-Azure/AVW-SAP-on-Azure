@@ -6,16 +6,16 @@
 
        - [Module2-DataInsights, Exercise 2](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/main/Module2-DataInsights/2.md#exercise-2-access-sap-systems): 
         
-          The SAP user account and an ES5 Demo Account to get access to the SAP Gateway demo system has been pre-created and the user credentails are directly provided in the lab guide.
+          The SAP user account and an ES5 Demo Account to get access to the SAP Gateway demo system have been pre-created and the user credentials are directly provided in the lab guide.
        - [Module2-DataInsights, Exercise 3, Task 2](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Module2-DataInsights/3.md#task-1-review-the-pre-created-iot-device-in-azure-iot-hub):
        
-          The task for creating the Devices in IOT hub has been updated. Attendees will be reviewing the task as the resource along with the deivice has been created now as part of pre-requisite.
+          The task for creating the Devices in the IoT hub has been updated. Attendees will be reviewing the task as the device in the IoT hub has been created now as part of the pre-requisite.
           
        - [Module2-DataInsights, Exercise 4](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/main/Module2-DataInsights/4.md#exercise-4implement-iot-remote-monitoring-and-notifications):
        
-           - **Task 2:** The task for adding the custom endpoint and routing rule to the Azure IoT hub has been updated. Attendees will be reviewing the task as the custom endpoint and routing rule has been created in the IOT Hub Namspace as a part of pre-requisite.
+           - **Task 2:** The task for adding the custom endpoint and routing rule to the Azure IoT hub has been updated. Attendees will be reviewing the task as the custom endpoint and routing rule has been created in the IoT Hub Namespace as a part of the pre-requisite.
 
-           - **Task 3:** The task for configuring the Logic App for creating a SAP Sales order via Odata has been updated. Kindly find the updated Content information below:
+           - **Task 3:** The task for configuring the Logic App for creating an SAP Sales order via Odata has been updated. Kindly find the updated Content information below:
 
               a. Previously, attendees used to create the Logic App. But now, attendees will be reviewing the pre-created Logic App and re-establish the API connection.
        
@@ -27,20 +27,20 @@
          
        - [Module3-App-innovation, Exercise 1, Task 2](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Module3-App-innovation/1.md#exercise-1-create-power-app-and-add-custom-connector-to-connect-to-sap-system):
        
-         The task for creating the canvas app and add custom Connector has been updated. Kindly find the updated Content information below:
+         The task for creating the canvas app and adding a custom Connector has been updated. Kindly find the updated Content information below:
        
-            - Previously, attendees used to create the canvas app in Power Apps portal. But now, attendeeds will import the canvas app and will add conenctor to it.
+            - Previously, attendees used to create the canvas app in the Power Apps portal. But now, attendees will import the canvas app and will add the connector to it.
        
        - [Module3-App-innovation, Exercise 2, Task 1](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Module3-App-innovation/2.md#exercise-2-use-ai-builder-to-create-a-collection-and-train-the-model):
        
-          The task for creatig the AI Model has been updated. Attendees will be reviewing the pre-built AI Model and test it.
+          The task for creating the AI Model has been updated. Attendees will be reviewing the pre-built AI Model and testing it.
           
        - [Module3-App-innovation, Exercise 3](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Module3-App-innovation/3.1.md#exercise-3-create-flow-to-automate-the-process): 
 
           The task for creating the workflow in Power Automate has been updated. Kindly find the updated Content information below:
          
-           - Previously  attendees used to create the workflow in Power Automate to process information from the form using an AI model and add products to the catalog. But now, attendees will import the workflow and create conenctions like Office 365 Outlook, Microsoft Dataverse, Microsoft Teams which makes you to access your data while building flows.
-
+           - Previously attendees used to create the workflow in Power Automate to process information from the form using an AI model and add products to the catalog. But now, attendees will import the workflow and create connections like Office 365 Outlook, Microsoft Dataverse, and Microsoft Teams which makes you to access your data while building flows.
+           
 ### 05 April 2022
 
   - Minor updates in the Lab Guide.
