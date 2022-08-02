@@ -40,6 +40,8 @@
           The task for creating the workflow in Power Automate has been updated. Kindly find the updated Content information below:
          
            - Previously attendees used to create the workflow in Power Automate to process information from the form using an AI model and add products to the catalog. But now, attendees will import the workflow and create connections like Office 365 Outlook, Microsoft Dataverse, and Microsoft Teams which makes you to access your data while building flows.
+          
+-------------------------
            
 ### 05 April 2022
 
