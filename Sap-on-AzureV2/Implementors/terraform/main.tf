@@ -16,13 +16,11 @@ resource "random_id" "id" {
 }
 
 #######################################################################
-## Create Resource Group
+## Existing Resource Group
 #######################################################################
 
-resource "azurerm_resource_group" "rg" {
-  name     = "microhack-${var.prefix}-rg"
-  location = var.location
-  tags     = var.tags
+data "azurerm_resource_group" "rg" {
+  name = "aiw-sap-[DeploymentID]"
 }
 
 #######################################################################
@@ -43,7 +41,7 @@ locals {
 resource "azurerm_role_assignment" "storagerole" {
   scope                 = azurerm_resource_group.rg.id
   role_definition_name  = "Storage Blob Data Contributor"
-  principal_id          = local.object_id
+  principal_id          = "[ADD USER OBJECT_ID]"
 }
 
 #######################################################################
@@ -115,7 +113,7 @@ resource "azurerm_key_vault" "keyvault" {
 
   access_policy {
     tenant_id = data.azurerm_client_config.user.tenant_id
-    object_id = local.object_id
+    object_id = "[ADD USER OBJECT_ID]"
 
     key_permissions = [
       "Create",
