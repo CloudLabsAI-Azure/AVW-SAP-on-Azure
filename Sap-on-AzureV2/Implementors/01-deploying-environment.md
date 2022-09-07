@@ -5,9 +5,9 @@ Here, we are using Terraform to deploy the azure resources.
 ## Task 1: Getting started with Terraform deployment in Azure cloud shell
 
 1. Open Azure Portal from the desktop by double-clicking on it.
-
+    
    ![](../media/SAP-V2-images/open-azure-portal.png)
-
+   
 2. On the **Sign into Microsoft Azure** tab, you will see the login screen, enter the following username, and, then click on **Next**.
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
