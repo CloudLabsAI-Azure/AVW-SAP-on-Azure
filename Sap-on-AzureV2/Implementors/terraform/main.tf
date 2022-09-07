@@ -20,7 +20,7 @@ resource "random_id" "id" {
 #######################################################################
 
 resource "azurerm_resource_group" "rg" {
-  name     = "microhack-[DeploymentID]-rg"       ## Make sure replace DeploymentID
+  name     = "microhack-[Deployment_ID]-rg"       ## Make sure replace Deployment_ID
   location = var.location
   tags     = var.tags
 }
