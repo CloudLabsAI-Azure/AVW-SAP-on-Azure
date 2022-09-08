@@ -83,10 +83,14 @@ In this Exercise, you will be registring an integration runtime in Synapse Works
 20. Now you can see the Self-hosted node is connedted to the cloud service.
 
     ![](media/ex2-shnode.png)
+
+21. Navigate back to Synapse studio, click on **Close** in Integration runtime setup.
+
+    ![](media/ex2-closeirs.png)
+    
+22. Click on **Refresh** to see the registered **sap-intrun-<inject key="DeploymentID" enableCopy="false"/>** self-hosted Integration runtime with status **Running**.
+
+    ![](media/ex2-refrshir.png)     
     
 In this Exercise, you have registered and installated the Integration Runtime and the self-hosted node is connected. You can proceed with the next exercise. 
     
- 
- 
- 
- 
