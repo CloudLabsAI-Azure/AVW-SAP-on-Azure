@@ -52,7 +52,40 @@ In this Exercise, you will be registring an integration runtime in Synapse Works
 
     ![](media/ex2-installir.png)
     
-13. 
+13. In Welcome to the Microsoft Integrartion Runtime Setup Wizard pane, leave default English language selected and click on **Next**.
+
+    ![](media/ex2-irinstall1.png)
+
+14. Check the box to accept the End-User license agreement and click on **Next**.
+
+    ![](media/ex2-irinstall2.png)
+    
+15. Leave default for the Destination Folder and click on **Next**.
+
+    ![](media/ex2-irinstall3.png)
+    
+16. Click on **Install** in Ready to install Microsoft Integration Runtime. Installation will take around 5 minutes to complete.
+
+    ![](media/ex2-irinstall4.png)
+    
+17. Once you click on **Finish**, you will see the Register Integration Runtime (Self-Hosted) pane. Enter **one of the keys** **(1)** you noted down earlier from the integration runtime setup and choose **Register** **(2)**.
+
+    ![](media/ex2-registerirkey.png)
+    
+18. In the New Integration Runtime (Self-Hosted) Node pane, leave default and click on **Finish**. This can take a few minutes.
+
+    ![](media/ex2-registerfinish.png)
+    
+19. Once you see the Integration Runtime (Self-Hosted) node has been registered successfully, then click on **Launch Configuration Manager**.
+
+    ![](media/ex2-launchir.png)
+    
+20. Now you can see the Self-hosted node is connedted to the cloud service.
+
+    ![](media/ex2-shnode.png)
+    
+In this Exercise, you have registered and installated the Integration Runtime and the self-hosted node is connected. You can proceed with the next exercise. 
+    
  
  
  
