@@ -131,3 +131,30 @@ from CosmosDB using a third pipeline.
 10. You will see the notification pop-up as Publishing completed.
 
     ![](media/ex3-publishcomplete.png)    
+
+### Task 2: Create a Linked Service to the SAP System
+
+1. From the left-menu of Synapse Studio, click on **Manage** to create linked service.
+
+   ![](media/ex2-clickmanage.png)
+   
+2. Under External connections, select **Linked services** **(1)** and click on **+ New** **(2)**.
+
+   ![](media/ex3-linkedservicesh.png)
+   
+3. In New linked service pane, search for **SAP** **(1)** and select **SAP HANA** **(2)**. Then click on **Continue** **(3)**.
+
+   ![](media/ex3-saphanals.png)
+   
+4.    
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
