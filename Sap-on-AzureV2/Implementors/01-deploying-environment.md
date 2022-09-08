@@ -76,7 +76,7 @@ Here, we are using Terraform to deploy the azure resources.
     
     ![](media/vi-editor-main.png)
     
-15. In the Create Resource Group part, make sure to replace the Deployment_ID in the name of the resource group.
+15. In the Create Resource Group part, make sure to replace the Deployment_ID in the name of the resource group as **microhack-<inject key="DeploymentID" enableCopy="false"/>-rg**.
 
     ![](media/create-microhack-rg.png)
         
@@ -108,7 +108,7 @@ Here, we are using Terraform to deploy the azure resources.
 
     ![](media/terraformapply-complete.png)
     
-22. Navigate to the **microhack-[Deployment_ID]-rg** resource group and go through the resources deployed in the resource group.
+22. Navigate to the **microhack-<inject key="DeploymentID" enableCopy="false"/>-rg** resource group and go through the resources deployed in the resource group.
 
     ![](media/microhack-rg-verify.png)
     
