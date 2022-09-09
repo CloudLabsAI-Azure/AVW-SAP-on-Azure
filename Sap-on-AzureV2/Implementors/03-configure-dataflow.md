@@ -179,7 +179,9 @@ from CosmosDB using a third pipeline.
 
    ![](media/ex3-setprop.png)
    
-5.    
+5. Once the Integration dataset is create, click on **Preview data** to see the data for the selected table is the previous step.
+
+   ![](media/ex3-previewdata.png) 
    
    
    
