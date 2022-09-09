@@ -177,7 +177,7 @@ from CosmosDB using a third pipeline.
    
 4. In Set properties pane, enter Name as **SapHanaTable<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **SapHanaLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you have created earlier. Wait for few seconds to load the tables, search for  **SALES.Sales_Orders_Headers** **(3)** table and select it from the drop-down. Then click on **Ok** **(4)**.
 
-   ![](media/ex3-setprop.png)
+   ![](media/ex3-id-setprop.png)
    
 5. Once the Integration dataset is create, click on **Preview data** to see the data for the selected table is the previous step.
 
