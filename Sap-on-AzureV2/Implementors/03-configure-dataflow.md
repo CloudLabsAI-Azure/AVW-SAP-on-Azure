@@ -146,15 +146,40 @@ from CosmosDB using a third pipeline.
 
    ![](media/ex3-saphanals.png)
    
-4.    
+4. Now, enter the below values in New linked service pane:
    
+    | Parameter                              | Value                                                           |
+    | ------------------------------------   | --------------------------------------------------------------- |
+    |  Name (1)                              |  **SapHanaLS<inject key="DeploymentID" enableCopy="false"/>**   |
+    |  Connecte via integration runtime (2)  |  **sap-intrun-<inject key="DeploymentID" enableCopy="false"/>** |
+    |  Server name (3)                       |  **10.0.1.6:30213**                                             |
+    |  Authentication type (4)               |  **Basic authentication**                                       |
+    |  User name (5)                         |  **SYSTEM**                                                     |
+    |  Password (6)                          |  **Password#1219**                                              |
    
+   After adding all the above values, click on **Test connection** **(7)** to ensure that connection is successful. Then click on **Create** **(8)**.
    
+   ![](media/ex3-shlscreate.png)
    
+### Task 3: Create a Integration Dataset based on the previously created Linked Service
+
+1. Now, click on **Data** from the left-menu of Synapse studio and select **Linked**.
+
+   ![](media/ex3-datalinked.png)
    
+2. To create a new integration dataset, click on ```+``` **(1)** and select **Integration dataset** **(2)**.
+
+   ![](media/ex3-int-dataset.png)
    
+3. Search for **SAP** **(1)** and select **SAP HANA** **(2)**. Then click on **Continue** **(3)** in New integration dataset pane. 
+
+   ![](media/ex3-newid.png)
    
+4. In Set properties pane, enter Name as **SapHanaTable<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **SapHanaLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you have created earlier. Wait for few seconds to load the tables, search for  **SALES.Sales_Orders_Headers** **(3)** table and select it from the drop-down. Then click on **Ok** **(4)**.
+
+   ![](media/ex3-setprop.png)
    
+5.    
    
    
    
