@@ -149,7 +149,7 @@ from CosmosDB using a third pipeline.
 4. Now, enter the below values in New linked service pane:
    
     | Parameter                                  | Value                                                           |
-    | ------------------------------------ ----  | --------------------------------------------------------------- |
+    | -----------------------------------------  | --------------------------------------------------------------- |
     |  Name **(1)**                              |  **SapHanaLS<inject key="DeploymentID" enableCopy="false"/>**   |
     |  Connecte via integration runtime **(2)**  |  **sap-intrun-<inject key="DeploymentID" enableCopy="false"/>** |
     |  Server name **(3)**                       |  **10.0.1.6:30213**                                             |
