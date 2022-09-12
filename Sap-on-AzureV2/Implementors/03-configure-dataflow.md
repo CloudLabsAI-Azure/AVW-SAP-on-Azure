@@ -148,16 +148,16 @@ from CosmosDB using a third pipeline.
    
 4. Now, enter the below values in New linked service pane:
    
-    | Parameter                              | Value                                                           |
-    | ------------------------------------   | --------------------------------------------------------------- |
-    |  Name (1)                              |  **SapHanaLS<inject key="DeploymentID" enableCopy="false"/>**   |
-    |  Connecte via integration runtime (2)  |  **sap-intrun-<inject key="DeploymentID" enableCopy="false"/>** |
-    |  Server name (3)                       |  **10.0.1.6:30213**                                             |
-    |  Authentication type (4)               |  **Basic authentication**                                       |
-    |  User name (5)                         |  **SYSTEM**                                                     |
-    |  Password (6)                          |  **Password#1219**                                              |
+    | Parameter                                  | Value                                                           |
+    | ------------------------------------ ----  | --------------------------------------------------------------- |
+    |  Name **(1)**                              |  **SapHanaLS<inject key="DeploymentID" enableCopy="false"/>**   |
+    |  Connecte via integration runtime **(2)**  |  **sap-intrun-<inject key="DeploymentID" enableCopy="false"/>** |
+    |  Server name **(3)**                       |  **10.0.1.6:30213**                                             |
+    |  Authentication type **(4)**               |  **Basic authentication**                                       |
+    |  User name **(5)**                         |  **SYSTEM**                                                     |
+    |  Password **(6)**                          |  **Password#1219**                                              |
    
-   After adding all the above values, click on **Test connection** **(7)** to ensure that connection is successful. Then click on **Create** **(8)**.
+   After adding all the above values, click on **Test connection** **(7)** to ensure that connection is successful andthen click on **Create** **(8)**.
    
    ![](media/ex3-shlscreate.png)
    
@@ -183,5 +183,34 @@ from CosmosDB using a third pipeline.
 
    ![](media/ex3-previewdata.png) 
    
+### Task 4: Create a Linked Service to the Synapse SQL Pool
+
+1. From the left-menu of Synapse Studio, click on **Manage** to create linked service.
+
+   ![](media/ex2-clickmanage.png)
    
+2. Under External connections, select **Linked services** **(1)** and click on **+ New** **(2)**.
+
+   ![](media/t4-ex3-1.png)
+   
+3. In New linked service pane, search for **Synapse** **(1)** and select **Azure Synapse Analytics** **(2)**. Then click on **Continue** **(3)**.
+
+   ![](media/t4-ex3-2.png)
+
+4. Now, enter the below values in New linked service pane:
+   
+    | Parameter                                  | Value                                                           |
+    | ----------------------------------------   | --------------------------------------------------------------- |
+    |  Name **(1)**                              |  **SynapseLS<inject key="DeploymentID" enableCopy="false"/>**   |
+    |  Connecte via integration runtime **(2)**  |  **AutoResolveIntegrationRuntime**                              |
+    |  Azure subscription **(3)**                |  **Select the available subscription in which Synapse workspace is deployed** |
+    |  Server name **(4)**                       |  **sapdatasynwsSUFFIX**                                         |
+    |  Database name **(5)**                     |  **sapdatasynsql**                                              |
+    |  Authentication type **(6)**               |  **SQL authentication**                                         |
+    |  User name **(7)**                         |  **azureadmin**                                                 |
+    |  Password **(8)**                          |  **Sapdata!pass123**                                            |
+    
+   After adding all the above values, click on **Test connection** **(9)** to ensure that connection is successful and then click on **Create** **(10)**.
+   
+   ![](media/t4-ex3-3.png)
    
