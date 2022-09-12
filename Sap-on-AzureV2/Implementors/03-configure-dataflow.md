@@ -235,3 +235,13 @@ from CosmosDB using a third pipeline.
 5. Once the Integration dataset is created, click on **Preview data** to see the column names for the selected table is the previous step.
 
    ![](media/t5-ex3-4.png)
+
+### Task 6: Create an Integration pipeline
+
+1. Now, click on **Integrate** from the left-menu of Synapse studio.
+
+   ![](media/t6-ex3-1.png)
+   
+2. To create a new Pipeline, click on ```+``` **(1)** and select **Pipeline** **(2)**.
+
+   ![](media/t6-ex3-2.png)
