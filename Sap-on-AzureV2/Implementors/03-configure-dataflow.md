@@ -157,11 +157,11 @@ from CosmosDB using a third pipeline.
     |  User name **(5)**                         |  **SYSTEM**                                                     |
     |  Password **(6)**                          |  **Password#1219**                                              |
    
-   After adding all the above values, click on **Test connection** **(7)** to ensure that connection is successful andthen click on **Create** **(8)**.
+   After adding all the above values, click on **Test connection** **(7)** to ensure that connection is successful and then click on **Create** **(8)**.
    
    ![](media/ex3-shlscreate.png)
    
-### Task 3: Create a Integration Dataset based on the previously created Linked Service
+### Task 3: Create a Integration Dataset for the SAP Hana Linked Service
 
 1. Now, click on **Data** from the left-menu of Synapse studio and select **Linked**.
 
@@ -179,7 +179,7 @@ from CosmosDB using a third pipeline.
 
    ![](media/ex3-id-setprop.png)
    
-5. Once the Integration dataset is create, click on **Preview data** to see the data for the selected table is the previous step.
+5. Once the Integration dataset is created, click on **Preview data** to see the data for the selected table is the previous step.
 
    ![](media/ex3-previewdata.png) 
    
@@ -214,3 +214,24 @@ from CosmosDB using a third pipeline.
    
    ![](media/t4-ex3-3.png)
    
+### Task 5: Create an Integration DataSet for the Synapse Sales Orders
+
+1. Now, click on **Data** from the left-menu of Synapse studio and select **Linked**.
+
+   ![](media/ex3-datalinked.png)
+   
+2. To create a new integration dataset, click on ```+``` **(1)** and select **Integration dataset** **(2)**.
+
+   ![](media/t5-ex3-1.png)
+   
+3. Search for **Synapse** **(1)** and select **Azure Synapse Analytics** **(2)**. Then click on **Continue** **(3)** in New integration dataset pane. 
+
+   ![](media/t5-ex3-2.png)
+   
+4. In Set properties pane, enter Name as **SynapseTable<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **SynapseLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you have created earlier. Wait for few seconds to load the tables, search for  **dbo.SalesOrderHeaders** **(3)** table and select it from the drop-down. Then click on **Ok** **(4)**.
+
+   ![](media/t5-ex3-3.png)
+   
+5. Once the Integration dataset is created, click on **Preview data** to see the column names for the selected table is the previous step.
+
+   ![](media/t5-ex3-4.png)
