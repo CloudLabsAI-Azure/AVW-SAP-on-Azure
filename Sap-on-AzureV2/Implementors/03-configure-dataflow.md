@@ -245,3 +245,7 @@ from CosmosDB using a third pipeline.
 2. To create a new Pipeline, click on ```+``` **(1)** and select **Pipeline** **(2)**.
 
    ![](media/t6-ex3-2.png)
+   
+3. In Properties, under General enter the name as **ExtractSalesOrderHeaders** **(1)**. Under Move & transform from Activities menu, drag and drop the **Copy data** **(2)** option to the pipeline canvas. Then enter the name as **ExtractSalesOrderHeaders** **(3)** under General.
+
+   ![](media/t6-ex3-3.png)
