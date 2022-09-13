@@ -98,7 +98,7 @@ In this Exercise, you are using Terraform to deploy the azure resources.
     
     ![](media/terraform-init.png)
     
-20. Run terraform apply to execute the actions proposed in a terraform deployment, and choose ```yes``` once prompted to deploy the script.
+20. Run the below command to execute the actions proposed in a terraform deployment, and choose ```yes``` once prompted to deploy the script.
 
     ```bash
     terraform apply
