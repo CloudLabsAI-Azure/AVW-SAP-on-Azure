@@ -314,7 +314,9 @@ from CosmosDB using a third pipeline.
 
     ![](media/t6-ex3-17.png)
     
-### Task 7: Create a Integration DataSet for the CosmosDB Paymets data
+### Task 7: Create a Integration DataSet for the CosmosDB Payments data
 
-1. 
+1. Now, click on **Data** from the left-menu of Synapse studio and select **Linked**.
+
+   ![](media/ex3-datalinked.png)
    
