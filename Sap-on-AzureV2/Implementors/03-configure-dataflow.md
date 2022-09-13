@@ -252,13 +252,23 @@ from CosmosDB using a third pipeline.
    
 4. In the **Source** **(1)** tab, select **SapHanaTable<inject key="DeploymentID" enableCopy="false"/>** **(2)** Dataset as the source.
 
+   ![](media/t6-ex3-4.png)
+
 5. In the **Sink** **(1)** tab, select the **SynapseTable<inject key="DeploymentID" enableCopy="false"/>** **(2)** Dataset as the sink. Under Copy method ensure to select **PolyBase** **(3)**.
+
+   ![](media/t6-ex3-5.png)
 
 6. In the **Mapping** **(1)** tab, choose **Import schemas** (2). Since source and target fields have the same name, the system can auto-generate the mapping.
 
+   ![](media/t6-ex3-6.png)
+
 7. Once the Import schemas is completed, you will be able to see the Mapping tab as shown below.
 
+   ![](media/t6-ex3-7.png)
+
 8. For the prediction model we will calculate the offset between the billing document date and the actual payment data. For this we need to have these date fields mapped to SQL Date fields. Therefore, go to the **View JSON Code** **{}** for the pipeline.
+
+   ![](media/t6-ex3-8.png)
 
 9. Add the parameters **convertDateToDatetime** and **convertTimeToTimespan** at the existing **typeproperties > source** element. The resulting document should looks as follows :
 
@@ -273,18 +283,36 @@ from CosmosDB using a third pipeline.
               "sink": { 
                         ...
     ```
-    
+
+    ![](media/t6-ex3-9.png)
+
 10. In the **Settings** **(1)** blade, check the box for **Enable staging** **(2)** and use the existing staging account linked service **sapdatasynwsSUFFIX** **(3)** to the Synapse Data Lake. Click on **Browse** **(4)** to the staging directory **sap-data-adls/staging** **(5)**, which was already created by the Terraform script.
+
+    ![](media/t6-ex3-10.png)
 
 11. Now click **Publish all** at the top of the Synapse studio. In the Publish all pane, click on **Publish** to confirm.
 
+![](media/t6-ex3-11.png)
+
+![](media/t6-ex3-12.png)
+
 12. Once the Publish completed. click on **Add trigger** **(1)** and select **Trigger now** **(2)** to trigger the pipeline. In the Pipeline run pane, click on **Ok** to confirm.
+
+    ![](media/t6-ex3-13.png)
+    
+    ![](media/t6-ex3-14.png)
 
 13. Swith to **Monitor** **(1)** from the left-menu, click on **Pipeline runs** **(2)** under Integration and then monitor the triggered **ExtractSalesOrderHeaders** pipeline is **Succeeded**.
 
+    ![](media/t6-ex3-15.png)
+
 14. Check the result in Synapse using SQL. You can do this via the **Develop** **(1)**, click on ```+``` **(2)** and select **SQL script** **(3)** to create a new SQL script.
+
+    ![](media/t6-ex3-16.png)
 
 15. Enter the below SQL script into the codespace **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then click on **Run** **(3)** and explore the **Results** **(4)**.
 
-
+    ![](media/t6-ex3-17.png)
+    
+### Task 7: Create a Integration DataSet for the CosmosDB Paymets data  
    
