@@ -250,5 +250,33 @@ from CosmosDB using a third pipeline.
 
    ![](media/t6-ex3-3.png)
    
-4.   
+4. In the **Source** **(1)** tab, select **SapHanaTable<inject key="DeploymentID" enableCopy="false"/>** **(2)** Dataset as the source.
+
+5. In the **Sink** **(1)** tab, select the **SynapseTable<inject key="DeploymentID" enableCopy="false"/>** **(2)** Dataset as the sink. Under Copy method ensure to select **PolyBase** **(3)**.
+
+6. In the **Mapping** **(1)** tab, choose **Import schemas** (2). Since source and target fields have the same name, the system can auto-generate the mapping.
+
+7. Once the Import schemas is completed, you will be able to see the Mapping tab as shown below.
+
+8. For the prediction model we will calculate the offset between the billing document date and the actual payment data. For this we need to have these date fields mapped to SQL Date fields. Therefore, go to the **View JSON Code** **{}** for the pipeline.
+
+9. Add the parameters **convertDateToDatetime** and **convertTimeToTimespan** at the existing **typeproperties > source** element. The resulting document should looks as follows :
+
+   ```bash
+     "typeProperties": {
+             "source": {
+                   "type": "SapTableSource",
+                   "partitionOption": "None",
+                   "convertDateToDatetime": true,
+                    "convertTimeToTimespan": true
+              },
+              "sink": { 
+                        ...
+    ```
+    
+10. In the **Settings** **(1)** blade, check the box for **Enable staging** **(2)** and use the existing staging account linked service **sapdatasynwsSUFFIX** **(3)** to the Synapse Data Lake. Click on **Browse** **(4)** to the staging directory **sap-data-adls/staging** **(5)**, which was already created by the Terraform script.
+
+
+
+
    
