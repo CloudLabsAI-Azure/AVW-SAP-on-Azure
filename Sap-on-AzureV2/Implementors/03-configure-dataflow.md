@@ -292,9 +292,9 @@ from CosmosDB using a third pipeline.
 
 11. Now click **Publish all** at the top of the Synapse studio. In the Publish all pane, click on **Publish** to confirm.
 
-![](media/t6-ex3-11.png)
+    ![](media/t6-ex3-11.png)
 
-![](media/t6-ex3-12.png)
+    ![](media/t6-ex3-12.png)
 
 12. Once the Publish completed. click on **Add trigger** **(1)** and select **Trigger now** **(2)** to trigger the pipeline. In the Pipeline run pane, click on **Ok** to confirm.
 
