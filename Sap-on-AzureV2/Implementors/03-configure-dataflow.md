@@ -314,5 +314,7 @@ from CosmosDB using a third pipeline.
 
     ![](media/t6-ex3-17.png)
     
-### Task 7: Create a Integration DataSet for the CosmosDB Paymets data  
+### Task 7: Create a Integration DataSet for the CosmosDB Paymets data
+
+1. 
    
