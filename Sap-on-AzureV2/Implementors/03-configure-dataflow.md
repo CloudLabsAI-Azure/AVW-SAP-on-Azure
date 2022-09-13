@@ -319,4 +319,5 @@ from CosmosDB using a third pipeline.
 1. Now, click on **Data** from the left-menu of Synapse studio and select **Linked**.
 
    ![](media/ex3-datalinked.png)
-   
+
+2. An Azure Synapse is deployed with an underlying Azure Data Lake Storage Gen2 linked service which was already created by the Terraform script. Click on down arrow of **Azure Data Lake Storage Gen2** **(1)**, followed by click on down arrow of **sapdatasynwsSUFFIX** **(2)** and then double-click on **sap-data-adls (Primary)** **(3)**. Ensure that you are inside the **sap-data-adls >staging** **(4)** directory. 
