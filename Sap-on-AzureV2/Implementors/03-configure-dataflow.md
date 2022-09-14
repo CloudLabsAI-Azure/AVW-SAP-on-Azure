@@ -360,10 +360,11 @@ from CosmosDB using a third pipeline.
 
    ![](media/t11-ex3-1.png)
    
-4.    
+4. In Set properties pane, enter Name as **CosmosDbIDS<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **CosmosDbLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you have created earlier. For Conatiner select **paymentData** **(3)** from the drop-down and then click on **Ok** **(4)**.
 
+   ![](media/t11-ex3-2.png)    
 
-### Task 12: Create an Integration Dataset for the Synapse Payments
+### Task 12: Setup Payments and create an Integration Dataset for the Synapse Payments
 
 1. Now, click on **Data** from the left-menu of Synapse studio and select **Linked**.
 
@@ -389,6 +390,25 @@ from CosmosDB using a third pipeline.
 
    ![](media/t7-ex3-5.png)
    
+7. Now create a new synapse integration dataset for payments, click on ```+``` **(1)** and select **Integration dataset** **(2)**.
+
+   ![](media/t5-ex3-1.png)
+   
+8. Search for **Synapse** **(1)** and select **Azure Synapse Analytics** **(2)**. Then click on **Continue** **(3)** in New integration dataset pane. 
+
+   ![](media/t5-ex3-2.png)
+   
+9. In Set properties pane, enter Name as **SynapsePaymentsIDS<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **SynapseLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you have created earlier. Wait for few seconds to load the tables, search for  **dbo.Payments** **(3)** table and select it from the drop-down. Then click on **Ok** **(4)**.
+
+   ![](media/t12-ex3-1.png)
+   
+10. Once the Integration dataset is created, click on **Preview data** to see the column names for the selected table is the previous step.
+
+    ![](media/t12-ex3-2.png)
+        
+### Task 13: Create an Integration Pipeline for Payment flow
+
+1.
 
 
 
