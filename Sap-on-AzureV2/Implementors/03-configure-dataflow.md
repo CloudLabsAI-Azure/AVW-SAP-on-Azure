@@ -406,7 +406,7 @@ from CosmosDB using a third pipeline.
 
     ![](media/t12-ex3-2.png)
         
-### Task 13: Create an Integration Pipeline for Payment flow
+### Task 13: Create an Integration Pipeline for extracting data from Payment Integration dataset to Cosmos DB Integration dataset
 
 1. Now, click on **Integrate** from the left-menu of Synapse studio.
 
@@ -422,11 +422,11 @@ from CosmosDB using a third pipeline.
    
 4. In the **Source** **(1)** tab, select **PaymentDataset<inject key="DeploymentID" enableCopy="false"/>** **(2)** Dataset as the source.
 
-   ![](media/t13-ex3-2.png)
+   ![](media/t13-ex3-2new.png)
 
 5. In the **Sink** **(1)** tab, select the **CosmosDbIDS<inject key="DeploymentID" enableCopy="false"/>** **(2)** Dataset as the sink. Under Copy method ensure to select **PolyBase** **(3)**.
 
-   ![](media/t13-ex3-3.png)
+   ![](media/t13-ex3-3new.png)
 
 6. In the **Mapping** **(1)** tab, choose **Import schemas** (2). Since source and target fields have the same name, the system can auto-generate the mapping.
 
@@ -442,32 +442,30 @@ from CosmosDB using a third pipeline.
 
 9. Now click **Publish all** at the top of the Synapse studio. In the Publish all pane, click on **Publish** to confirm.
 
-    ![](media/t6-ex3-11.png)
+    ![](media/t13-ex3-6.png)
 
-    ![](media/t6-ex3-12.png)
+    ![](media/t13-ex3-7.png)
 
 10. Once the Publish completed. click on **Add trigger** **(1)** and select **Trigger now** **(2)** to trigger the pipeline. In the Pipeline run pane, click on **Ok** to confirm.
 
-    ![](media/t6-ex3-13.png)
+    ![](media/t13-ex3-8.png)
     
     ![](media/t6-ex3-14.png)
 
-11. Swith to **Monitor** **(1)** from the left-menu, click on **Pipeline runs** **(2)** under Integration and then monitor the triggered **ExtractSalesOrderHeaders** pipeline is **Succeeded**.
+11. Swith to **Monitor** **(1)** from the left-menu, click on **Pipeline runs** **(2)** under Integration and select the **ExtractPayments**.
 
-    ![](media/t6-ex3-15.png)
+    ![](media/t13-ex3-9.png)
 
-12. Check the result in Synapse using SQL. You can do this via the **Develop** **(1)**, click on ```+``` **(2)** and select **SQL script** **(3)** to create a new SQL script.
+12. To verify the results, navigate to Azure portal and open the Azure Cosmos DB account with the name **sap-data-cosmos-SUFFIX** in resource group **microhack-<inject key="DeploymentID" enableCopy="false"/>-rg**. Then select **Data Explorer** from the left-menu of Azure Cosmos DB account.
 
-    ![](media/t6-ex3-16.png)
+    ![](media/t13-ex3-10.png)
+    
+13. In the SQL API panel, expand the **SAPS4D** **(1)** and **paymentData** **(2)** conatiner. Select **Items** **(3)**, then choose an item from the paymentData tab. This will display the contents of the selected document for review.
 
-13. Enter the below SQL script into the codespace **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then click on **Run** **(3)** and explore the **Results** **(4)**.
+    ![](media/t13-ex3-11.png)  
 
-    ```bash
-    select count(*) from SalesOrderHeaders
-    select * from SalesOrderHeaders
-    ```
-
-    ![](media/t6-ex3-17.png)
+### Task 13: Create an Integration Pipeline for moving data from Cosmos DB Integration dataset to Synapse payments Integration dataset
+    
 
 
 
