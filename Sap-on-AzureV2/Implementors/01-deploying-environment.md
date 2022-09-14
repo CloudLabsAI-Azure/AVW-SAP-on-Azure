@@ -2,7 +2,7 @@
 
 In this Exercise, you are using Terraform to deploy the azure resources.
 
-## Task 1: Getting started with Terraform deployment in Azure cloud shell
+## Task 1: Getting started with Resource deployment using Terraform in Azure cloud shell
 
 1. Open Azure Portal from the desktop by double-clicking on it.
     
