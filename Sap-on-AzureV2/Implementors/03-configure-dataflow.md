@@ -319,7 +319,48 @@ from CosmosDB using a third pipeline.
     
 ### Task 10: Create Linked Service for Cosmos DB
 
-1. 
+1. From the left-menu of Synapse Studio, click on **Manage** to create linked service.
+
+   ![](media/ex2-clickmanage.png)
+   
+2. Under External connections, select **Linked services** **(1)** and click on **+ New** **(2)**.
+
+   ![](media/t4-ex3-1.png)
+   
+3. In New linked service pane, search for **Cosmos** **(1)** and select **Azure Cosmos DB (SQL API)** **(2)**. Then click on **Continue** **(3)**.
+
+   ![](media/t10-ex3-1.png)   
+   
+4. Now, enter the below values in New linked service pane:
+   
+    | Parameter                                  | Value                                                                 |
+    | ----------------------------------------   | ---------------------------------------------------------------       |
+    |  Name **(1)**                              |  **CosmosDbLS<inject key="DeploymentID" enableCopy="false"/>**        |
+    |  Connecte via integration runtime **(2)**  |  **AutoResolveIntegrationRuntime**                                    |
+    |  Authentication type **(3)**               |  **Account key**                                                      |
+    |  Azure subscription **(4)**                |  **Select the available subscription in which Cosmos DB is deployed** |
+    |  Azure Cosmos DB account name **(5)**      |  **sap-data-cosmos-SUFFIX**                                           |
+    |  Database name **(6)**                     |  **SAPS4D**                                                           |
+    
+   After adding all the above values, click on **Test connection** **(7)** to ensure that connection is successful and then click on **Create** **(8)**.
+   
+   ![](media/t10-ex3-2.png)
+   
+### Task 11: Create an Integration Dataset for the Cosmos DB Payments
+
+1. Now, click on **Data** from the left-menu of Synapse studio and select **Linked**.
+
+   ![](media/ex3-datalinked.png)
+   
+2. To create a new integration dataset, click on ```+``` **(1)** and select **Integration dataset** **(2)**.
+
+   ![](media/t5-ex3-1.png)
+   
+3. Search for **Cosmos** **(1)** and select **Azure Cosmos DB (SQL API)** **(2)**. Then click on **Continue** **(3)** in New integration dataset pane. 
+
+   ![](media/t11-ex3-1.png)
+   
+4.    
 
 
 ### Task 12: Create an Integration Dataset for the Synapse Payments
