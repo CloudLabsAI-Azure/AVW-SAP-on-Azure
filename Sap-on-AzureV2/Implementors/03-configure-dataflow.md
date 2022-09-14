@@ -320,4 +320,39 @@ from CosmosDB using a third pipeline.
 
    ![](media/ex3-datalinked.png)
 
-2. An Azure Synapse is deployed with an underlying Azure Data Lake Storage Gen2 linked service which was already created by the Terraform script. Click on down arrow of **Azure Data Lake Storage Gen2** **(1)**, followed by click on down arrow of **sapdatasynwsSUFFIX** **(2)** and then double-click on **sap-data-adls (Primary)** **(3)**. Ensure that you are inside the **sap-data-adls >staging** **(4)** directory. 
+2. An Azure Synapse is deployed with an underlying Azure Data Lake Storage Gen2 linked service which was already created by the Terraform script. Click on down arrow of **Azure Data Lake Storage Gen2** **(1)**, followed by click on down arrow of **sapdatasynwsSUFFIX** **(2)** and then double-click on **sap-data-adls (Primary)** **(3)**. Ensure that you are inside the **sap-data-adls >staging** **(4)** directory.
+
+   ![](media/t7-ex3-1.png)
+
+3. In the Upload Files pane, click on **Browse** **(1)** icon and navigate to ```C:\LabFiles``` directory and select the **paymentData_CAL2021.csv** **(2)** file from the local disk. Then click on **Upload** **(3)**.
+
+   ![](media/t7-ex3-2.png)
+   
+4. Once File upload completed, select the **paymentData_CAL2021.csv** **(1)** file and click on **New integration dataset** **(2)**.
+
+   ![](media/t7-ex3-3.png)
+   
+5. In the New integration dataset pane, enter the name as **PaymentDataset<inject key="DeploymentID" enableCopy="false"/>** **(1)** and for Format select **DelimitedText** **(2)** from the drop-down. Leave default for Import schema and click on **Create** **(3)**.
+
+   ![](media/t7-ex3-4.png)
+
+6. From the **PaymentDataset<inject key="DeploymentID" enableCopy="false"/>** integration dataset pane, select **Semicolon(;)** **(1)** for **Column delimiter** and ensure to **check box** **(2)** for **First row as header**. Then click on **Preview data** **(3)** to see the the payments data.
+
+   ![](media/t7-ex3-5.png)
+   
+7.    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
