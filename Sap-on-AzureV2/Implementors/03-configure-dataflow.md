@@ -420,11 +420,11 @@ from CosmosDB using a third pipeline.
 
    ![](media/t13-ex3-1.png)
    
-4. In the **Source** **(1)** tab, select **CosmosDbIDS<inject key="DeploymentID" enableCopy="false"/>** **(2)** Dataset as the source.
+4. In the **Source** **(1)** tab, select **PaymentDataset<inject key="DeploymentID" enableCopy="false"/>** **(2)** Dataset as the source.
 
    ![](media/t13-ex3-2.png)
 
-5. In the **Sink** **(1)** tab, select the **SynapsePaymentsIDS<inject key="DeploymentID" enableCopy="false"/>** **(2)** Dataset as the sink. Under Copy method ensure to select **PolyBase** **(3)**.
+5. In the **Sink** **(1)** tab, select the **CosmosDbIDS<inject key="DeploymentID" enableCopy="false"/>** **(2)** Dataset as the sink. Under Copy method ensure to select **PolyBase** **(3)**.
 
    ![](media/t13-ex3-3.png)
 
