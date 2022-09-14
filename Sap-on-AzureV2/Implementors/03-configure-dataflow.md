@@ -8,7 +8,7 @@ from CosmosDB using a third pipeline.
 
    ![](media/ex3-architectureOverview.png)
    
-### Task 1: Synapse Table Setup
+### Task 1: Create Synapse Tables in SQL Pool
 
 1. From the Synapse Studio, click on **Develop** from the left-menu.
 
@@ -132,7 +132,7 @@ from CosmosDB using a third pipeline.
 
     ![](media/ex3-publishcomplete.png)    
 
-### Task 2: Create a Linked Service to the SAP System
+### Task 2: Create a Linked Service and Integration dataset to the SAP System
 
 1. From the left-menu of Synapse Studio, click on **Manage** to create linked service.
 
@@ -160,30 +160,28 @@ from CosmosDB using a third pipeline.
    After adding all the above values, click on **Test connection** **(7)** to ensure that connection is successful and then click on **Create** **(8)**.
    
    ![](media/ex3-shlscreate.png)
-   
-### Task 3: Create a Integration Dataset for the SAP Hana Linked Service
 
-1. Now, click on **Data** from the left-menu of Synapse studio and select **Linked**.
+5. Now, click on **Data** from the left-menu of Synapse studio and select **Linked**.
 
    ![](media/ex3-datalinked.png)
    
-2. To create a new integration dataset, click on ```+``` **(1)** and select **Integration dataset** **(2)**.
+6. To create a new integration dataset, click on ```+``` **(1)** and select **Integration dataset** **(2)**.
 
    ![](media/ex3-int-dataset.png)
    
-3. Search for **SAP** **(1)** and select **SAP HANA** **(2)**. Then click on **Continue** **(3)** in New integration dataset pane. 
+7. Search for **SAP** **(1)** and select **SAP HANA** **(2)**. Then click on **Continue** **(3)** in New integration dataset pane. 
 
    ![](media/ex3-newid.png)
    
-4. In Set properties pane, enter Name as **SapHanaTable<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **SapHanaLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you have created earlier. Wait for few seconds to load the tables, search for  **SALES.Sales_Orders_Headers** **(3)** table and select it from the drop-down. Then click on **Ok** **(4)**.
+8. In Set properties pane, enter Name as **SapHanaTable<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **SapHanaLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you have created earlier. Wait for few seconds to load the tables, search for  **SALES.Sales_Orders_Headers** **(3)** table and select it from the drop-down. Then click on **Ok** **(4)**.
 
    ![](media/ex3-id-setprop.png)
    
-5. Once the Integration dataset is created, click on **Preview data** to see the data for the selected table is the previous step.
+9. Once the Integration dataset is created, click on **Preview data** to see the data for the selected table is the previous step.
 
    ![](media/ex3-previewdata.png) 
    
-### Task 4: Create a Linked Service to the Synapse SQL Pool
+### Task 3: Create a Linked Service to the Synapse SQL Pool
 
 1. From the left-menu of Synapse Studio, click on **Manage** to create linked service.
 
@@ -214,7 +212,7 @@ from CosmosDB using a third pipeline.
    
    ![](media/t4-ex3-3.png)
    
-### Task 5: Create an Integration DataSet for the Synapse Sales Orders
+### Task 4: Create an Integration DataSet for the Synapse Sales Orders
 
 1. Now, click on **Data** from the left-menu of Synapse studio and select **Linked**.
 
@@ -236,7 +234,7 @@ from CosmosDB using a third pipeline.
 
    ![](media/t5-ex3-4.png)
 
-### Task 6: Create an Integration pipeline
+### Task 5: Create an Integration pipeline to extract SalesOrderHeaders data
 
 1. Now, click on **Integrate** from the left-menu of Synapse studio.
 
@@ -312,9 +310,19 @@ from CosmosDB using a third pipeline.
 
 15. Enter the below SQL script into the codespace **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then click on **Run** **(3)** and explore the **Results** **(4)**.
 
+    ```bash
+    select count(*) from SalesOrderHeaders
+    select * from SalesOrderHeaders
+    ```
+
     ![](media/t6-ex3-17.png)
     
-### Task 7: Create a Integration DataSet for the CosmosDB Payments data
+### Task 10: Create Linked Service for Cosmos DB
+
+1. 
+
+
+### Task 12: Create an Integration Dataset for the Synapse Payments
 
 1. Now, click on **Data** from the left-menu of Synapse studio and select **Linked**.
 
@@ -340,10 +348,6 @@ from CosmosDB using a third pipeline.
 
    ![](media/t7-ex3-5.png)
    
-7.    
-
-
-
 
 
 
