@@ -364,7 +364,7 @@ from CosmosDB using a third pipeline.
 
    ![](media/t11-ex3-2.png)    
 
-### Task 12: Setup Payments and create an Integration Dataset for the Synapse Payments
+### Task 12: Setup Payments Integration Dataset and create an Integration Dataset for the Synapse Payments
 
 1. Now, click on **Data** from the left-menu of Synapse studio and select **Linked**.
 
