@@ -300,7 +300,7 @@ from CosmosDB using a third pipeline.
     
     ![](media/t6-ex3-14.png)
 
-13. Swith to **Monitor** **(1)** from the left-menu, click on **Pipeline runs** **(2)** under Integration and then monitor the triggered **ExtractSalesOrderHeaders** pipeline is **Succeeded**.
+13. Swith to **Monitor** **(1)** from the left-menu, click on **Pipeline runs** **(2)** under Integration and select the **ExtractSalesOrderHeaders** pipeline which got **Succeeded**.
 
     ![](media/t6-ex3-15.png)
 
@@ -450,7 +450,7 @@ from CosmosDB using a third pipeline.
     
     ![](media/t6-ex3-14.png)
 
-11. Swith to **Monitor** **(1)** from the left-menu, click on **Pipeline runs** **(2)** under Integration and select the **ExtractPayments**.
+11. Swith to **Monitor** **(1)** from the left-menu, click on **Pipeline runs** **(2)** under Integration and select the **ExtractPayments** pipeline which got **Succeeded**.
 
     ![](media/t13-ex3-9.png)
 
@@ -506,7 +506,7 @@ from CosmosDB using a third pipeline.
     
     ![](media/t6-ex3-14.png)
 
-11. Swith to **Monitor** **(1)** from the left-menu, click on **Pipeline runs** **(2)** under Integration and then monitor the triggered **ExtractPaymentsData** pipeline is **Succeeded**.
+11. Swith to **Monitor** **(1)** from the left-menu, click on **Pipeline runs** **(2)** under Integration and select the **ExtractPaymentsData** pipeline which got **Succeeded**.
 
     ![](media/t14-ex3-4.png)
 
