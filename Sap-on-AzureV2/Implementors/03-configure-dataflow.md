@@ -416,25 +416,25 @@ from CosmosDB using a third pipeline.
 
    ![](media/t6-ex3-2.png)
 
-3. In Properties, under General enter the name as **ExtractSalesOrderHeaders** **(1)**. Under Move & transform from Activities menu, drag and drop the **Copy data** **(2)** option to the pipeline canvas. Then enter the name as **ExtractSalesOrderHeaders** **(3)** under General.
+3. In Properties, under General enter the name as **ExtractPayments** **(1)**. Under Move & transform from Activities menu, drag and drop the **Copy data** **(2)** option to the pipeline canvas. Then enter the name as **ExtractPayments** **(3)** under General.
 
-   ![](media/t6-ex3-3.png)
+   ![](media/t13-ex3-1.png)
    
-4. In the **Source** **(1)** tab, select **SapHanaTable<inject key="DeploymentID" enableCopy="false"/>** **(2)** Dataset as the source.
+4. In the **Source** **(1)** tab, select **CosmosDbIDS<inject key="DeploymentID" enableCopy="false"/>** **(2)** Dataset as the source.
 
-   ![](media/t6-ex3-4.png)
+   ![](media/t13-ex3-2.png)
 
-5. In the **Sink** **(1)** tab, select the **SynapseTable<inject key="DeploymentID" enableCopy="false"/>** **(2)** Dataset as the sink. Under Copy method ensure to select **PolyBase** **(3)**.
+5. In the **Sink** **(1)** tab, select the **SynapsePaymentsIDS<inject key="DeploymentID" enableCopy="false"/>** **(2)** Dataset as the sink. Under Copy method ensure to select **PolyBase** **(3)**.
 
-   ![](media/t6-ex3-5.png)
+   ![](media/t13-ex3-3.png)
 
 6. In the **Mapping** **(1)** tab, choose **Import schemas** (2). Since source and target fields have the same name, the system can auto-generate the mapping.
 
-   ![](media/t6-ex3-6.png)
+   ![](media/t13-ex3-4.png)
 
-7. Once the Import schemas is completed, you will be able to see the Mapping tab as shown below.
+7. Once the Import schemas is completed, make sure to remove the mappings by unchecking the checkbox behind them as shown in the below screenshot.
 
-   ![](media/t6-ex3-7.png)
+   ![](media/t13-ex3-5.png)
 
 8. In the **Settings** **(1)** blade, check the box for **Enable staging** **(2)** and use the existing staging account linked service **sapdatasynwsSUFFIX** **(3)** to the Synapse Data Lake. Click on **Browse** **(4)** to the staging directory **sap-data-adls/staging** **(5)**, which was already created by the Terraform script.
 
