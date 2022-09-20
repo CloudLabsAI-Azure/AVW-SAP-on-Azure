@@ -316,7 +316,29 @@ from CosmosDB using a third pipeline.
     ```
 
     ![](media/t6-ex3-17.png)
-    
+
+### Task 6: Create an Integration Dataset for the SAP Sales Order Item
+
+1. Now, click on **Data** from the left-menu of Synapse studio and select **Linked**.
+
+   ![](media/ex3-datalinked.png)
+   
+2. To create a new integration dataset, click on ```+``` **(1)** and select **Integration dataset** **(2)**.
+
+   ![](media/t5-ex3-1.png)
+   
+3. Search for **SAP** **(1)** and select **SAP HANA** **(2)**. Then click on **Continue** **(3)** in New integration dataset pane. 
+
+   ![](media/ex3-newid.png)
+   
+4. In Set properties pane, enter Name as **SapHanaTable<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **SapHanaLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you have created earlier. Wait for few seconds to load the tables, search for  **SALES.Sales_Orders_Headers** **(3)** table and select it from the drop-down. Then click on **Ok** **(4)**.
+
+   ![](media/ex3-id-setprop.png)
+   
+5. Once the Integration dataset is created, click on **Preview data** to see the data for the selected table is the previous step.
+
+   ![](media/ex3-previewdata.png)   
+
 ### Task 10: Create Linked Service for Cosmos DB
 
 1. From the left-menu of Synapse Studio, click on **Manage** to create linked service.
