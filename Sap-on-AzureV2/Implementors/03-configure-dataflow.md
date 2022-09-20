@@ -359,7 +359,7 @@ from CosmosDB using a third pipeline.
    
 5. Once the Integration dataset is created, click on **Preview data** to see the column names for the selected table is the previous step.
 
-   ![](media/t7-synapseitems-1.png)
+   ![](media/t7-synapseitems-2.png)
    
 ### Task 8: Create the integration pipeline to extract SalesOrderItems data
 
