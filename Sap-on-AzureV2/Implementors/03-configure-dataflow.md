@@ -373,15 +373,15 @@ from CosmosDB using a third pipeline.
    
 3. In Properties, under General enter the name as **ExtractSalesOrderItems** **(1)**. Under Move & transform from Activities menu, drag and drop the **Copy data** **(2)** option to the pipeline canvas. Then enter the name as **ExtractSalesOrderItems** **(3)** under General.
 
-   ![](media/t6-ex3-3.png)
+   ![](media/t8-item-1.png)
    
-4. In the **Source** **(1)** tab, select **SapHanaTable<inject key="DeploymentID" enableCopy="false"/>** **(2)** Dataset as the source.
+4. In the **Source** **(1)** tab, select **SapHanaTableItems<inject key="DeploymentID" enableCopy="false"/>** **(2)** Dataset as the source.
 
-   ![](media/t6-ex3-4.png)
+   ![](media/t8-item-2.png)
 
-5. In the **Sink** **(1)** tab, select the **SynapseTable<inject key="DeploymentID" enableCopy="false"/>** **(2)** Dataset as the sink. Under Copy method ensure to select **PolyBase** **(3)**.
+5. In the **Sink** **(1)** tab, select the **SynapseTableItems<inject key="DeploymentID" enableCopy="false"/>** **(2)** Dataset as the sink. Under Copy method ensure to select **PolyBase** **(3)**.
 
-   ![](media/t6-ex3-5.png)
+   ![](media/t8-item-3.png)
 
 6. In the **Mapping** **(1)** tab, choose **Import schemas** (2). Since source and target fields have the same name, the system can auto-generate the mapping.
 
@@ -389,11 +389,11 @@ from CosmosDB using a third pipeline.
 
 7. Once the Import schemas is completed, you will be able to see the Mapping tab as shown below.
 
-   ![](media/t6-ex3-7.png)
+   ![](media/t8-item-4.png)
 
 8. For the prediction model we will calculate the offset between the billing document date and the actual payment data. For this we need to have these date fields mapped to SQL Date fields. Therefore, go to the **View JSON Code** **{}** for the pipeline.
 
-   ![](media/t6-ex3-8.png)
+   ![](media/t8-item-5.png)
 
 9. Add the parameters **convertDateToDatetime** and **convertTimeToTimespan** at the existing **typeproperties > source** element. The resulting document should looks as follows :
 
@@ -409,7 +409,7 @@ from CosmosDB using a third pipeline.
                         ...
     ```
 
-    ![](media/t6-ex3-9.png)
+    ![](media/t8-item-6.png)
 
 10. In the **Settings** **(1)** blade, check the box for **Enable staging** **(2)** and use the existing staging account linked service **sapdatasynwsSUFFIX** **(3)** to the Synapse Data Lake. Click on **Browse** **(4)** to the staging directory **sap-data-adls/staging** **(5)**, which was already created by the Terraform script.
 
@@ -417,17 +417,17 @@ from CosmosDB using a third pipeline.
 
 11. Now click **Publish all** at the top of the Synapse studio. In the Publish all pane, click on **Publish** to confirm.
 
-    ![](media/t6-ex3-11.png)
+    ![](media/t8-item-7.png)
 
-    ![](media/t6-ex3-12.png)
+    ![](media/t8-item-8.png)
 
 12. Once the Publish completed. click on **Add trigger** **(1)** and select **Trigger now** **(2)** to trigger the pipeline. In the Pipeline run pane, click on **Ok** to confirm.
 
-    ![](media/t6-ex3-13.png)
+    ![](media/t8-item-9.png)
     
     ![](media/t6-ex3-14.png)
 
-13. Swith to **Monitor** **(1)** from the left-menu, click on **Pipeline runs** **(2)** under Integration and select the **ExtractSalesOrderHeaders** pipeline which got **Succeeded**.
+13. Swith to **Monitor** **(1)** from the left-menu, click on **Pipeline runs** **(2)** under Integration and select the **ExtractSalesOrderItems** pipeline which got **Succeeded**.
 
     ![](media/t6-ex3-15.png)
 
@@ -438,11 +438,11 @@ from CosmosDB using a third pipeline.
 15. Enter the below SQL script into the codespace **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then click on **Run** **(3)** and explore the **Results** **(4)**.
 
     ```bash
-    select count(*) from SalesOrderHeaders
-    select * from SalesOrderHeaders
+    select count(*) from SalesOrderItems
+    select * from SalesOrderItems
     ```
 
-    ![](media/t6-ex3-17.png)
+    ![](media/t8-item-10.png)
 
 ### Task 10: Create Linked Service for Cosmos DB
 
