@@ -331,13 +331,118 @@ from CosmosDB using a third pipeline.
 
    ![](media/ex3-newid.png)
    
-4. In Set properties pane, enter Name as **SapHanaTable<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **SapHanaLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you have created earlier. Wait for few seconds to load the tables, search for  **SALES.Sales_Orders_Headers** **(3)** table and select it from the drop-down. Then click on **Ok** **(4)**.
+4. In Set properties pane, enter Name as **SapHanaTableItems<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **SapHanaLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you have created earlier. Wait for few seconds to load the tables, search for  **SALES.Sales_Orders_items** **(3)** table and select it from the drop-down. Then click on **Ok** **(4)**.
 
-   ![](media/ex3-id-setprop.png)
+   ![](media/t6-orderitems-1.png)
    
 5. Once the Integration dataset is created, click on **Preview data** to see the data for the selected table is the previous step.
 
-   ![](media/ex3-previewdata.png)   
+   ![](media/t6-orderitems-2.png)   
+
+### Task 7: Create an Integration Dataset for the Synapse Sales Order Items
+
+1. Now, click on **Data** from the left-menu of Synapse studio and select **Linked**.
+
+   ![](media/ex3-datalinked.png)
+   
+2. To create a new integration dataset, click on ```+``` **(1)** and select **Integration dataset** **(2)**.
+
+   ![](media/t5-ex3-1.png)
+   
+3. Search for **Synapse** **(1)** and select **Azure Synapse Analytics** **(2)**. Then click on **Continue** **(3)** in New integration dataset pane. 
+
+   ![](media/t5-ex3-2.png)
+   
+4. In Set properties pane, enter Name as **SynapseTableItems<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **SynapseLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you have created earlier. Wait for few seconds to load the tables, search for  **dbo.SalesOrderItems** **(3)** table and select it from the drop-down. Then click on **Ok** **(4)**.
+
+   ![](media/t7-synapseitems-1.png)
+   
+5. Once the Integration dataset is created, click on **Preview data** to see the column names for the selected table is the previous step.
+
+   ![](media/t7-synapseitems-1.png)
+   
+### Task 8: Create the integration pipeline to extract SalesOrderItems data
+
+1. Now, click on **Integrate** from the left-menu of Synapse studio.
+
+   ![](media/t6-ex3-1.png)
+   
+2. To create a new Pipeline, click on ```+``` **(1)** and select **Pipeline** **(2)**.
+
+   ![](media/t6-ex3-2.png)
+   
+3. In Properties, under General enter the name as **ExtractSalesOrderHeaders** **(1)**. Under Move & transform from Activities menu, drag and drop the **Copy data** **(2)** option to the pipeline canvas. Then enter the name as **ExtractSalesOrderHeaders** **(3)** under General.
+
+   ![](media/t6-ex3-3.png)
+   
+4. In the **Source** **(1)** tab, select **SapHanaTable<inject key="DeploymentID" enableCopy="false"/>** **(2)** Dataset as the source.
+
+   ![](media/t6-ex3-4.png)
+
+5. In the **Sink** **(1)** tab, select the **SynapseTable<inject key="DeploymentID" enableCopy="false"/>** **(2)** Dataset as the sink. Under Copy method ensure to select **PolyBase** **(3)**.
+
+   ![](media/t6-ex3-5.png)
+
+6. In the **Mapping** **(1)** tab, choose **Import schemas** (2). Since source and target fields have the same name, the system can auto-generate the mapping.
+
+   ![](media/t6-ex3-6.png)
+
+7. Once the Import schemas is completed, you will be able to see the Mapping tab as shown below.
+
+   ![](media/t6-ex3-7.png)
+
+8. For the prediction model we will calculate the offset between the billing document date and the actual payment data. For this we need to have these date fields mapped to SQL Date fields. Therefore, go to the **View JSON Code** **{}** for the pipeline.
+
+   ![](media/t6-ex3-8.png)
+
+9. Add the parameters **convertDateToDatetime** and **convertTimeToTimespan** at the existing **typeproperties > source** element. The resulting document should looks as follows :
+
+   ```bash
+     "typeProperties": {
+             "source": {
+                   "type": "SapTableSource",
+                   "partitionOption": "None",
+                   "convertDateToDatetime": true,
+                   "convertTimeToTimespan": true
+              },
+              "sink": { 
+                        ...
+    ```
+
+    ![](media/t6-ex3-9.png)
+
+10. In the **Settings** **(1)** blade, check the box for **Enable staging** **(2)** and use the existing staging account linked service **sapdatasynwsSUFFIX** **(3)** to the Synapse Data Lake. Click on **Browse** **(4)** to the staging directory **sap-data-adls/staging** **(5)**, which was already created by the Terraform script.
+
+    ![](media/t6-ex3-10.png)
+
+11. Now click **Publish all** at the top of the Synapse studio. In the Publish all pane, click on **Publish** to confirm.
+
+    ![](media/t6-ex3-11.png)
+
+    ![](media/t6-ex3-12.png)
+
+12. Once the Publish completed. click on **Add trigger** **(1)** and select **Trigger now** **(2)** to trigger the pipeline. In the Pipeline run pane, click on **Ok** to confirm.
+
+    ![](media/t6-ex3-13.png)
+    
+    ![](media/t6-ex3-14.png)
+
+13. Swith to **Monitor** **(1)** from the left-menu, click on **Pipeline runs** **(2)** under Integration and select the **ExtractSalesOrderHeaders** pipeline which got **Succeeded**.
+
+    ![](media/t6-ex3-15.png)
+
+14. Check the result in Synapse using SQL. You can do this via the **Develop** **(1)**, click on ```+``` **(2)** and select **SQL script** **(3)** to create a new SQL script.
+
+    ![](media/t6-ex3-16.png)
+
+15. Enter the below SQL script into the codespace **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then click on **Run** **(3)** and explore the **Results** **(4)**.
+
+    ```bash
+    select count(*) from SalesOrderHeaders
+    select * from SalesOrderHeaders
+    ```
+
+    ![](media/t6-ex3-17.png)
 
 ### Task 10: Create Linked Service for Cosmos DB
 
