@@ -317,7 +317,7 @@ from CosmosDB using a third pipeline.
 
     ![](media/t6-ex3-17.png)
 
-### Task 6: Create an Integration Dataset for the SAP Sales Order Item
+### Task 6: Create an Integration Dataset for the SAP Sales Order Items
 
 1. Now, click on **Data** from the left-menu of Synapse studio and select **Linked**.
 
@@ -444,7 +444,7 @@ from CosmosDB using a third pipeline.
 
     ![](media/t8-item-11.png)
 
-### Task 10: Create Linked Service for Cosmos DB
+### Task 9: Create Linked Service for Cosmos DB
 
 1. From the left-menu of Synapse Studio, click on **Manage** to create linked service.
 
@@ -473,7 +473,7 @@ from CosmosDB using a third pipeline.
    
    ![](media/t10-ex3-2.png)
    
-### Task 11: Create an Integration Dataset for the Cosmos DB Payments
+### Task 10: Create an Integration Dataset for the Cosmos DB Payments
 
 1. Now, click on **Data** from the left-menu of Synapse studio and select **Linked**.
 
@@ -491,7 +491,7 @@ from CosmosDB using a third pipeline.
 
    ![](media/t11-ex3-2.png)    
 
-### Task 12: Setup Payments Integration Dataset and create an Integration Dataset for the Synapse Payments
+### Task 11: Setup Payments Integration Dataset and create an Integration Dataset for the Synapse Payments
 
 1. Now, click on **Data** from the left-menu of Synapse studio and select **Linked**.
 
@@ -533,7 +533,7 @@ from CosmosDB using a third pipeline.
 
     ![](media/t12-ex3-2.png)
         
-### Task 13: Create an Integration Pipeline for extracting data from Payment Integration dataset to Cosmos DB Integration dataset
+### Task 12: Create an Integration Pipeline for extracting data from Payment Integration dataset to Cosmos DB Integration dataset
 
 1. Now, click on **Integrate** from the left-menu of Synapse studio.
 
@@ -589,7 +589,7 @@ from CosmosDB using a third pipeline.
 
     ![](media/t13-ex3-11.png)  
 
-### Task 14: Create an Integration Pipeline for moving data from Cosmos DB Integration dataset to Synapse payments Integration dataset
+### Task 13: Create an Integration Pipeline for moving data from Cosmos DB Integration dataset to Synapse payments Integration dataset
     
 1. Now, click on **Integrate** from the left-menu of Synapse studio.
 
