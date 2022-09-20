@@ -429,7 +429,7 @@ from CosmosDB using a third pipeline.
 
 13. Swith to **Monitor** **(1)** from the left-menu, click on **Pipeline runs** **(2)** under Integration and select the **ExtractSalesOrderItems** pipeline which got **Succeeded**.
 
-    ![](media/t6-ex3-15.png)
+    ![](media/t8-item-10.png)
 
 14. Check the result in Synapse using SQL. You can do this via the **Develop** **(1)**, click on ```+``` **(2)** and select **SQL script** **(3)** to create a new SQL script.
 
@@ -442,7 +442,7 @@ from CosmosDB using a third pipeline.
     select * from SalesOrderItems
     ```
 
-    ![](media/t8-item-10.png)
+    ![](media/t8-item-11.png)
 
 ### Task 10: Create Linked Service for Cosmos DB
 
