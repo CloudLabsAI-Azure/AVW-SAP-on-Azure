@@ -276,7 +276,7 @@ from CosmosDB using a third pipeline.
                    "type": "SapTableSource",
                    "partitionOption": "None",
                    "convertDateToDatetime": true,
-                    "convertTimeToTimespan": true
+                   "convertTimeToTimespan": true
               },
               "sink": { 
                         ...
