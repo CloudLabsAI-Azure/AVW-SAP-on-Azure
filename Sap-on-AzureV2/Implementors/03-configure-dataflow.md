@@ -371,7 +371,7 @@ from CosmosDB using a third pipeline.
 
    ![](media/t6-ex3-2.png)
    
-3. In Properties, under General enter the name as **ExtractSalesOrderHeaders** **(1)**. Under Move & transform from Activities menu, drag and drop the **Copy data** **(2)** option to the pipeline canvas. Then enter the name as **ExtractSalesOrderHeaders** **(3)** under General.
+3. In Properties, under General enter the name as **ExtractSalesOrderItems** **(1)**. Under Move & transform from Activities menu, drag and drop the **Copy data** **(2)** option to the pipeline canvas. Then enter the name as **ExtractSalesOrderItems** **(3)** under General.
 
    ![](media/t6-ex3-3.png)
    
