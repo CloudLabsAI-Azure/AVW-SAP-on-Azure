@@ -563,7 +563,7 @@ from CosmosDB using a third pipeline.
 
    ![](media/t13-ex3-3new.png)
 
-6. Now click **Publish all** at the top of the Synapse studio. In the Publish all pane, click on **Publish** to confirm.
+6. Now click on **Publish all** at the top of the Synapse studio. In the Publish all pane, click on **Publish** to confirm.
 
     ![](media/t13-ex3-6.png)
 
@@ -619,7 +619,7 @@ from CosmosDB using a third pipeline.
 
     ![](media/t6-ex3-10.png)
 
-9. Now click **Publish all** at the top of the Synapse studio. In the Publish all pane, click on **Publish** to confirm.
+9. Now click on **Publish all** at the top of the Synapse studio. In the Publish all pane, click on **Publish** to confirm.
 
     ![](media/t14-ex3-2.png)
 
