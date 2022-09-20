@@ -56,7 +56,36 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
     ![](media/ex4-t1-step8.png)
     
-11.     
+11. On the Navigator dialog, **check the box** next to all three tables and then select the **Transform Data** button.
+
+    ![](media/ex4-t1-step9.png)
+    
+12. Once the data is transformed, you will be seeing the Power Query editor window as shown below:
+
+    ![](media/ex4-t1-step10.png)
+
+13. The columns in the tables representing sales order numbers were incorrectly interpreted as strings by Power BI. In the Power Query editor screen, select **SalesOrderItems** **(1)** from the Queries pane, then right-click on the **SalesOrder** **(2)** field and expand the **Change Type** **(3)** item and choose **Whole Number** **(4)**.
+
+    ![](media/ex4-t1-step15.png)
+    
+14. Repeat the previous step, this time changing the type of the following table columns to Whole Number.
+
+    | Table (Queries pane) | Column |
+    |-------|-------|
+    | SalesOrderHeaders | SALESDOCUMENT |
+    | Payments | SalesOrderNr |
+    
+    ![](media/ex4-t1-step11.png)
+    
+    ![](media/ex4-t1-step12.png)
+    
+15. Select **Close & Apply** in the Power Query editor toolbar.
+
+    ![](media/ex4-t1-step13.png)
+    
+16. Once the data loading is completed, you will be able to see all the three tables under the Fields in Power BI Desktop application.
+
+    ![](media/ex4-t1-step14.png)
   
    
    
