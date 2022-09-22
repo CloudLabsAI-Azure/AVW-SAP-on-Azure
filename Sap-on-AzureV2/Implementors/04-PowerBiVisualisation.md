@@ -89,7 +89,11 @@ In this exercise you will be setting up the powerBI reports for the extracted da
   
 ### Task 2: Create the relationship Model between the tables
 
-1. 
+1. From the left menu, select the **Model** item. This will switch to the Model view.
+
+   ![](media/ex4-t2-step1.png)
+   
+2.    
    
    
    
