@@ -109,4 +109,14 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
    ![](media/ex4-t2-step5.png)
    
-### Task 3: Data Visualization   
+### Task 3: Create a sales per data and customer group visualization
+
+1. To start the visualization, switch to the **Report** view.
+
+   ![](media/ex4-t3-step1.png)
+   
+2. In the Visualizations pane, select **Stacked column chart** **(1)**. From the Fields pane, drag-and-drop the **SalesOrderHeaders.CREATIONDATE** **(2)** field to the **X-axis** box, the **SalesOrderHeaders.TOTALNETAMOUNT** **(3)** field to the **Y-axis** box and the **SalesOrderHeaders.CUSTOMERGROUP** **(4)** field to the **Legend** box.
+
+   ![](media/ex4-t3-step2.png)
+   
+3.   
