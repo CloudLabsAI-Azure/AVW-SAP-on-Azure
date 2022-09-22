@@ -97,6 +97,16 @@ In this exercise you will be setting up the powerBI reports for the extracted da
    
    ![](media/ex4-t2-step2.png)
    
+3. Now you can look at the relationship details by double clicking on the connection link between **SalesOrderHeaders** and **SalesOrderItems** tables. After reviewing the relationship details, click **Ok** to close the Edit relationship dialog.
+
+   ![](media/ex4-t2-step3.png)   
    
+4. On the Model design canvas, drag the **SalesOrderNr** field from the **Payments** table and drop it on the **SALESDOCUMENT** field in the **SalesOrderHeaders** table. This establishes a **one-to-one relationship ( 1 : 1 )** between the tables.
+
+   ![](media/ex4-t2-step4.png)
+
+5. Now you can look at the relationship details by double clicking on the connection link between **Payments** and **SalesOrderHeaders** tables. After reviewing the relationship details, click **Ok** to close the Edit relationship dialog.
+
+   ![](media/ex4-t2-step5.png)
    
-  
+### Task 3: Data Visualization   
