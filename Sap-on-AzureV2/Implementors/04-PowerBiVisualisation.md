@@ -93,9 +93,9 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
    ![](media/ex4-t2-step1.png)
    
-2.    
+2. On the Model design canvas, drag the **SALESDOCUMENT** field from the **SalesOrderHeaders** table and drop it on the **SalesOrder** field of the **SalesOrderItems** table. This establishes a **one-to-many relationship ( 1 : * )** between the tables.  
    
-   
+   ![](media/ex4-t2-step2.png)
    
    
    
