@@ -87,7 +87,9 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
     ![](media/ex4-t1-step14.png)
   
-   
+### Task 2: Create the relationship Model between the tables
+
+1. 
    
    
    
