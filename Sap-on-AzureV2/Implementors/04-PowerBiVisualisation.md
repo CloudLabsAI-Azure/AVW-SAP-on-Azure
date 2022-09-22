@@ -122,3 +122,5 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 3. You can adjust the sizing of the chart on the report canvas as desired.
 
    ![](media/ex4-t3-step3.png)
+   
+4. In the Visualizations pane, select **Map** **(1)**. From the Fields pane, drag-and-drop the SalesOrderHeaders.CITYNAME field to the Location box, the SalesOrderHeaders.CUSTOMERGROUP field to the Legend box and the SalesOrderHeaders.TOTALNETAMOUNT to the Bubble size box.   
