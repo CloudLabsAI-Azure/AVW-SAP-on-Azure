@@ -117,9 +117,9 @@ In this exercise you will be setting up the powerBI reports for the extracted da
    
 - Sales per Date and CustomerGroup visualization
    
-2. In the Visualizations pane, select **Stacked column chart** **(1)**. From the Fields pane, drag-and-drop the **SalesOrderHeaders.CREATIONDATE** **(2)** field to the **Axis** box, the **SalesOrderHeaders.TOTALNETAMOUNT** **(3)** field to the **Values** box and the **SalesOrderHeaders.CUSTOMERGROUP** **(4)** field to the **Legend** box.
+2. In the Visualizations pane, select **Stacked column chart** **(1)**. From the Fields pane, drag-and-drop the **SalesOrderHeaders.CREATIONDATE** **(2)** field to the **X-axis** box, the **SalesOrderHeaders.TOTALNETAMOUNT** **(3)** field to the **Y-axis** box and the **SalesOrderHeaders.CUSTOMERGROUP** **(4)** field to the **Legend** box.
 
-   ![](media/ex4-t3-step2.png)
+   ![](media/ex4-t3-step2new.png)
    
 3. You can adjust the sizing of the chart on the report canvas as desired.
 
@@ -127,9 +127,9 @@ In this exercise you will be setting up the powerBI reports for the extracted da
    
 - Sales per Region and CustomerGroup visualization
    
-4. In the Visualizations pane, select **Map** **(1)**. From the Fields pane, drag-and-drop the **SalesOrderHeaders.CITYNAME** **(2)** field to the **Location** box, the **SalesOrderHeaders.CUSTOMERGROUP** **(3)** field to the **Legend** box and the **SalesOrderHeaders.TOTALNETAMOUNT** **(4)** to the **Size** box.
+4. In the Visualizations pane, select **Map** **(1)**. From the Fields pane, drag-and-drop the **SalesOrderHeaders.CITYNAME** **(2)** field to the **Location** box, the **SalesOrderHeaders.CUSTOMERGROUP** **(3)** field to the **Legend** box and the **SalesOrderHeaders.TOTALNETAMOUNT** **(4)** to the **Bubble size** box.
 
-   ![](media/ex4-t3-step4.png)
+   ![](media/ex4-t3-step4new.png)
    
 5. Adjust the sizing and zoom of the map on the report canvas as desired.
 
@@ -147,7 +147,11 @@ In this exercise you will be setting up the powerBI reports for the extracted da
    
 8. Adjust the sizing of the chart on the report canvas as desired.
 
-   ![](media/ex4-t3-step8.png)  
+   ![](media/ex4-t3-step8.png)
+
+- Sales Per CustomerGroup and MaterialGroup visualization
+
+9. In the Visualizations pane, select **Stacked Bar Chart** **(1)**. From the Fields pane, drag-and-drop the SalesOrderHeaders.CUSTOMERGROUP field to the Y-axis box, the SalesOrderItems.NetAmount field to the X-axis box and the SalesOrderItems.MaterialGroup field to the Legend box.   
    
    
    
