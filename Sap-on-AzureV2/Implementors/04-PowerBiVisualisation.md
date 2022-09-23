@@ -161,8 +161,23 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 10. Adjust the sizing of the chart on the report canvas as desired.
 
     ![](media/ex4-t3-step10.png)
+
+- Payment Offset per CustomerGroup visualization
+  - This report shows the average number of days by which each customer group pays their SalesOrders. Afterwards, a comparison can be made with the outcome of the Machine Learning Model built in the next exercise. SalesOrderHeaders and the Payment data are combined to calculate the number of days between the billing date and the payment date.
+
+11. In Power BI Desktop, on **Home** tab toolbar menu expand the **Transform data** item. Select **Transform data**.
+
+    ![](media/ex4-t3-step11.png)
     
-11.     
+12. In the Power Query Editor window, select the **SalesOrderHeaders** **(1)** table from the Queries pane, and expand the **Combine** **(2)** followed by expand **Merge Queries** **(3)** option on the Home toolbar menu. Select the **Merge Queries as New** **(4)** option.
+
+    ![](media/ex4-t3-step12.png)
+    
+13. In the Merge window, select the **SALESDOCUMENT** **(1)** column of the SalesOrderHeaders table. Select the **Payments** **(2)** table as the second table, and select the **SalesOrderNr** **(3)** field. Select **Inner (only matching rows)** **(4)** as **Join Kind** and  select **OK** **(5)**.
+
+    ![](media/ex4-t3-step13.png)    
+
+      
    
    
    
