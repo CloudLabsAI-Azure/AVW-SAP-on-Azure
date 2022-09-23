@@ -611,9 +611,9 @@ from CosmosDB using a third pipeline.
 
    ![](media/t13-ex3-4.png)
 
-7. Once the Import schemas is completed, make sure to remove the mappings by unchecking the checkbox behind them as shown in the below screenshot.
+7. Once the Import schemas is completed, make sure to **remove the mappings by unchecking** **(1)** the checkbox behind them and for mapping with the name **Value**, select the **Column name** as **PaymentValue** **(2)** from the drop-down as shown in the below screenshot.
 
-   ![](media/t13-ex3-5.png)
+   ![](media/t13-ex3-5new.png)
 
 8. In the **Settings** **(1)** blade, check the box for **Enable staging** **(2)** and use the existing staging account linked service **sapdatasynwsSUFFIX** **(3)** to the Synapse Data Lake. Click on **Browse** **(4)** to the staging directory **sap-data-adls/staging** **(5)**, which was already created by the Terraform script.
 
