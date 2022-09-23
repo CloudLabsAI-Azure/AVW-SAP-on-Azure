@@ -177,7 +177,19 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
     ![](media/ex4-t3-step13.png)    
 
-      
+14. Rename the Merge query by right-clicking the Merge query in the Queries pane, and selecting **Rename**. Name the merged query **SalesOrderPayments**.
+
+15. With the **SalesOrderPayments** query selected, scroll the table completely to the right. Expand the **Payments** column menu, and choose to include the following fields: **PaymentNr**, **PaymentDate**, **PaymentValue** and **Currency**. Select **OK**.
+
+    ![](media/ex4-t3-step15.png)
+    
+16. Select **Close & Apply** in the Power Query editor toolbar.
+
+    ![](media/ex4-t3-step16.png)
+    
+- Calculate Payment Offset    
+
+    
    
    
    
