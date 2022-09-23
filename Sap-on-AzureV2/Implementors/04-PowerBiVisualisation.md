@@ -135,7 +135,7 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
    ![](media/ex4-t3-step5.png)
    
-6. You can select a CustomerGroup and Quarter in the Sales Report, the Map report will automatically update and only show this data.
+6. You can select a Year and CustomerGroup in the Sales Report, the Map report will automatically update and only show this data.
 
    ![](media/ex4-t3-step6.png)
    
@@ -143,7 +143,11 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
 7. In the Visualizations pane, select **Stacked Column Chart** **(1)**. From the Fields pane, drag-and-drop the **Payments.PaymentDate** **(2)** field to the X-axis box, the **Payments.PaymentValue** **(3)** field to the Y-axis box and the **SalesOrderHeaders.CUSTOMERGROUP** **(4)** field to the **Legend** box.   
    
+   ![](media/ex4-t3-step7.png)
    
+8. Adjust the sizing of the chart on the report canvas as desired.
+
+   ![](media/ex4-t3-step8.png)  
    
    
    
