@@ -144,7 +144,7 @@ In this exercise you will be setting up the powerBI reports for the extracted da
    
 - Payments per Date and CustomerGroup visualization
 
-7. In the Visualizations pane, select **Stacked Column Chart** **(1)**. From the Fields pane, drag-and-drop the **Payments.PaymentDate** **(2)** field to the X-axis box, the **Payments.PaymentValue** **(3)** field to the Y-axis box and the **SalesOrderHeaders.CUSTOMERGROUP** **(4)** field to the **Legend** box.   
+7. In the Visualizations pane, select **Stacked Column Chart** **(1)**. From the Fields pane, drag-and-drop the **Payments.PaymentDate** **(2)** field to the **X-axis** box, the **Payments.PaymentValue** **(3)** field to the **Y-axis** box and the **SalesOrderHeaders.CUSTOMERGROUP** **(4)** field to the **Legend** box.   
    
    ![](media/ex4-t3-step7.png)
    
@@ -154,7 +154,15 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
 - Sales Per CustomerGroup and MaterialGroup visualization
 
-9. In the Visualizations pane, select **Stacked Bar Chart** **(1)**. From the Fields pane, drag-and-drop the SalesOrderHeaders.CUSTOMERGROUP field to the Y-axis box, the SalesOrderItems.NetAmount field to the X-axis box and the SalesOrderItems.MaterialGroup field to the Legend box.   
+9. In the Visualizations pane, select **Stacked Bar Chart** **(1)**. From the Fields pane, drag-and-drop the **SalesOrderHeaders.CUSTOMERGROUP** **(2)** field to the Y-axis box, the SalesOrderItems.NetAmount field to the X-axis box and the SalesOrderItems.MaterialGroup field to the Legend box.
+
+   ![](media/ex4-t3-step9.png)
+   
+10. Adjust the sizing of the chart on the report canvas as desired.
+
+    ![](media/ex4-t3-step10.png)
+    
+11.     
    
    
    
