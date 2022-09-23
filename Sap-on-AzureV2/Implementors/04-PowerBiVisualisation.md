@@ -115,7 +115,7 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
    ![](media/ex4-t3-step1.png)
    
-2. In the Visualizations pane, select **Stacked column chart** **(1)**. In the Fields pane, from the **SalesOrderHeaders** table drag-and-drop the **CREATIONDATE** **(2)** field to the **Axis** box, the **TOTALNETAMOUNT** **(3)** field to the **Values** box and the **CUSTOMERGROUP** **(4)** field to the **Legend** box.
+2. In the Visualizations pane, select **Stacked column chart** **(1)**. From the Fields pane, select the **SalesOrderHeaders** table drag-and-drop the **CREATIONDATE** **(2)** field to the **Axis** box, the **TOTALNETAMOUNT** **(3)** field to the **Values** box and the **CUSTOMERGROUP** **(4)** field to the **Legend** box.
 
    ![](media/ex4-t3-step2.png)
    
@@ -123,4 +123,15 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
    ![](media/ex4-t3-step3.png)
    
-4. In the Visualizations pane, select **Map** **(1)**. From the Fields pane, drag-and-drop the SalesOrderHeaders.CITYNAME field to the Location box, the SalesOrderHeaders.CUSTOMERGROUP field to the Legend box and the SalesOrderHeaders.TOTALNETAMOUNT to the Bubble size box.   
+4. In the Visualizations pane, select **Map** **(1)**. From the Fields pane, drag-and-drop the SalesOrderHeaders.CITYNAME field to the Location box, the SalesOrderHeaders.CUSTOMERGROUP field to the Legend box and the SalesOrderHeaders.TOTALNETAMOUNT to the Bubble size box.
+
+   ![](media/ex4-t3-step4.png)
+   
+  > **Note**: Map visuals are disabled by default, access File -> Options and Settings -> Options -> Global - Security to enable. After updating Options in Power BI, you may need to close and reopen the report for the settings change to take effect.
+    > ![](media/ex4-t3-step5.png)
+
+5. Adjust the sizing and zoom of the map on the report canvas as desired.
+
+   ![](media/ex4-t3-step6.png)
+   
+6.   
