@@ -187,7 +187,7 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
     ![](media/ex4-t3-step16.png)
     
-- Calculate Payment Offset    
+- Calculate Payment Offset visualization 
 
 17. From the report designer on **Home** **(1)** tab toolbar menu, expand the **Transform data** **(2)** item. Select **Transform data** **(3)**.
 
@@ -213,7 +213,26 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
     ![](media/ex4-t3-step21.png)
     
-22.      
+22. On the report canvas, add a **Stacked Column chart** **(1)**. Drag-and-drop the **SalesOrderPayments.CUSTOMERGROUP** **(2)** to the **X-axis** box and **SalesOrderPayments.Offset** **(3)** to the **Y-axis** box.
+
+    ![](media/ex4-t3-step22.png)
+
+23. Expand the menu next to the **Offset column** and choose to report the **Average** **(4)**.
+
+    ![](media/ex4-t3-step23.png)
+    
+24. Adjust the sizing of the chart on the report canvas as desired.
+
+    ![](media/ex4-t3-step24.png)
+    
+- Payment offset per customer group box plot visualization (Optional)
+  - A box plot can provide a more detailed view of the payment offset by customer group data.
+  
+25. In the Visualizations pane, expand the ellipsis menu and select **Get more visuals**.
+
+    ![](media/ex4-t3-step25.png)
+    
+26.     
    
    
    
