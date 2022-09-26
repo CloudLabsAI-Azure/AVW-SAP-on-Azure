@@ -189,9 +189,31 @@ In this exercise you will be setting up the powerBI reports for the extracted da
     
 - Calculate Payment Offset    
 
+17. From the report designer, expand the **Transform data** item on Home tab toolbar menu. Select **Transform data**.
+
+    ![](media/ex4-t3-step17.png)   
+   
+18. In the Power Query Editor window, select the **SalesOrderPayments** table from the Queries pane. A new column is required to calculate the difference between the billing date and the actual payment data. Select the **Add Column** tab and select the **Custom Column** button on the toolbar menu.
+
+    ![](media/ex4-t3-step18.png)
     
-   
-   
+19. In the Custom Column window, enter `Offset` for the New column name. In the Custom column formula field, enter the following formula. Select **OK**.
+
+    ```vb
+    Duration.Days([PaymentDate] - [BILLINGDOCUMENTDATE])
+    ```
+    
+    ![](media/ex4-t3-step19.png)
+    
+20. In the table, right-click on the newly created Offset field and expand the **Change Type** option. Select **WholeNumber** to convert this column to integer.
+
+    ![](media/ex4-t3-step20.png)
+    
+21. Return to the Home tab and select **Close & Apply** in the Power Query editor toolbar.
+
+    ![](media/ex4-t3-step11.png)
+    
+22.     
    
    
    
