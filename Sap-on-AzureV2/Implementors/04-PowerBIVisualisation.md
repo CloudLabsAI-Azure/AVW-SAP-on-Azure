@@ -211,7 +211,7 @@ In this exercise you will be setting up the powerBI reports for the extracted da
     
 21. Return to the **Home** **(1)** tab and select **Close & Apply** **(2)** in the Power Query editor toolbar.
 
-    ![](media/ex4-t3-step11.png)
+    ![](media/ex4-t3-step21.png)
     
 22.      
    
