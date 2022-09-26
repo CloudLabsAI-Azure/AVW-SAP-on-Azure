@@ -6,3 +6,40 @@ You wll be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
 ### Task 1: Create a View in Synapse Workspace
 
+1. From the Synapse Studio, click on **Develop** from the left-menu. Click on```+``` **(1)** and select **SQL script** **(2)** to create a new view.
+
+   ![](media/ex5-t1-step1.png)
+   
+2. In the Properties, enter the Name as **CreateSalesPaymentsFull** **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then copy the below code and paste it in the codespace **(3)** and click on **Run** **(4)**.
+
+   ```sql
+   CREATE VIEW [dbo].[SalesPaymentsFull]
+	        AS SELECT s.[SALESDOCUMENT]
+      , s.[CUSTOMERNAME]
+      , s.[CUSTOMERGROUP]
+      , s.[BILLINGCOMPANYCODE]
+      , s.[BILLINGDOCUMENTDATE]
+      , p.[PaymentDate] as PAYMENTDATE
+      , s.[CUSTOMERACCOUNTGROUP]
+      , s.[CREDITCONTROLAREA]
+      , s.[DISTRIBUTIONCHANNEL]
+      , s.[ORGANIZATIONDIVISION]
+      , s.[SALESDISTRICT]
+      , s.[SALESGROUP]
+      , s.[SALESOFFICE]
+      , s.[SALESORGANIZATION]
+      , s.[SDDOCUMENTCATEGORY]
+      , s.[CITYNAME]
+      , s.[POSTALCODE]
+      , DATEDIFF(dayofyear, s.BILLINGDOCUMENTDATE, p.PaymentDate) as PAYMENTDELAYINDAYS
+    FROM [dbo].[SalesOrderHeaders] as s
+   JOIN [dbo].[Payments] as p ON REPLACE(LTRIM(REPLACE(s.[SALESDOCUMENT], '0', ' ')), ' ', '0') = p.[SalesOrderNr]
+   ```
+   
+   ![](media/ex5-t1-step2.png)
+   
+3. After ```Refresh``` the view will appear under Views when using Azure Data Studio.   
+   
+   
+   
+   
