@@ -250,7 +250,7 @@ In this exercise you will be setting up the powerBI reports for the extracted da
     
 30. Adjust the sizing of the chart on the report canvas as desired.    
    
-    ![](media/ex4-t3-step29.png)
+    ![](media/ex4-t3-step30.png)
 
     From this diagram you can see that:
     * CustomerGroup1 pays within 70 days +/- 10 days
