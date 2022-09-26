@@ -232,9 +232,32 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
     ![](media/ex4-t3-step25.png)
     
-26.     
+26. On the Power BI visuals window, search for **Box and Whisker** **(1)**. Then choose the **Box and Whisker chart** **(2)** by DataScenarios.
+
+    ![](media/ex4-t3-step26.png)
+    
+27. On the AppSource window, select the **Add** button to add the Box and Whisker chart.
+
+    ![](media/ex4-t3-step27.png)
+    
+28. On the Visualizations pane, select the newly added **Box and Whisker chart** **(1)**. In the **Category** field, drag-and-drop the **SalesOrderPayments.CUSTOMERGROUP** **(2)**, **SalesOrderPayments.Offset** **(3)** into the **Sampling** field, and **SalesOrderPayments.Offset** **(4)** into the **Value** field.
+
+    ![](media/ex4-t3-step28.png) 
+
+29. Expand the menu in the **Value** field and select the **Average** option.
+
+    ![](media/ex4-t3-step29.png)
+    
+30. Adjust the sizing of the chart on the report canvas as desired.    
    
-   
+    ![](media/ex4-t3-step29.png)
+
+    From this diagram you can see that:
+    * CustomerGroup1 pays within 70 days +/- 10 days
+    * CustomerGroup2 pays within 30days +/- 5 days
+    * Other customergroups pay after 10 days
+
+>**Note**: Keep this report open in Power BI desktop for future exercises.
    
    
    
