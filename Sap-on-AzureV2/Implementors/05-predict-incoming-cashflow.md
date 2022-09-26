@@ -6,7 +6,7 @@ You wll be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
 ### Task 1: Create a View in Synapse Workspace
 
-1. From the Synapse Studio, click on **Develop** from the left-menu. Click on```+``` **(1)** and select **SQL script** **(2)** to create a new view.
+1. From the Synapse Studio, click on **Develop** **(1)** from the left-menu. Click on```+``` **(2)** and select **SQL script** **(3)** to create a new view.
 
    ![](media/ex5-t1-step1.png)
    
