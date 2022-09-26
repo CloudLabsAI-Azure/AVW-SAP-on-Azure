@@ -38,7 +38,12 @@ You wll be using [Azure Machine Learning](https://ml.azure.com/) for this.
    
    ![](media/ex5-t1-step2.png)
    
-3. After ```Refresh``` the view will appear under Views when using Azure Data Studio.   
+3. From **Data** **(1)**, click on **Workspace** **(2)** and select **sapdatasynsql** SQL database.  You will see the created **dbo.SalesPaymentsFull** view under **Views** **(4)**. If you are not able to see, click on eclipse **(...)** button next to **Views** and select **Refresh**.
+
+   ![](media/ex5-t1-step3.png)
+   
+   
+   
    
    
    
