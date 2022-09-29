@@ -56,5 +56,13 @@ You wll be using [Azure Machine Learning](https://ml.azure.com/) for this.
    
 ### Task 2: Configure the Data store in ML studio
 
-1. 
+1. Navigate to the **microhack-<inject key="DeploymentID" enableCopy="false"/>-rg** resource group in the Azure portal and open the Azure Machine Learning workspace named **sap-data-ml-ws** from the resources.
+
+   ![](media/ex5-t2-step1.png)
+   
+2. In the Overview of **sapdatasynwsSUFFIX** Azure Machine Learning workspace, click on **Launch studio**.
+
+   ![](media/ex5-t2-step2.png)
+   
+3.    
    
