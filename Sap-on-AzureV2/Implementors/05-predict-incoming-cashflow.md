@@ -88,3 +88,6 @@ You wll be using [Azure Machine Learning](https://ml.azure.com/) for this.
 5. Once the Datastore is Successfully created, you will be able to see the **sap_data_ml_ds** listed under Datastores.
 
    ![](media/ex5-t2-step5.png)    
+
+### Task 3: Configure the Automated ML Run
+
