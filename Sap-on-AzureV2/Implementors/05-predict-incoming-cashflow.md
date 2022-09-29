@@ -68,17 +68,23 @@ You wll be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
    ![](media/ex5-t2-step3.png)
    
-4. In the Create datastore pane, enter the following values in the respective fields:
+4. In the Create datastore pane, enter the following values in the respective fields and click on **Create** **(11)**.
 
    | Field                         | Value                        |
-   |--------------------------- -- |----------------------------- |
+   |------------------------------ |----------------------------- |
    | Datastore name (1)            | **sap_data_ml_ds**           |
-   | Data store type (2)           | **Azure SQL Database**       |
+   | Datastore type (2)           | **Azure SQL Database**       |
    | Account Selection method (3)  | select `Enter Manually`      |
-   | Enter your Synapse Workspace name as `Server Name` (4) | **sapdatasynwsSUFFIX** |
+   | Enter your Synapse Workspace name as Server Name (4) | **sapdatasynwsSUFFIX** |
    | Enter your Synapse SQL Pool as Database Name (5) | **sapdatasynsql** |
-   | Select your Subscription   | Select the available subscription in which **microhack-<inject key="DeploymentID" enableCopy="false"/>-rg** resource group is deployed**
-   Enter your resource group name, in our case this is `microhack-sap-data-rg`
-   Authentication Type : `SQL Authentication`
-   Enter UserId and Password
+   | Select your Subscription (6)  | Select the subscription in which **microhack-<inject key="DeploymentID" enableCopy="false"/>-rg** resource group is deployed |
+   | Enter your resource group name (7) | **microhack-<inject key="DeploymentID" enableCopy="false"/>-rg** |
+   | Authentication Type (8) | **SQL Authentication** |
+   | Enter UserId (9)        | **azureadmin**         |
+   | Enter Password (10)     |  **Sapdata!pass123**   |
+   
+   ![](media/ex5-t2-step4.png)
+   
+5. Once the Datastore is Successfully created, you will be able to see the **sap_data_ml_ds** listed under Datastores.
 
+   ![](media/ex5-t2-step5.png)    
