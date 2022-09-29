@@ -91,3 +91,9 @@ You wll be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
 ### Task 3: Configure the Automated ML Run
 
+1. On the left menu, click on **Automated ML** **(1)** and select **New Automated ML Run** **(2)**.
+
+   ![](media/ex5-t3-step1.png)
+   
+2. 
+
