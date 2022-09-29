@@ -54,5 +54,7 @@ You wll be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
     ![](media/ex5-t1-step5.png)   
    
-   
+### Task 2: Configure the Data store in ML studio
+
+1. 
    
