@@ -42,9 +42,17 @@ You wll be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
    ![](media/ex5-t1-step3.png)
    
+4. You can now test the view by executing the SQL. From **Develop** **(1)**, click on ```+``` **(2)** and select **SQL script** **(3)** to create a new SQL script.
+
+   ![](media/t6-ex3-16.png)
    
-   
-   
+5. Enter the below SQL script into the codespace **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then click on **Run** **(3)** and explore the **Results** **(4)**.
+
+    ```bash
+    select * from SalesPaymentsFull
+    ```
+
+    ![](media/ex5-t1-step5.png)   
    
    
    
