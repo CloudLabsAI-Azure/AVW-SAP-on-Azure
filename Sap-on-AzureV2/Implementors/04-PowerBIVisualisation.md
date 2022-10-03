@@ -230,15 +230,15 @@ In this exercise you will be setting up the powerBI reports for the extracted da
   
 25. In the Visualizations pane, expand the ellipsis menu and select **Get more visuals**.
 
-    ![](media/ex4-t3-step25.png)
+    ![](media/ex4-t3-step25new.png)
     
 26. On the Power BI visuals window, search for **Box and Whisker** **(1)**. Then choose the **Box and Whisker chart** **(2)** by DataScenarios.
 
-    ![](media/ex4-t3-step26.png)
+    ![](media/ex4-t3-step26new.png)
     
 27. On the AppSource window, select the **Add** button to add the Box and Whisker chart.
 
-    ![](media/ex4-t3-step27.png)
+    ![](media/ex4-t3-step27new.png)
     
 28. On the Visualizations pane, select the newly added **Box and Whisker chart** **(1)**. In the **Category** field, drag-and-drop the **SalesOrderPayments.CUSTOMERGROUP** **(2)**, **SalesOrderPayments.Offset** **(3)** into the **Sampling** field, and **SalesOrderPayments.Offset** **(4)** into the **Value** field.
 
