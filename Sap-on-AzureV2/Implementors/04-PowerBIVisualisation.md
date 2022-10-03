@@ -179,9 +179,9 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
 14. Rename the Merge query by right-clicking the Merge query in the Queries pane, and selecting **Rename**. Name the merged query **SalesOrderPayments**.
 
-15. With the **SalesOrderPayments** query selected, scroll the table completely to the right. Expand the **Payments** column menu, and choose to include the following fields: **PaymentNr**, **PaymentDate**, **PaymentValue** and **Currency**. Select **OK**.
+15. With the **SalesOrderPayments** **(1)** query selected, scroll the table completely to the right. Expand the **Payments** **(2)** column menu, and choose to include the following **fields** **(3)**: **PaymentNr**, **PaymentDate**, **PaymentValue** and **Currency**. Make sure to **Uncheck** **(4)** for Use original column name as prefix and select **OK** **(5)**.
 
-    ![](media/ex4-t3-step15.png)
+    ![](media/ex4-t3-step15new.png)
     
 16. Select **Close & Apply** in the Power Query editor toolbar.
 
@@ -258,7 +258,4 @@ In this exercise you will be setting up the powerBI reports for the extracted da
     * Other customergroups pay after 10 days
 
 >**Note**: Keep this report open in Power BI desktop for future exercises.
-   
-   
-   
    
