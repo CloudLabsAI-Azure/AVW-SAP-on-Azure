@@ -133,11 +133,74 @@ You wll be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
    ![](media/ex5-t3-step8.png)
    
-9.    
+9. On the Configure job step, enter the below values:
+
+    | Field | Value |
+    |-------|-------|
+    | Experiment name (1)     | Check for **Create new**   |
+    | New experiment name (2) | Enter **sap-data-ml-experiment** |
+    | Target column (3) | Select **PAYMENTDELAYINDAYS** |
+    | Select compute type (4) | Select **Compute cluster** |
+    | Select Azure ML compute cluster (5) | Click on **+ New** |
    
+   ![](media/ex5-t3-step9.png)
    
+10. In the Create compute cluster blade Virtual machine step, accept the default values and select **Next**.
+
+     ![](media/ex5-t3-step10.png)
+     
+11. In the Create compute cluster blade Advanced settings, enter the below values and then select **Create** **(3)**. It takes a few moments for the cluster to be provisioned.
+
+    | Field | Value |
+    |-------|-------|
+    | Compute name (1) | Enter **sap-data-ml-vm** |
+    | Maximum number of nodes (2) | Enter `3`. |
+    
+    ![](media/ex5-t3-step11.png)
+    
+12. Once the compute cluster is created successfully, you will be reverted back to the Configure job step. Select the **sap-data-ml-vm** **(1)** computer cluster For Select Azure ML compute cluster from the drop-down and select **Next** **(2)**.
+
+    ![](media/ex5-t3-step12.png)
+     
+13. In the Select task and settings step, select **Regression** **(1)**, then select **View additional configuration settings** **(2)**.
+
+    ![](media/ex5-t3-step13.png)
+    
+14. In the Additional configurations blade, select the Primary metric of **Normalized root mean squared error** **(1)**, then **expand the Blocked models** **(2)** drop down, check the following items, and select **Save** **(3)**. This will reduce the time to train the model. Make sure that **DecisionTree** and **XGBoostRegressor** are unchecked.
+
+     - ElasticNet
+     - GradientBoosting
+     - KNN
+     - LassoLars
+     - SGD
+     - RandomForest
+     - ExtremeRandomTrees
+     - LightGBM
+     - FastLinearRegressor
+     - OnlineGradientDescentRegressor    
    
-   
+    ![](media/ex5-t3-step14.png)
+    
+15. Select **Next** on the Select task and settings step. On the Validate and test step, select **Finish**.
+
+    ![](media/ex5-t3-step15.png)
+    
+16. The job has started creating and opened in the browser. Use the **Refresh** button to monitor the current state.
+
+    > **Note**: Training will take approximately 15-20 minutes.
+
+    ![](media/ex5-t3-step16.png)
+    
+17. During the run you can follow-up on the tested models via **Models** tab.
+
+    ![](media/ex5-t3-step17.png)
+    
+### Task 4: Deploy the best trained Model
+
+1. Once the Automated ML job indicates a status of **Completed** **(1)**. Scroll-down to Best model summary card on the screen and select the hyperlink beneath the **Algorithm name** **(2)** heading.
+
+   ![](media/ex5-t4-step1.png)
+    
    
    
    
