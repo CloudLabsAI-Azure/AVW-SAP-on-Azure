@@ -214,7 +214,15 @@ You wll be using [Azure Machine Learning](https://ml.azure.com/) for this.
     
    ![](media/ex5-t4-step3.png)
    
+4. In the Model screen, monitor the Deploy status at the bottom of the Model summary card. It will indicate a status of **Completed** in a few minutes time.
+
+   ![](media/ex5-t4-step4.png)
    
+5. Select the hyperlink below **Deploy status** to go to the deployed service endpoint screen.
+
+   ![](media/ex5-t4-step5.png)
    
+6. On the **sap-data-ml-model** endpoint screen, select the **Test** **(1)** tab. Replace the contents of the input data with the below given code **(2)** and select **Test** **(3)**.  
    
+   ![](media/ex5-t4-step6.png)
    
