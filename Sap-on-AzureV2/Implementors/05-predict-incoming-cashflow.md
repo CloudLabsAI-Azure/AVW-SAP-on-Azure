@@ -222,7 +222,47 @@ You wll be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
    ![](media/ex5-t4-step5.png)
    
-6. On the **sap-data-ml-model** endpoint screen, select the **Test** **(1)** tab. Replace the contents of the input data with the below given code **(2)** and select **Test** **(3)**.  
+6. On the **sap-data-ml-model** endpoint screen, select the **Test** **(1)** tab. Replace the contents of the input data with the below given code **(2)** and select **Test** **(3)**. Verify the **Test result** **(4)**.
+
+   ```json
+    {
+        "Inputs": {
+            "data": [
+            { 
+                "CUSTOMERNAME": "Westend Cycles",
+                "CUSTOMERGROUP": "Z1",
+                "BILLINGCOMPANYCODE": 1710,
+                "CUSTOMERACCOUNTGROUP": "KUNA",
+                "CREDITCONTROLAREA": "A000",
+                "DISTRIBUTIONCHANNEL": 10,
+                "ORGANIZATIONDIVISION": 0,
+                "SALESDISTRICT": "US0003",
+                "SALESORGANIZATION": 1710,
+                "SDDOCUMENTCATEGORY": "C",
+                "CITYNAME": "RALEIGH",
+                "POSTALCODE": "27603"
+            },
+            { 
+                "CUSTOMERNAME": "Skymart Corp",
+                "CUSTOMERGROUP": "Z2",
+                "BILLINGCOMPANYCODE": 1710,
+                "CUSTOMERACCOUNTGROUP": "KUNA",
+                "CREDITCONTROLAREA": "A000",
+                "DISTRIBUTIONCHANNEL": 10,
+                "ORGANIZATIONDIVISION": 0,
+                "SALESDISTRICT": "US0004",
+                "SALESORGANIZATION": 1710,
+                "SDDOCUMENTCATEGORY": "C",
+                "CITYNAME": "New York",
+                "POSTALCODE": "10007"
+            }
+            ]
+        },
+        "GlobalParameters": 1.0
+   }
+   ```
    
    ![](media/ex5-t4-step6.png)
+   
+### Task 5: Test the Payment Delay/Offset Prediction  
    
