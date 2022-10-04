@@ -128,3 +128,19 @@ You wll be using [Azure Machine Learning](https://ml.azure.com/) for this.
 7. In the **Confirm** details step, select **Create**.
 
    ![](media/ex5-t3-step7.png)
+   
+8. On the Select data asset step, select **SalesPaymentsView** **(1)** from the list and select **Next** **(2)**.
+
+   ![](media/ex5-t3-step8.png)
+   
+9.    
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
