@@ -154,7 +154,7 @@ You wll be using [Azure Machine Learning](https://ml.azure.com/) for this.
     | Field | Value |
     |-------|-------|
     | Compute name (1) | Enter **sap-data-ml-vm** |
-    | Maximum number of nodes (2) | Enter `3`. |
+    | Maximum number of nodes (2) | Enter `3` |
     
     ![](media/ex5-t3-step11.png)
     
@@ -201,7 +201,18 @@ You wll be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
    ![](media/ex5-t4-step1.png)
     
+2. You can navigate into the different sections and visualize the information about this algorithm. Then on the Model screen, expand the **Deploy** **(1)** item in the toolbar menu and select **Deploy to web service** **(2)**.
+
+   ![](media/ex5-t4-step2.png)
    
+3. On the Deploy a model blade, enter the below values and then select **Deploy** **(3)**.
+
+    | Field | Value |
+    |-------|-------|
+    | Name (1) | Enter **sap-data-ml-model** |
+    | Compute type (2) | Select **Azure Container Instance** |
+    
+   ![](media/ex5-t4-step3.png)
    
    
    
