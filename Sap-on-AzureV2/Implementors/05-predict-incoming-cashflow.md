@@ -125,4 +125,6 @@ You wll be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
    ![](media/ex5-t3-step6.png)
    
-7.    
+7. In the **Confirm** details step, select **Create**.
+
+   ![](media/ex5-t3-step7.png)
