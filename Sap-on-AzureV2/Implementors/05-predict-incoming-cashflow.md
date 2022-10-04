@@ -91,9 +91,17 @@ You wll be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
 ### Task 3: Configure the Automated ML Run
 
-1. On the left menu, click on **Automated ML** **(1)** and select **New Automated ML Run** **(2)**.
+1. In the left menu, click on **Automated ML** **(1)** and select **New Automated ML Run** **(2)**.
 
    ![](media/ex5-t3-step1.png)
    
-2. 
+2. On the Create a new Automated ML job Select a data asset step, expand the **Create** **(1)** menu and select **From datastore** **(2)**.
+
+   ![](media/ex5-t3-step2.png)
+   
+3. On the Create dataset from datastore blade Basic info step, name the dataset **SalesPaymentsView** **(1)**. Select **Next** **(2)**.
+
+   ![](media/ex5-t3-step3.png)
+   
+4. On the Create dataset from datastore blade Datastore selection step, select the **sap_data_ml_ds** **(1)** datastore   
 
