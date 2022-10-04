@@ -99,9 +99,30 @@ You wll be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
    ![](media/ex5-t3-step2.png)
    
-3. On the Create dataset from datastore blade Basic info step, name the dataset **SalesPaymentsView** **(1)**. Select **Next** **(2)**.
+3. On the **Create dataset from datastore** blade Basic info step, name the dataset **SalesPaymentsView** **(1)**. Select **Next** **(2)**.
 
    ![](media/ex5-t3-step3.png)
    
-4. On the Create dataset from datastore blade Datastore selection step, select the **sap_data_ml_ds** **(1)** datastore   
+4. From **Datastore selection** step, select the **sap_data_ml_ds** **(1)** datastore. Add the below SQL query **(2)** to get all the data from the view defined above and then click **Next** **(3)**. 
 
+   ```sql
+   select * from SalesPaymentsFull
+   ```  
+   
+   ![](media/ex5-t3-step4.png)
+   
+5. In the **Settings and preview** step, you can ensure and verify the data for the query is working fine by visualizing the data in the next window. Click **Next**.
+
+   ![](media/ex5-t3-step5.png)
+   
+6. In the **Schema** step, toggle the following **fields off** so that they are not included in the dataset and then select **Next**:
+
+    - SALESDOCUMENT
+    - BILLINGDOCUMENTDATE
+    - PAYMENTDATE
+    - SALESGROUP
+    - SALESOFFICE
+
+   ![](media/ex5-t3-step6.png)
+   
+7.    
