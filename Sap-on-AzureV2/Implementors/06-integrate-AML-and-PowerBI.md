@@ -16,8 +16,26 @@ In this exercise, you can now integrate the Azure Machine Learning Model within 
 
    ![](media/ex6-t1-step3.png)
    
-4. In the Power Query Editor, with the SalesOrderPayments table selected in the Queries pane, scroll all the way to the right of the displayed table. Right-click the **AzureML.sap-data-ml-model** **(1)** field menu and choose to rename the field **predOffset** **(2)**.
+4. In the Power Query Editor, with the SalesOrderPayments table selected in the Queries pane, scroll all the way to the right of the displayed table. Right-click the **AzureML.sap-data-ml-model** **(1)** field menu and choose **Rename** **(2)**. Rename the field to **predOffset** **(2)**.
 
    ![](media/ex6-t1-step4.png)
 
-5. 
+5. Right-click the **predOffset** **(1)** column, expand the **Change Type** **(2)** option, and select **Whole Number** **(3)**.
+
+   ![](media/ex6-t1-step5.png)
+   
+6. On the Power Query Editor, select the **Add Column** **(1)** tab, select **Custom Column** **(2)**.
+
+   ![](media/ex6-t1-step6.png)
+   
+7. In the Custom Column dialog, name the new column **predPaymentDate** **(1)** and set the formula given below **(2)** and select **OK** **(3)**.
+
+    ```vb
+    Date.AddDays([BILLINGDOCUMENTDATE], [predOffset])
+    ```   
+    
+   ![](media/ex6-t1-step7.png)
+   
+8. Right-click the new **predPaymentDate** **(1)** column and expand the **Change Type** **(2)** option and choose **Date** **(3)**.
+
+   ![](media/ex6-t1-step8.png) 
