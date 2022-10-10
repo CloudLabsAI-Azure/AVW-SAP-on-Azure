@@ -38,4 +38,11 @@ In this exercise, you can now integrate the Azure Machine Learning Model within 
    
 8. Right-click the new **predPaymentDate** **(1)** column and expand the **Change Type** **(2)** option and choose **Date** **(3)**.
 
-   ![](media/ex6-t1-step8.png) 
+   ![](media/ex6-t1-step8.png)
+   
+9. Select the **Home** **(1)** tab then **Close & Apply** **(2)**.
+
+   ![](media/ex6-t1-step9.png)
+   
+### Task 2: PowerBI Report Creation   
+   
