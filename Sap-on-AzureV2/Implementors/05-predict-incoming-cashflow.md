@@ -266,6 +266,20 @@ You wll be using [Azure Machine Learning](https://ml.azure.com/) for this.
    
    ![](media/ex5-t4-step6.png)
      
-### Task 6: Automated ML - Best Model - Additional Info (Optional)
+### Task 6: Automated ML - Best Model Additional Info (Optional)
 
-1. 
+1. Navigate to **Automated ML** **(1)** section from left-menu, click on the created Automated ML job **(2)**.
+
+   ![](media/ex5-t6-step1.png)
+   
+2. In the Automated ML job pane, scroll-down to Best model summary card on the screen and select the hyperlink beneath the **Algorithm name** heading.
+
+   ![](media/ex5-t6-step2.png)
+   
+3. From the Best Model pane, select **Explanations (preview)** **(1)**. Select an **Explanation ID** **(2)** and click **Aggregate Feature Importance** **(3)**.
+
+   ![](media/ex5-t6-step3.png)
+   
+   From the above view, you can see that **CUSTOMERGROUP** was the most important feature to determine the offset.
+   
+   
