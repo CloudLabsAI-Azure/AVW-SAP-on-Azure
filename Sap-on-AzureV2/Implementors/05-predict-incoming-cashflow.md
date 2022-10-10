@@ -218,11 +218,13 @@ You wll be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
    ![](media/ex5-t4-step4.png)
    
-5. Select the hyperlink below **Deploy status** to go to the deployed service endpoint screen.
+### Task 5: Test the Payment Delay/Offset Prediction
+
+1. Select the hyperlink below **Deploy status** to go to the deployed service endpoint screen.
 
    ![](media/ex5-t4-step5.png)
    
-6. On the **sap-data-ml-model** endpoint screen, select the **Test** **(1)** tab. Replace the contents of the input data with the below given code **(2)** and select **Test** **(3)**. Verify the **Test result** **(4)**.
+2. On the **sap-data-ml-model** endpoint screen, select the **Test** **(1)** tab. Replace the contents of the input data with the below given code **(2)** and select **Test** **(3)**. Verify the **Test result** **(4)**.
 
    ```json
     {
@@ -263,6 +265,7 @@ You wll be using [Azure Machine Learning](https://ml.azure.com/) for this.
    ```
    
    ![](media/ex5-t4-step6.png)
-   
-### Task 5: Test the Payment Delay/Offset Prediction  
-   
+     
+### Task 6: Automated ML - Best Model - Additional Info (Optional)
+
+1.
