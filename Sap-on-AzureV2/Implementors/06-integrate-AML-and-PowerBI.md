@@ -137,7 +137,7 @@ In this Task, you will now display the Sales & predicted payment forecast in Pow
   
    ![](media/ex6-t3-step2.png)
    
-3. In the below picture you can judge how well your 'forecasted' payment values are compared to the past actual payment values.
+3. In the below picture you can judge how well your `forecasted` payment values are compared to the past actual payment values.
 
    ![](media/ex6-t3-step3.png)
    
