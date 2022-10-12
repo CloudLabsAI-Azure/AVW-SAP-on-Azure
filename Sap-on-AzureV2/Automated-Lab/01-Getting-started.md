@@ -35,3 +35,5 @@ In this exercise, you will log in to the Azure Portal and review the pre-deploye
    ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex1-rg.png?raw=true)
 
 1. Click on the **aiw-sap-<inject key="DeploymentID" enableCopy="false" />** Resource group and go through with the pre-deployed resources.
+
+    ![](../Automated-Lab/media/e1-01.png)
