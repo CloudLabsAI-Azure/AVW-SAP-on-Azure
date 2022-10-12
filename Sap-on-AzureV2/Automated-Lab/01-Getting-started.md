@@ -10,19 +10,19 @@ In this exercise, you will log in to the Azure Portal and review the pre-deploye
 
 1. Open Azure Portal from the desktop by double-clicking on it.
     
-   ![](media/open-azure-portal.png)
+   ![](../Implementors/media/open-azure-portal.png)
    
 2. On the **Sign into Microsoft Azure** tab, you will see the login screen, enter the following username, and, then click on **Next**.
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-   ![](media/email-login.png)
+   ![](../Implementorsmedia/email-login.png)
 
 3. Now enter the following password and click on **Sign in**. 
 
    * Password: <inject key="AzureAdUserPassword"></inject>
 
-   ![](media/password-login.png)
+   ![](../Implementorsmedia/password-login.png)
 
 4. If you see the pop-up **Stay Signed in?**, click on No
 
