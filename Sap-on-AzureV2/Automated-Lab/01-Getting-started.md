@@ -29,3 +29,9 @@ In this exercise, you will log in to the Azure Portal and review the pre-deploye
 5. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
 6. If a **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
+
+1. Now you can see Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
+
+   ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex1-rg.png?raw=true)
+
+1. Click on the **aiw-sap-<inject key="DeploymentID" enableCopy="false" />** Resource group and go through with the pre-deployed resources.
