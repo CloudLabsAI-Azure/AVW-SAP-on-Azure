@@ -125,6 +125,22 @@ In this Task, you will now display the Sales & predicted payment forecast in Pow
    
 ### Task 3: Create Sales and Payment Forecast report     
     
+1. From the left menu, select the **Report** item.
+
+   ![](media/ex6-t3-step1.png)
+   
+2. In the Visualizations pane, 
+
+   - Select **Clustered Column Chart** **(1)**. 
+   - Drag-and-drop the **Date.Date** field to the **X-axis** **(2)** box.
+   - Drag-and-drop the **Date.Sales at Billing Date**, **Date.Payment at pred Date**, and **Date.Payment at actual Date** to the **Y-axis** box.
+  
+   ![](media/ex6-t3-step2.png)
+   
+3. In the below picture you can judge how well your 'forecasted' payment values are compared to the past actual payment values.
+
+   ![](media/ex6-t3-step3.png)
+   
    
 
 
