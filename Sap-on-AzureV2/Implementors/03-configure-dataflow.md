@@ -3,7 +3,7 @@
 ## Introduction
 
 In this step we'll setup the dataflow from the SAP System and Cosmos DB towards the Synapse DB. Sales OrderHeaders will be extracted via the first Synapse pipeline 
-using the SAP Table connector, Sales Order Items will be extracted via a second Synapse Pipeline using the SAP ECC (oData) connector. Payment data will be extracted
+using the SAP Hana connector, Sales Order Items will be extracted via a second Synapse Pipeline using the SAP Hana connector. Payment data will be extracted
 from CosmosDB using a third pipeline.
 
    ![](media/ex3-architectureOverview.png)
