@@ -1,6 +1,6 @@
 # Exercise 5: Predict Incoming Cashflow
 
-In this exercise you wll create a model to predict incoming cashflow based on historical payment delays for previous sales.
+In this exercise you will create a model to predict incoming cashflow based on historical payment delays for previous sales.
 
 You wll be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
