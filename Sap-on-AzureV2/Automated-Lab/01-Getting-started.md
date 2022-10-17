@@ -37,3 +37,7 @@ In this exercise, you will log in to the Azure Portal and review the pre-deploye
 1. Click on the **aiw-sap-<inject key="DeploymentID" enableCopy="false" />** Resource group and go through with the pre-deployed resources.
 
     ![](../Automated-Lab/media/e1-01.png)
+
+## Summary
+
+* In this exercise, you signed in to the Azure Portal and reviewed the pre-deployed resources.
