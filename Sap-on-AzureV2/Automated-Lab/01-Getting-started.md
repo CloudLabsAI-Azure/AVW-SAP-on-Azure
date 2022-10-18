@@ -41,4 +41,4 @@ In this exercise, you will log in to the Azure Portal and review the pre-deploye
 
 ## Summary
 
-* In this exercise, you signed in to the Azure Portal and reviewed the pre-deployed resources.
+* In this exercise, you signed into the Azure Portal and reviewed the pre-deployed resources.
