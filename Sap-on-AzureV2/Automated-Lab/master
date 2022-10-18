@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "AIW-SAP-on-Azure",
+    "Language": "English",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/main/README.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Automated-Lab/02.md",
+        "Order": 2
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Automated-Lab/03.md",
+        "Order": 3
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Automated-Lab/04.md",
+        "Order": 4
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Automated-Lab/05.md",
+        "Order": 5
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Automated-Lab/06.md",
+        "Order": 6
+      }
+    ]
+  }
+]
