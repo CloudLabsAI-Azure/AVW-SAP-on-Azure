@@ -4,7 +4,7 @@
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/Automated-Lab/Overview.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Automated-Lab/Overview.md",
         "Order": 1
       },
       {
