@@ -15,13 +15,13 @@ In this exercise, you will log in to the Azure Portal and review the pre-deploye
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-   ![](../Implementorsmedia/email-login.png)
+   ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/raw/main/media/M2-Ex1-portalsignin-1.png?raw=true)
 
 3. Now enter the following password and click on **Sign in**. 
 
    * Password: <inject key="AzureAdUserPassword"></inject>
 
-   ![](../Implementorsmedia/password-login.png)
+   ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex1-portalsignin-2.png?raw=true)
 
 4. If you see the pop-up **Stay Signed in?**, click on No
 
