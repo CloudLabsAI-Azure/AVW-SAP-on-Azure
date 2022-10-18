@@ -24,7 +24,7 @@ In this hands-on lab, you will extract (historical) Sales Orders from SAP system
 - Power Automate
 - Azure Machine Learning
 - Azure Automated ML
-- Azure Synapse Analytic
+- Azure Synapse Analytics
 
 
 ## Solution architecture
