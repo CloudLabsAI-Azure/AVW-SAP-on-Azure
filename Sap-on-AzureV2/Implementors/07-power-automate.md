@@ -1,7 +1,5 @@
 # Exercise 7: Create a workflow to export the PowerBI Sales report and Share it to Teams
 
-# Exercise 6: Create a workflow to export the PowerBI Sales report and Share it to Teams
-
 ## Overview
 
 Power Automate is a tool that helps users create workflows between desired applications to synchronize files, get notifications, and collect data. This intelligent cloud-based solution uses triggers and actions to create chain reactions within a workflow so that repetitive, manual, and time-consuming tasks are accomplished without human intervention.
