@@ -23,7 +23,9 @@ In this exercise, you will log in to the Azure Portal and review the pre-deploye
 
    ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex1-portalsignin-2.png?raw=true)
 
-4. If you see the pop-up **Stay Signed in?**, click on No
+4. If you see the pop-up **Stay Signed in?**, click on **No**.
+
+   ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/raw/main/media/M2-Ex1-portalsignin-3.png?raw=true)
 
 5. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
 
