@@ -65,7 +65,14 @@ In this exercise, you will log in to the Azure Portal and review the pre-deploye
 
     * **Storage Account** : You will be using the Azure Data Lake Storage Gen2 Storage Account to store the Sales Order Headers, Slaes Order Items, Payments, and IoT data in the container.
 
-    * **Azure Cosmos Database** : You will be using the Cosmos Database to store the raw Payment data. The Payment data will be transfered from Azure Data Lake Storage Gen2 Storage Account to Cosmos Database after the Pipeline is successfully deployed.
+    * **Azure Cosmos Database** : You will be using the Cosmos Database to store the raw Payment data. After the Pipeline is successfully deployed, the Payment data will be transferred from Azure Data Lake Storage Gen2 Storage Account to Cosmos Database.
+
+    * **Key Vault** : You will be using the Key Vault to store secrets and other sensitive information that is needed by the Azure Machine Learning workspace.
+
+    * **Application Insights** : You will be using the Appliction Insights to store monitoring information about the deployed models in Azure Machine Learning workspace.
+
+    * **Container Registry** : You will be using the Container Registry to register the docker images which are being used in training the models in Azure Machine Learning workspace.
+    
     ![](../Automated-Lab/media/e1-01.png)
 
 ## Summary
