@@ -52,11 +52,11 @@ In this Task, you will now display the Sales & predicted payment forecast in Pow
 
 1. In Power BI, select the **Data** item from the left menu.
 
-   ![](media/ex6-t2-step1.png)
+   ![](media/ex6-t2-step1new.png)
    
 2. From the **Table tools** **(1)** menu, select **New table** **(2)**.
 
-   ![](media/ex6-t2-step2.png)
+   ![](media/ex6-t2-step2new.png)
 
 3. In the **formula textbox** **(1)**, paste the following and select the **checkmark** **(2)** button to execute the formula and create the table.
 
@@ -78,7 +78,7 @@ In this Task, you will now display the Sales & predicted payment forecast in Pow
    )
    ```
    
-   ![](media/ex6-t2-step3.png)
+   ![](media/ex6-t2-step3new.png)
 
 * Create Relationships
 
@@ -89,13 +89,13 @@ In this Task, you will now display the Sales & predicted payment forecast in Pow
    * Date.Date - SalesOrderPayments.PaymentDate
    * Date.Date - SalesOrderPayments.predPaymentDate
 
-   ![](media/ex6-t2-step4.png)
+   ![](media/ex6-t2-step4new.png)
    
 * Create new Measures
 
 5. Select the **Data** **(1)** from the left-hand menu once more, and in the Table tools menu select the **New measure** **(2)** button.
 
-   ![](media/ex6-t2-step5.png)
+   ![](media/ex6-t2-step5new.png)
    
 6. In the formula textbox paste the following code **(1)**, then select the **checkmark** **(2)** button to execute the formula and create the measure. Verify the new measure displays in the Fields pane.
 
@@ -103,7 +103,7 @@ In this Task, you will now display the Sales & predicted payment forecast in Pow
    Sales at CreationDate = sum('SalesOrderPayments'[TOTALNETAMOUNT])
    ```   
    
-   ![](media/ex6-t2-step6.png)
+   ![](media/ex6-t2-step6new.png)
    
 7. Repeat steps 5 and 6 and create new measures with the following formulas:
 
@@ -121,7 +121,7 @@ In this Task, you will now display the Sales & predicted payment forecast in Pow
 
 8. Once adding all the four measures, verify it from the Field section under Date table.
 
-   ![](media/ex6-t2-step8.png)
+   ![](media/ex6-t2-step8new.png)
    
 ### Task 3: Create Sales and Payment Forecast report     
     
