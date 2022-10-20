@@ -6,7 +6,7 @@ In this exercise, you can now integrate the Azure Machine Learning Model within 
 
 1. On the Power BI report from **Home** **(1)** tab toolbar menu, expand the **Transform data** **(2)** item. Select **Transform data** **(3)**.
 
-   ![](media/ex6-t1-step1.png)
+   ![](media/ex6-t1-step1new.png)
    
 2. In the Power Query Editor window, select the **SalesOrderPayments** **(1)** table from the Queries pane and select the **Azure Machine Learning** **(2)** item from the Home toolbar menu.
 
