@@ -51,7 +51,7 @@ In this exercise, you will log in to the Azure Portal and review the pre-deploye
 
 1. Click on the **aiw-sap-<inject key="DeploymentID" enableCopy="false" />** Resource group and go through with the pre-deployed resources.
 
-   * In the Resource group we have one **Virtual Machine**, **Service Bus**, **IoT Hub**, **Synapse Workspace**, **Azure Machine Learning workspace**, **Storage Account**, **Azure Cosmos Database**, **Key Vault** and **Application Insights** deployed.
+   * In the Resource group we have one **Virtual Machine**, **Service Bus**, **IoT Hub**, **Synapse Workspace**, **Azure Machine Learning workspace**, **Storage Account**, **Azure Cosmos Database**, **Container Registry**, **Key Vault** and **Application Insights** deployed.
 
    * **Virtual Machine**: You will be using the Virtual Machine which is already open on the left side of the page to perform all the lab exercises.
 
