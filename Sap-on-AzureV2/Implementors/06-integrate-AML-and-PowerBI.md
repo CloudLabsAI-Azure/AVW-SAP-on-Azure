@@ -156,19 +156,19 @@ In this Task, you will now display the Sales & predicted payment forecast in Pow
 
 1. Select **Workspaces** from the Power BI menu and click on more button that is next to **My workspace**.
 
-   ![](media/powerbi1.png)
+   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/Automated-Lab/media/powerbi1.png?raw=true)
    
 1. Now, click on **Edit this workspace**.
 
-   ![](media/powerbi2.png)
+   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/Automated-Lab/media/powerbi2.png?raw=true)
 
 1. One the **Edit workspace** blade, select **License mode** as **Premium per capacity** and click on **Save**.
 
-   ![](media/powerbi3.png)
+   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/Automated-Lab/media/powerbi3.png?raw=true)
 
 1. Navigate back to Power BI Desktop application and click on **Publish** that is present at the top right corner of the application.
 
-   ![](media/powerbi4.png)
+   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/Automated-Lab/media/powerbi4.png?raw=true)
 
 1. Complete the Sign-in process using the below credentials.
 
@@ -177,11 +177,11 @@ In this Task, you will now display the Sales & predicted payment forecast in Pow
 
 1. On the **Publish to Power BI** blade, click on **Select**.
 
-   ![](media/powerbi5.png)
+   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/Automated-Lab/media/powerbi5.png?raw=true)
 
 1. Wait for the Publish operation to succeed. Once succeeded, you will be presented with below blade, click on **Got it**.
 
-   ![](media/powerbi6.png)  
+   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/Automated-Lab/media/powerbi6.png?raw=true)
 
 
 
