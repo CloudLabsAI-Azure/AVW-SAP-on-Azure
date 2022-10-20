@@ -141,7 +141,47 @@ In this Task, you will now display the Sales & predicted payment forecast in Pow
 
    ![](media/ex6-t3-step3.png)
    
+### Task 4: Publish the Power BI Reports
+
+1. Navigate to the below URL to open Power BI portal.
+
+   ```
+   https://www.powerbi.com/
+   ```
    
+1. Complete the Sign-in process using the below credentials.
+
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+   * Password: <inject key="AzureAdUserPassword"></inject>   
+
+1. Select **Workspaces** from the Power BI menu and click on more button that is next to **My workspace**.
+
+   ![](media/powerbi1.png)
+   
+1. Now, click on **Edit this workspace**.
+
+   ![](media/powerbi2.png)
+
+1. One the **Edit workspace** blade, select **License mode** as **Premium per capacity** and click on **Save**.
+
+   ![](media/powerbi3.png)
+
+1. Navigate back to Power BI Desktop application and click on **Publish** that is present at the top right corner of the application.
+
+   ![](media/powerbi4.png)
+
+1. Complete the Sign-in process using the below credentials.
+
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+   * Password: <inject key="AzureAdUserPassword"></inject>   
+
+1. On the **Publish to Power BI** blade, click on **Select**.
+
+   ![](media/powerbi5.png)
+
+1. Wait for the Publish operation to succeed. Once succeeded, you will be presented with below blade, click on **Got it**.
+
+   ![](media/powerbi6.png)  
 
 
 
