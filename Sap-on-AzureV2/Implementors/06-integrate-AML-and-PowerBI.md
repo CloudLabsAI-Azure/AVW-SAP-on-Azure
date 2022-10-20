@@ -10,7 +10,7 @@ In this exercise, you can now integrate the Azure Machine Learning Model within 
    
 2. In the Power Query Editor window, select the **SalesOrderPayments** **(1)** table from the Queries pane and select the **Azure Machine Learning** **(2)** item from the Home toolbar menu.
 
-   ![](media/ex6-t1-step2.png)
+   ![](media/ex6-t1-step2new.png)
    
 3. In the Azure Machine Learning Models dialog, select the **AzureML.sap-data-ml-model** **(1)** item and select **OK** **(2)**. This will add an additional column to the table with the predicted offset.
 
