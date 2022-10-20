@@ -131,9 +131,6 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
    ![](media/ex4-t3-step4new.png)
    
-   > **Note**: Map visuals are disabled by default, access File -> Options and Settings -> Options -> Global - Security to enable. After updating Options in Power BI, you may need to close and reopen the report for the settings change to take effect.
-    > ![Power BI Options display with Security selected beneath the Global heading and the Map and Filled Map visuals option checked. The OK button is highlighted.](media/ex4-t3-mapenable.png "Power BI Options")
-   
 5. Adjust the sizing and zoom of the map on the report canvas as desired.
 
    ![](media/ex4-t3-step5.png)
