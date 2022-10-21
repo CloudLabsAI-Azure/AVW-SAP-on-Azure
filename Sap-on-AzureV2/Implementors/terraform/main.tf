@@ -16,14 +16,10 @@ resource "random_id" "id" {
 }
 
 #######################################################################
-## Create Resource Group
+## Import existing Resource Group
 #######################################################################
 
-resource "azurerm_resource_group" "rg" {
-  name     = "microhack-[Deployment_ID]-rg"       ## Make sure replace Deployment_ID
-  location = var.location
-  tags     = var.tags
-}
+terraform import azurerm_resource_group.rg /subscriptions/{subscription-id}/resourceGroups/lab-rg-{DID}
 
 #######################################################################
 ## Assign Storage Role to User
