@@ -6,11 +6,9 @@ Power Automate is a tool that helps users create workflows between desired appli
 
 > You can find complete information about Power Automate here: `https://docs.microsoft.com/en-us/power-automate/`.
 
-### Task 1: Create Connections in Power Automate
+### Task 1: Create Instant cloud flow
 
-Power Automate uses connections to make it easy for you to access your data while building flows. Power Automate includes commonly used connections, including SharePoint, SQL Server, Power BI, Microsoft 365, OneDrive for Business, Approvals, Encodian, Salesforce, Excel, Teams, Dropbox, Twitter, and more.
-
-In this task, you will create connections in Power Automate and use them in the next task while building workflow.
+In this task, you will create instant cloud flow in Power Automate.
 
 1. Open a new browser tab and navigate to the below URL to open the Power Automate Portal.
 
@@ -26,60 +24,31 @@ In this task, you will create connections in Power Automate and use them in the 
 
    ![](media/ex6-t1-step1.png)
 
-1. Select **Data (1)** from the left-hand side menu and click on **Connections (2)** from the dropdown list.
+1. Select **My flows** **(1)** from the left hand side menu then click on **+ New flow** **(2)** and select **Instant cloud flow** **(3)** from the drop=down.
 
-   ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M3-Ex1-connection-01.png?raw=true)
-
-1. You will be presented with the Connections page, click on **+New connection** to create a connection.
-
-   ![](media/ex6-t1-addconnection.png)
-
-1. Now, type **Power BI** **(1)** in the search bar available at the top right corner and select **Power BI** **(2)**.
-
-   ![](media/ex6-t1-powerbi.png)
-
-1. On the **Power BI** pop-up, click on **Create** and use the below credentials to complete the **Sign-in** process and create the connection.
-
-      * Email/Username: <inject key="AzureAdUserEmail"></inject>
-      * Password: <inject key="AzureAdUserPassword"></inject>
-
-   ![](media/ex6-t1-createpowerbi.png)
-
-1. Repeat the steps from 5 to 7 to add  the following **connections**:
-
-   - One Drive for busniess
-   - Approvals
-   - Microsoft Teams
-
-1. Open a new browser tab and navigate to the below URL to open **Encodian Signup** page.
-
-   ```
-   https://www.encodian.com/apikey
-   ```
+   ![](media/ex7-t1-createinstantflow.png)
    
-1. Enter your own details for the ask as shown in the below sreenshot then click on **Submit** to activate the free trail account.
+1. In Choose how to trigger this flow pane, click on **Skip**.
 
-   ![](media/setup-encodian.png)
+   ![](media/ex7-t1-skip.png)
    
-1. Once you click on **Submit**, you can see the API Key as shown in the below screenshot. Copy the **API Key** and save it for creating a Encodian connection.
+1. Enter the title of the flow as **ExportPBIReport-to-Teams**.
 
-   ![](media/copy-encodian-apikey.png)
+   ![](media/ex7-t1-titleflow.png)
    
-1. Navigate back to **Microsoft Power Automate** tab and click on **+ New connection** to create a connection.
+1. Now, search for **Schedule** **(1)** and select **Recurrence** **(2)** under Triggers.
 
-   ![](media/ex6-t1-newencodian.png)
+   ![](media/ex7-t1-recurrence.png)
    
-1. Now, type **Encodian** **(1)** in the search bar available at the top right corner and select **Encodian** **(2)**.
+1. In the **Recurrence** update the **Interval** **(1)** to `1` and **Frequency** **(2)** to `Hour` then click on **+ New step** **(3)**.
 
-   ![](media/ex6-t1-encodian.png)
-
-1. On the **Encodian** pop-up, enter the **API Key** which you have copied in the previous steps and then click on **Create**.
-
-   ![](media/ex6-t1-createencodian.png)
+   ![](media/ex7-t1-newstep1.png)
    
-1. Verify all the five connections which you have added as shown in the below screenshot.
+1. In Choose an operation, search for **Power BI** **(1)** and select **Export To File for Power BI Reports** **(2)** under Actions.
 
-   ![](media/ex6-t1-all5connections.png) 
+   ![](media/ex7-t1-powerbi.png)
+   
+1.    
    
 ### Task 2: Import the workflow in Power Automate
 
