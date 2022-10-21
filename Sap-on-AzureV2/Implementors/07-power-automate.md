@@ -44,9 +44,13 @@ In this task, you will create instant cloud flow in Power Automate.
 
    ![](media/ex7-t1-newstep1.png)
    
-1. In Choose an operation, search for **Power BI** **(1)** and select **Export To File for Power BI Reports** **(2)** under Actions.
+1. In Choose an operation, search for **Power BI** **(1)** and select **Power BI** **(2)**.
 
-   ![](media/ex7-t1-powerbi.png)
+   ![](media/ex7-t1-powerbi1.png)
+   
+1. Now, search for **Export** **(1)** and select **Export To File for Power BI Reports** **(2)** under Actions.
+
+   ![](media/ex7-t1-powerbi2.png)
    
 1.    
    
