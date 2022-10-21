@@ -88,7 +88,9 @@ In this task, you will create instant cloud flow in Power Automate.
 
    ![](media/ex7-t1-convertptoi.png)
    
-1. 
+1. In Encodian step, enter the Connection name as **SAP-Encodian** **(1)** and paste the **Encodian API Key** **(2)** which you have copied in the earlier steps. Click on **Create** **(3)**.
+
+   ![](media/ex7-t1-encodiancreate.png)
    
    
 ### Task 2: Import the workflow in Power Automate
