@@ -4,31 +4,31 @@
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Automated-Lab/Overview.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/Overview.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Automated-Lab/01-Getting-started.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/01-Getting-started.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Automated-Lab/02.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/02.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Automated-Lab/03.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/03.md",
         "Order": 4
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Automated-Lab/04.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/04.md",
         "Order": 5
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Automated-Lab/05.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/05.md",
         "Order": 6
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Automated-Lab/06.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/06.md",
         "Order": 7
       }
     ]
