@@ -166,7 +166,8 @@ In this task, you will create instant cloud flow in Power Automate.
     - Click on **Add an Action (4)**.
 
     ![](media/startandwait.png)
-    
+  
+1. 
     
 ### Task 2: Import the workflow in Power Automate
 
