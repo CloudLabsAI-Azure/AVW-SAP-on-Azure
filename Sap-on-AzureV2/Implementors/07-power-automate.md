@@ -237,7 +237,12 @@ In this task, you will create instant cloud flow in Power Automate.
 1. Click on **Run flow**.
 
    ![](media/runflow.png)
+
+1. After successfully triggering the flow, click on **Done**.
+
+   ![](media/done1.png)
    
+1. 
 ### Task 2: Import the workflow in Power Automate
 
 In this task you will import the workflow into Power Automate and will enable the created conenctions in the previous task to share the Power BI reports to Microsoft Teams.
