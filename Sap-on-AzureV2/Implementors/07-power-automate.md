@@ -105,7 +105,23 @@ In this task, you will create instant cloud flow in Power Automate.
     - Filename Prefix : Enter **Sales data**
 
      ![](media/ex7-t1-filecontent.png)
+
+1. Now click on **New step**.
+
+    ![](media/ex7-t1-newstep3.png)
     
+1. Serch for **Apply to each (1)** in the search bar and select **Apply to each (2)** from Actions tab.
+
+    ![](media/ex7-t1-applytoeach.png)
+
+1. 
+1. Serach for **Create file (1)** in search bar and select **Create file (2)** from Actions tab.
+
+    ![](media/ex7-t1-createafile.png)
+    
+1. Under **Create file** field, follow the below instructions:
+
+     - 
 ### Task 2: Import the workflow in Power Automate
 
 In this task you will import the workflow into Power Automate and will enable the created conenctions in the previous task to share the Power BI reports to Microsoft Teams.
