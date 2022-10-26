@@ -207,9 +207,20 @@ In this task, you will create instant cloud flow in Power Automate.
     
 1. Under **Microsoft Teams** field, follow the below instructions:
 
-     - Post as : Select **Floe bot** from the drop-down list.
-     - 
-
+     - Post as : Select **Flow bot** from the drop-down list.
+     - Post in : Select **Channel** from the drop-down list.
+     - Team : Selct **SAP on Azure-<inject key="DeploymentID" enableCopy="false"/>** from the drop-down list
+     - Channel : Select **SAP Channel** from the drop-down list.
+     - Message : Click inside the message box and enter the following content.
+         
+        ```
+        <p>
+        <i> Sales Order Data </i>
+        <img src="Relace with URL" alt="Client Image"/> <br>
+        </p>
+        ```
+        
+      > After adding the content, notice that few values are to be replaced in the content with values from the dynamic content list.
 ### Task 2: Import the workflow in Power Automate
 
 In this task you will import the workflow into Power Automate and will enable the created conenctions in the previous task to share the Power BI reports to Microsoft Teams.
