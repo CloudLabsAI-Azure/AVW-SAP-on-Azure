@@ -221,6 +221,13 @@ In this task, you will create instant cloud flow in Power Automate.
         ```
         
       > After adding the content, notice that few values are to be replaced in the content with values from the dynamic content list.
+
+1. Remove **Relace with URL** which is next to **img src** and select **URL** from the dynamic content list.
+
+    ![](media/URL.png)
+    
+1. Select **Save** which is at the top right corner to save the flow.
+
 ### Task 2: Import the workflow in Power Automate
 
 In this task you will import the workflow into Power Automate and will enable the created conenctions in the previous task to share the Power BI reports to Microsoft Teams.
