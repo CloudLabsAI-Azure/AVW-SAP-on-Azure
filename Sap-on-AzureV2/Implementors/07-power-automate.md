@@ -241,8 +241,27 @@ In this task, you will create instant cloud flow in Power Automate.
 1. After successfully triggering the flow, click on **Done**.
 
    ![](media/done1.png)
+    
+1. Select **Approvals** from the left-hand side menu and hover the cursor on **Request to Access Power BI report** then click on **&#9745;** to approve.
+
+   ![](media/approve1.png)
+
+1. On the **Respond:  Approve** page, click on **Confirm**.
+
+   ![](media/confirm.png)
+    
+1. Once you get the notification stating that the **Response successfully recorded**, click on **Done**.
+
+   ![](media/done.png)
+
+1. Select **My Flows (1)** from the left-hand side menu and select the **ExportPBI (2)** flow you created in the previous steps.
+
+   ![](media/exportto.png)
    
-1. 
+1. Review that the run status under the **28-day run history** tile has been changed to the **Succeeded** state. Open the flow and review it.
+
+   ![](media/successflow.png)
+
 ### Task 2: Import the workflow in Power Automate
 
 In this task you will import the workflow into Power Automate and will enable the created conenctions in the previous task to share the Power BI reports to Microsoft Teams.
