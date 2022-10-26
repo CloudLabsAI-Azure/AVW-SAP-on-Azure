@@ -114,14 +114,49 @@ In this task, you will create instant cloud flow in Power Automate.
 
     ![](media/ex7-t1-applytoeach.png)
 
-1. 
-1. Serach for **Create file (1)** in search bar and select **Create file (2)** from Actions tab.
+1. Click inside the edit box of **Select an output from the previous step** and seach for **Documents (1)** in the dynamic content list appears on the right side of the designer, then select **Documents (2)**.
+
+    ![](media/documents.png)
+    
+1. After selecting the **Documents**, click on **Add an Action**.
+
+    ![](media/ex7-t1-addaction1.png)
+    
+1. Now, serach for **Create file (1)** in search bar and select **Create file (2)** from Actions tab.
 
     ![](media/ex7-t1-createafile.png)
     
 1. Under **Create file** field, follow the below instructions:
 
-     - 
+     - Folder path : Enter **/Images/Sales Data**
+     - File Name : Enter **Sales Data.PNG**
+     - File Content :  Select **Documents File Content** from the dynamic content list appears on the right side of the designer.
+
+     ![](media/ex7-t1-createfiledata.png)
+     
+ 1. Click on **Add an action**
+
+    ![](media/ex7-t1-addaction2.png)
+    
+ 1. Search for **Get file thumbnail (1)** and select **Get file thumbnail (2)** from Actions tab.
+
+    ![](media/ex7-t1-getfilethumnail.png)
+    
+ 1. Under **Get file thumbnail** field, follow the below instructions :
+
+     - File : Select **Id (1)** from the dynamic content list appears on the right side of the designer.
+     - Thumbnail Size : Select **Large (2)** from the drop-down list.
+     - Click on **Add an action (3)**.
+
+     ![](media/ex7-t1-addaction3.png)
+     
+1. Now, search for **Start and wait for an Approval (1)** in the search bar and select **Start and wait for an Approval** **(2)** from Actions tab.
+
+     ![](media/ex7-t1-startandwait.png)
+     
+1. Click on **Create** to create a connection for Approval.
+
+    ![](media/ex7-t1-approvalscreate.png)
 ### Task 2: Import the workflow in Power Automate
 
 In this task you will import the workflow into Power Automate and will enable the created conenctions in the previous task to share the Power BI reports to Microsoft Teams.
