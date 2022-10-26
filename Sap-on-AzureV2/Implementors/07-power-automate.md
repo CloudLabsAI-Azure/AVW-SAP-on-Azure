@@ -157,6 +157,17 @@ In this task, you will create instant cloud flow in Power Automate.
 1. Click on **Create** to create a connection for Approval.
 
     ![](media/ex7-t1-approvalscreate.png)
+    
+1. On **Start and wait for an approval** field, follow the below instructions:
+
+    - Approval type : Select **Approve/Reject - First to respond (1)** from the drop-down list.
+    - Title : Enter **Request to Access PowerBI report (2)**
+    - Assigned to : Enter **<inject key="AzureAdUserEmail"></inject> (3)** and select it.
+    - Click on **Add an Action (4)**.
+
+    ![](media/startandwait.png)
+    
+    
 ### Task 2: Import the workflow in Power Automate
 
 In this task you will import the workflow into Power Automate and will enable the created conenctions in the previous task to share the Power BI reports to Microsoft Teams.
