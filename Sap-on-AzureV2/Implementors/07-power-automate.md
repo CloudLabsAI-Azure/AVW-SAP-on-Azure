@@ -60,11 +60,13 @@ In this task, you will create instant cloud flow in Power Automate.
      | Report (2)         | **sap-final-report**       |
      | Export Format (3)  | select `PDF`               |
    
-   ![](media/ex7-t1-exportpowerbi.png)
+   
+     ![](media/ex7-t1-exportpbi.png)
    
 1. Click on **Export To File for Power BI Reports** to minimize and then click on **+ New step**.
 
-   ![](media/ex7-t1-nextstep2.png)
+   
+    ![](media/ex7-t1-newstep2.png)
    
 1. Open a new browser tab and navigate to the below URL to open the **Encodian Signup** page.
 
@@ -76,13 +78,13 @@ In this task, you will create instant cloud flow in Power Automate.
 
    ![](media/setup-encodian.png)
    
-1. Once you click on **Submit**, you can see the API Key as shown in the below screenshot. Copy the **API Key** and save it for creating a Encodian connection.
+1. Once you click on **Submit**, you can see the API Key as shown in the below screenshot. Copy the **API Key** and save it in notepad. You will be using it in the next steps.
 
-   ![](media/copy-encodian-apikey.png)
+    ![](media/copy-encodian-apikey.png)
    
 1. Navigate back to the **Microsoft Power Automate** tab, search for **Encodian** **(1)** and then select **Encodian** **(2)** in Choose an operation.
 
-   ![](media/ex7-t1-encodian.png)
+    ![](media/ex7-t1-encodian.png)
    
 1. Now, search for **Convert PDF to Images** **(1)** and select **Convert PDF to Images** **(2)** under Actions.
 
