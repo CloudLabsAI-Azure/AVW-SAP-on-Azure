@@ -228,6 +228,12 @@ In this task, you will create instant cloud flow in Power Automate.
     
 1. Select **Save** which is at the top right corner to save the flow.
 
+1. Now, click on **Test** which is at the top right corner to the test the flow manually.
+
+1. On the **Test Flow** page, select **Manually (1)** and click on **Test (2)**
+
+    ![](media/testflow.png)
+
 ### Task 2: Import the workflow in Power Automate
 
 In this task you will import the workflow into Power Automate and will enable the created conenctions in the previous task to share the Power BI reports to Microsoft Teams.
