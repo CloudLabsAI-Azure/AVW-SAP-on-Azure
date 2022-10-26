@@ -197,7 +197,11 @@ In this task, you will create instant cloud flow in Power Automate.
 
     ![](media/yescondition.png)
     
-1. 
+1. Search for **Microsoft Teams (1)**, in the search bar and select **Microsoft Teams (2)**.
+
+    ![](media/teamsselect.png)
+    
+1. Under actions, scroll down and select Post an adaptive card to a Teams user and wait for a response (Preview) action.
 
 
 ### Task 2: Import the workflow in Power Automate
