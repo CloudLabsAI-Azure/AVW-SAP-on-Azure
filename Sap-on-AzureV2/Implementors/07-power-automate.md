@@ -244,15 +244,15 @@ In this task, you will create instant cloud flow in Power Automate.
     
 1. Select **Approvals** from the left-hand side menu and hover the cursor on **Request to Access Power BI report** then click on **&#9745;** to approve.
 
-   ![](media/approve1.png)
+   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/raw/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/media/approve1.png)
 
 1. On the **Respond:  Approve** page, click on **Confirm**.
 
-   ![](media/confirm.png)
+   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/raw/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/media/confirm.png)
     
 1. Once you get the notification stating that the **Response successfully recorded**, click on **Done**.
 
-   ![](media/done.png)
+   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/raw/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/media/done.png)
 
 1. Select **My Flows (1)** from the left-hand side menu and select the **ExportPBI (2)** flow you created in the previous steps.
 
