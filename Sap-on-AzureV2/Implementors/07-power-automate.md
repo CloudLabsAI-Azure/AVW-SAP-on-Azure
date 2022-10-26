@@ -201,8 +201,14 @@ In this task, you will create instant cloud flow in Power Automate.
 
     ![](media/teamsselect.png)
     
-1. Under actions, scroll down and select Post an adaptive card to a Teams user and wait for a response (Preview) action.
+1. Search for **Post a message in chat or channel (1)** in the search bar and select it **(2)** from actions tab.
 
+    ![](media/postamessage.png)
+    
+1. Under **Microsoft Teams** field, follow the below instructions:
+
+     - Post as : Select **Floe bot** from the drop-down list.
+     - 
 
 ### Task 2: Import the workflow in Power Automate
 
