@@ -100,6 +100,12 @@ In this task, you will create instant cloud flow in Power Automate.
     - File Content : Click inside the edit box of **File Content** and select **File Content** from the dynamic content list appears on the right side of the designer.
     
       ![](media/filecontent.png)
+    
+    - Image Format : Select **PNG** from drop-down list.
+    - Filename Prefix : Enter **Sales data**
+
+     ![](media/ex7-t1-filecontent.png)
+    
 ### Task 2: Import the workflow in Power Automate
 
 In this task you will import the workflow into Power Automate and will enable the created conenctions in the previous task to share the Power BI reports to Microsoft Teams.
