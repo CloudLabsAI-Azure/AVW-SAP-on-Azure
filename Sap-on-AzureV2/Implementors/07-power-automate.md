@@ -178,7 +178,28 @@ In this task, you will create instant cloud flow in Power Automate.
 1.  Now, click on **Add an action**
     
     ![](media/addanaction1.png)
+
+1. Search for **Condition** in the search bar and select **Condition** from Actions tab.
+
+    ![](media/condition.png)
     
+1. Under **Condition** filed, follow the below instructions: 
+
+    - Select inside the **Choose a value** box which is at the left side of **is equal to** box and search for **Responses Approver Response** in the dynamic content list appears on the right side of the designer, then select **Responses Approver Response (2)**.
+
+      ![](media/responsesapprover.png)
+    
+    - Select inside the **Choose a value** box which is at the right side of **is equal to** box and enter **Approve**
+
+       ![](media/conditionapprove.png)
+       
+1. Select **Add an action** under **If Yes** to add a new action.
+
+    ![](media/yescondition.png)
+    
+1. 
+
+
 ### Task 2: Import the workflow in Power Automate
 
 In this task you will import the workflow into Power Automate and will enable the created conenctions in the previous task to share the Power BI reports to Microsoft Teams.
