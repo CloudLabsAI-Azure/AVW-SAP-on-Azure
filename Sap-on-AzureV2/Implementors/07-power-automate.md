@@ -167,7 +167,17 @@ In this task, you will create instant cloud flow in Power Automate.
 
     ![](media/startandwait.png)
   
-1. 
+1. Serch for **Apply to each (1)** in the search bar and select **Apply to each (2)** from Actions tab.
+
+    ![](media/ex7-t1-applytoeach.png)
+    
+1. Click inside the edit box of **Select an output from the previous step** and seach for **Responses (1)** in the dynamic content list appears on the right side of the designer, then select **Responses (2)**.
+
+    ![](media/responses.png)
+    
+1.  Now, click on **Add an action**
+    
+    ![](media/addanaction1.png)
     
 ### Task 2: Import the workflow in Power Automate
 
