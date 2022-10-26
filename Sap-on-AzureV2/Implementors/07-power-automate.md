@@ -260,7 +260,8 @@ In this task, you will create instant cloud flow in Power Automate.
    
 1. Review that the run status under the **28-day run history** tile has been changed to the **Succeeded** state. Open the flow and review it.
 
-   ![](media/successflow.png)
+   ![](media/totalflow.png)
+   
 
 ### Task 2: Import the workflow in Power Automate
 
