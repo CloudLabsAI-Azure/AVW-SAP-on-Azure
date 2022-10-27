@@ -20,7 +20,7 @@ resource "random_id" "id" {
 #######################################################################
 
 resource "azurerm_resource_group" "rg" {
-  name     = "microhack-[Deployment_ID]-rg"       ## Make sure replace Deployment_ID
+  name     = "microhack-rg-[Deployment_ID]"       ## Make sure replace Deployment_ID
   location = var.location
   tags     = var.tags
 }
@@ -44,61 +44,6 @@ resource "azurerm_role_assignment" "storagerole" {
   scope                 = azurerm_resource_group.rg.id
   role_definition_name  = "Storage Blob Data Contributor"
   principal_id          = "[ADD USER OBJECT_ID]"     ## Make sure to replace the provided User Object_ID
-}
-
-#######################################################################
-## Create Virtual Networks
-#######################################################################
-
-resource "azurerm_virtual_network" "vnet" {
-  name                = "${var.prefix}-vnet"
-  resource_group_name = azurerm_resource_group.rg.name
-  location            = azurerm_resource_group.rg.location
-  address_space       = var.address_space
-  tags                = var.tags
-}
-
-#######################################################################
-## Create Subnet
-#######################################################################
-
-resource "azurerm_subnet" "subnet" {
-  name                 = "${var.prefix}-subnet"
-  resource_group_name  = azurerm_resource_group.rg.name
-  virtual_network_name = azurerm_virtual_network.vnet.name
-  address_prefixes     = var.subnet_prefixes
-}
-
-#######################################################################
-## Create Network Security Group
-#######################################################################
-
-resource "azurerm_network_security_group" "nsg" {
-  name                = "${var.prefix}-nsg"
-  resource_group_name = azurerm_resource_group.rg.name
-  location            = azurerm_resource_group.rg.location
-  tags                = var.tags
-
-  security_rule {
-    name                        = "RDP"
-    priority                    = 1001
-    direction                   = "Inbound"
-    access                      = "Allow"
-    protocol                    = "Tcp"
-    source_port_range           = "*"
-    destination_port_range      = "3389"
-    source_address_prefix       = "*"
-    destination_address_prefix  = "*"
-  }
-}
-
-#######################################################################
-## Associate the subnet with the NSG
-#######################################################################
-
-resource "azurerm_subnet_network_security_group_association" "nsg-ass" {
-  subnet_id                 = azurerm_subnet.subnet.id
-  network_security_group_id = azurerm_network_security_group.nsg.id
 }
 
 #######################################################################
