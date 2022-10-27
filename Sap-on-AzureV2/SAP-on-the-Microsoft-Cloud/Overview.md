@@ -30,6 +30,10 @@ In this hands-on lab, you will extract (historical) Sales Orders from SAP system
 ## Solution architecture
 The solution architecture diagram displays as described below.
 
-Sales Order information is stored in an **SAP system** and payments data is stored in Cosmos DB. Synapse Pipelines are used to ingest historical data from both sources. Power BI is used to visualize historical data and to create reports. Azure Machine Learning is used to create a model to predict incoming cash flow. Finally, a workflow will be triggered from Power Automate to share the Power BI reports to Teams Channel based on the Approver's response status (Approve/Reject).
-
  ![](../SAP-on-the-Microsoft-Cloud/media/sap.png)
+
+1. **Sales Order** information is stored in an **SAP system** and **payments data** is stored in Cosmos DB. 
+2. **Synapse Pipelines** are used to ingest historical data from both sources. 
+3. **Power BI** is used to visualize historical data and to create reports.
+4. **Azure Machine Learning** is used to create a model to predict incoming cash flow. 
+5. Finally, a workflow will be triggered from Power Automate to share the **Power BI reports to Teams Channel** based on the Approver's response status (Approve/Reject).
