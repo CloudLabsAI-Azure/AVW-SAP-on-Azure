@@ -1,7 +1,7 @@
 variable "location" {
   description = "Location to deploy resources"
   type        = string
-  default     = "eastus"
+  default     = "westeurope"
 }
 
 variable "tags" {
@@ -17,18 +17,6 @@ variable "tags" {
 variable "prefix" {
   type        = string
   default     = "sap-data"
-}
-
-variable "address_space" {
-  description = "The address space that is used by the virtual network."
-  type        = list(string)
-  default     = ["10.20.0.0/16"]
-}
-
-variable "subnet_prefixes" {
-  description = "The address prefix to use for the subnet."
-  type        = list(string)
-  default     = ["10.20.1.0/24"]
 }
 
 variable "username" {
@@ -49,7 +37,3 @@ variable "SID" {
   default     = "S4D"
 }
 
-variable "vmsize" {
-  description = "Size of the VMs"
-  default     = "Standard_B2s"
-}
