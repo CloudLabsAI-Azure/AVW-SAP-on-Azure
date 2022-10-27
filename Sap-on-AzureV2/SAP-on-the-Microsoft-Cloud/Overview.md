@@ -33,7 +33,7 @@ The solution architecture diagram displays as described below.
  ![](../SAP-on-the-Microsoft-Cloud/media/sap.png)
 
 1. **Sales Order** information is stored in an **SAP system** and **payments data** is stored in Cosmos DB. 
-2. **Synapse Pipelines** are used to ingest historical data from both sources. 
-3. **Power BI** is used to visualize historical data and to create reports.
+2. **Synapse Pipelines** are used to ingest historical data from both sources (**SAP system** and **Azure Cosmos DB**). 
+3. **Power BI** is used to visualize historical data and create reports.
 4. **Azure Machine Learning** is used to create a model to predict incoming cash flow. 
-5. Finally, a workflow will be triggered from Power Automate to share the **Power BI reports to Teams Channel** based on the Approver's response status (Approve/Reject).
+5. Finally, a workflow will be triggered from **Power Automate** to share the **Power BI reports to Teams Channel** based on the Approver's response status (Approve/Reject).
