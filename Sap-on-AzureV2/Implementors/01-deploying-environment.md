@@ -68,10 +68,10 @@ In this Exercise, you will use Terraform to deploy the azure resources.
     
     ![](media/change-dir.png)
     
-14. You need to update the **Deployment_ID** and **User Object_ID** in the ```main.tf``` file. Run the below mentined command to get into the editor window and press ```i``` for Insert mode.
-
+14. You need to update the **Deployment_ID** and **User Object_ID** in the ```main.tf``` file. Run the below mentined command to get into the code editor window.
+    
     ```bash
-    vi main.tf
+    code main.tf
     ```
     
     ![](media/vi-editor-main.png)
