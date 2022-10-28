@@ -74,21 +74,27 @@ In this Exercise, you will use Terraform to deploy the azure resources.
     code main.tf
     ```
     
-    ![](media/vi-editor-main.png)
+    ![](media/ex1-codemain.png)
     
 15. In the Create Resource Group part, make sure to replace the Deployment_ID in the resource group name as **microhack-rg-<inject key="DeploymentID" enableCopy="false"/>**.
 
-    ![](media/latest-rgname.png)
+    ![](media/ex1-rgname.png)
         
-16. Scroll-down to Assign Storage role to user part and make sure to replace the provided User Object_ID in the principal_id.
+16. Scroll-down to Assign Storage role to user part and make sure to replace the User Object_ID with "<inject key="ObjectID" />" in the principal_id.
 
-    ![](media/replace-userid.png)
+    ![](media/ex-1objectid1.png)
     
-17. Scroll-down to Create Key Vault part and make sure to replace the provided User Object_ID in the object_id.
+17. Scroll-down to Create Key Vault part and make sure to replace the User Object_ID with "<inject key="ObjectID" />" in the object_id.
 
-    ![](media/replace-userid-2.png)
+    ![](media/ex1-objectid2.png)
     
-18. After updating the Deployment_ID and User Object_ID, press **Esc** to enter Command mode and then type **:wq** to write and quit the file.
+18. After updating the Deployment_ID and User Object_ID, move the cursor to the top right corner to get **More** **(1)** option menu and select **Save** **(2)**.
+
+    ![](media/ex1-codesave.png)
+    
+19. To close the code editor window, move the cursor to the top right corner to get **More** **(1)** option menu and select **Close Editor** **(2)**.
+
+    ![](media/ex1-codeclose.png)   
 
 19. Run the below mentioned command to initialize a working directory containing Terraform configuration files.
 
