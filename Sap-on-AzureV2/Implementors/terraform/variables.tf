@@ -1,7 +1,7 @@
 variable "location" {
   description = "Location to deploy resources"
   type        = string
-  default     = "westeurope"
+  default     = "[Region]"  # Make sure to replace the region name.
 }
 
 variable "tags" {
