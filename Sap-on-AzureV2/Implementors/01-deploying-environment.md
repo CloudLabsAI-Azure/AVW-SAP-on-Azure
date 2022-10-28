@@ -66,7 +66,7 @@ In this Exercise, you will use Terraform to deploy the azure resources.
     code variables.tf
     ```
     
-    ![](media/ex1-codevariables.png)    
+    ![](media/ex1-codevariables1.png)    
 
 14. You need to update the variable location default value with "**<inject key="Region" />**" region.
 
