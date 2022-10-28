@@ -10,7 +10,7 @@ You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
    ![](media/ex5-t1-step1.png)
    
-2. In the Properties, enter the Name as **CreateSalesPaymentsFull** **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then copy the below code and paste it in the codespace **(3)** and click on **Run** **(4)**.
+2. In the Properties, enter the Name as **CreateSalesPaymentsFull** **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then copy the code below and paste it in the codespace **(3)** and click on **Run** **(4)**.
 
    ```sql
    CREATE VIEW [dbo].[SalesPaymentsFull]
@@ -42,7 +42,7 @@ You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
    ![](media/ex5-t1-step3.png)
    
-4. You can now test the view by executing the SQL. From **Develop** **(1)**, click on ```+``` **(2)** and select **SQL script** **(3)** to create a new SQL script.
+4. You can now test the view by executing SQL. From **Develop** **(1)**, click on ```+``` **(2)** and select **SQL script** **(3)** to create a new SQL script.
 
    ![](media/t6-ex3-16.png)
    
@@ -60,11 +60,11 @@ You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
    ![](media/ex5-t2-step1.png)
    
-2. In the Overview of **sapdatasynwsSUFFIX** Azure Machine Learning workspace, click on **Launch studio**. You will be to navigated to Microsoft Azure Machine Learning Studio.
+2. In the Overview of **sapdatasynwsSUFFIX** Azure Machine Learning workspace, click on **Launch studio**. You will be navigated to Microsoft Azure Machine Learning Studio.
 
    ![](media/ex5-t2-step2.png)
    
-3. From **Machine Learning Studio**, scroll-down to **Manage** from left-menu. Click on **Datastores** **(1)** and select ```+ Create``` **(2)** to create new datastore.
+3. From **Machine Learning Studio**, scroll-down to **Manage** from left-menu. Click on **Datastores** **(1)** and select ```+ Create``` **(2)** to create a new datastore.
 
    ![](media/ex5-t2-step3.png)
    
@@ -95,7 +95,7 @@ You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
    ![](media/ex5-t3-step1.png)
    
-2. On the Create a new Automated ML job Select a data asset step, expand the **Create** **(1)** menu and select **From datastore** **(2)**.
+2. On the Create a new Automated ML job select a data asset step, expand the **Create** **(1)** menu and select **From datastore** **(2)**.
 
    ![](media/ex5-t3-step2.png)
    
@@ -111,11 +111,11 @@ You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
    
    ![](media/ex5-t3-step4.png)
    
-5. In the **Settings and preview** step, you can ensure and verify the data for the query is working fine by visualizing the data in the next window. Click **Next**.
+5. In the **Settings and preview** step, visualize the data in the next window to verify that the data for the query is working fine. Click **Next**.
 
    ![](media/ex5-t3-step5.png)
    
-6. In the **Schema** step, toggle the following **fields off** so that they are not included in the dataset and then select **Next**:
+6. In the **Schema** step, toggle the following **fields off** to exclude them from the dataset and then select **Next**:
 
     - SALESDOCUMENT
     - BILLINGDOCUMENTDATE
@@ -133,7 +133,7 @@ You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
    ![](media/ex5-t3-step8.png)
    
-9. On the Configure job step, enter the below values:
+9. On the Configure job step, enter the values mentioned below:
 
     | Field | Value |
     |-------|-------|
@@ -149,7 +149,7 @@ You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
      ![](media/ex5-t3-step10.png)
      
-11. In the Create compute cluster blade Advanced settings, enter the below values and then select **Create** **(3)**. It takes a few moments for the cluster to be provisioned.
+11. In the Create compute cluster blade Advanced settings, enter the below mentioned values and then select **Create** **(3)**. It takes a few moments for the cluster to be provisioned.
 
     | Field | Value |
     |-------|-------|
@@ -166,7 +166,7 @@ You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
     ![](media/ex5-t3-step13.png)
     
-14. In the Additional configurations blade, select the Primary metric of **Normalized root mean squared error** **(1)**, then **expand the Blocked models** **(2)** drop down, check the following items, and select **Save** **(3)**. This will reduce the time to train the model. Make sure that **DecisionTree** and **XGBoostRegressor** are unchecked.
+14. In the Additional configurations blade, select the Primary metric of **Normalized root mean squared error** **(1)**, then **expand the Blocked models** **(2)** drop down, check the following items, and select **Save** **(3)**. This will reduce the time to train the model. Make sure that the **DecisionTree** and **XGBoostRegressor** are unchecked.
 
      - ElasticNet
      - GradientBoosting
@@ -185,7 +185,7 @@ You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
     ![](media/ex5-t3-step15.png)
     
-16. The job has started creating and opened in the browser. Use the **Refresh** button to monitor the current state.
+16. The job has started creating and has opened in the browser. Use the **Refresh** button to monitor the current state.
 
     > **Note**: Training will take approximately 15-20 minutes.
 
@@ -197,7 +197,7 @@ You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
     
 ### Task 4: Deploy the best trained Model
 
-1. Once the Automated ML job indicates a status of **Completed** **(1)**. Scroll-down to Best model summary card on the screen and select the hyperlink beneath the **Algorithm name** **(2)** heading.
+1. Once the Automated ML job indicates a **Completed** status **(1)**, scroll-down to Best model summary card on the screen and select the hyperlink beneath the **Algorithm name** **(2)** heading.
 
    ![](media/ex5-t4-step1.png)
     
@@ -205,7 +205,7 @@ You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
    ![](media/ex5-t4-step2.png)
    
-3. On the Deploy a model blade, enter the below values and then select **Deploy** **(3)**.
+3. On Deploy a model blade, enter the below values and then select **Deploy** **(3)**.
 
     | Field | Value |
     |-------|-------|
@@ -214,7 +214,7 @@ You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
     
    ![](media/ex5-t4-step3.png)
    
-4. In the Model screen, monitor the Deploy status at the bottom of the Model summary card. It will indicate a status of **Completed** in a few minutes time.
+4. In the Model screen, monitor the Deploy status at the bottom of the Model summary card. It will indicate a **Completed** status within a few minutes.
 
    ![](media/ex5-t4-step4.png)
    
@@ -272,7 +272,7 @@ You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
    ![](media/ex5-t6-step1.png)
    
-2. In the Automated ML job pane, scroll-down to Best model summary card on the screen and select the hyperlink beneath the **Algorithm name** heading.
+2. In the Automated ML job pane, scroll-down to the Best model summary card on the screen and select the hyperlink beneath the **Algorithm name** heading.
 
    ![](media/ex5-t6-step2.png)
    
