@@ -284,7 +284,7 @@ from CosmosDB using a third pipeline.
 
     ![](media/t6-ex3-9.png)
 
-10. In the **Settings** **(1)** blade, check the box for **Enable staging** **(2)** and use the existing staging account linked service **sapdatasynwsSUFFIX** **(3)** to the Synapse Data Lake. Click on **Browse** **(4)** to the staging directory **sap-data-adls/staging** **(5)**, which was already created by the Terraform script.
+10. In the **Settings** **(1)** blade, check the box for **Enable staging** **(2)** and use the existing staging account linked service **sapdatasynwsSUFFIX** **(3)** to the Synapse Data Lake. Click on **Browse** **(4)** to the staging directory **sap-data-adls/staging** **(5)**, already created by the Terraform script.
 
     ![](media/t6-ex3-10.png)
 
@@ -427,7 +427,7 @@ from CosmosDB using a third pipeline.
     
     ![](media/t6-ex3-14.png)
 
-13. Switch to **Monitor** **(1)** from the left-menu, click on **Pipeline runs** **(2)** under Integration and select the **ExtractSalesOrderItems** pipeline which was **Successful**.
+13. Switch to **Monitor** **(1)** from the left-menu, click on **Pipeline runs** **(2)** under Integration and select the **ExtractSalesOrderItems** pipeline which got **Succeeded**.
 
     ![](media/t8-item-10.png)
 
@@ -573,7 +573,7 @@ from CosmosDB using a third pipeline.
     
     ![](media/t6-ex3-14.png)
 
-8. Switch to **Monitor** **(1)** from the left-menu, click on **Pipeline runs** **(2)** under Integration and select the **ExtractPayments** pipeline which was **Successful**.
+8. Switch to **Monitor** **(1)** from the left-menu, click on **Pipeline runs** **(2)** under Integration and select the **ExtractPayments** pipeline which got **Succeeded**.
 
     ![](media/t13-ex3-9.png)
 
