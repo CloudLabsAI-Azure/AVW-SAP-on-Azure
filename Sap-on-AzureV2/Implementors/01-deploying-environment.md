@@ -112,13 +112,13 @@ In this Exercise, you will use Terraform to deploy the azure resources.
     terraform import azurerm_resource_group.rg /subscriptions/{SUBSCRIPTION_ID}/resourceGroups/microhack-rg-{DEPLOYMENT_ID}
     ```
     
+    ![](media/ex1-importrg.png)
+    
 22. Run the below mentioned command to execute the actions proposed in a terraform deployment, and choose ```yes``` once prompted to deploy the script.
 
     ```bash
     terraform apply
     ```
-  
-    ![](media/terraform-apply.png)
   
     ![](media/enter-yes.png)
     
