@@ -1,6 +1,6 @@
 # Exercise 1: Deploying the Microhack environment with Terraform
 
-In this Exercise, you are using Terraform to deploy the azure resources.
+In this Exercise, you will use Terraform to deploy the azure resources.
 
 ## Task 1: Getting started with Resource deployment using Terraform in Azure cloud shell
 
@@ -8,13 +8,13 @@ In this Exercise, you are using Terraform to deploy the azure resources.
     
    ![](media/open-azure-portal.png)
    
-2. On the **Sign into Microsoft Azure** tab, you will see the login screen, enter the following username, and, then click on **Next**.
+2. On the **Sign in** tab, enter the following **Username** and, then click on **Next**. 
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
    ![](media/email-login.png)
 
-3. Now enter the following password and click on **Sign in**. 
+3. Enter the following password and click on **Sign in**.
 
    * Password: <inject key="AzureAdUserPassword"></inject>
 
@@ -26,7 +26,7 @@ In this Exercise, you are using Terraform to deploy the azure resources.
 
 6. If a **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
 
-7. From the Home page of the Azure portal, open **Cloud shell** from the top menu bar.
+7. On the Home page of the Azure portal, open **Cloud shell** from the top menu bar.
 
    ![](media/open-cloud-shell.png)
 
@@ -34,11 +34,11 @@ In this Exercise, you are using Terraform to deploy the azure resources.
 
    ![](media/welcome-select-bash.png)
 
-9. Click on Advanced settings and select the existing Resource group **aiw-sap-DeploymentID**. Create a new Storage account with the name **sapstorageDeploymentID** and also create a File share with the name **blob**. Then click on **Create storage**.
+9. Click on Advanced settings and select the existing Resource group **aiw-sap-<inject key="DeploymentID" enableCopy="false"/>**. Create a new Storage account with the name **sapstorage<inject key="DeploymentID" enableCopy="false"/>** and create a File share with the name **blob**. Click on **Create storage**.
 
    ![](media/create-storageaccount.png)
 
-10. Run the below command to view the subscription which you are using the Microhack deployment.
+10. Run the below command to view the subscription you are using for Microhack deployment.
 
     ```bash
     az account show
@@ -54,13 +54,13 @@ In this Exercise, you are using Terraform to deploy the azure resources.
     
     ![](media/gitrepo-clone.png)
     
-12. Change Directory into the terraform folder by running the below command.
+12. Change Directory into the terraform folder by running the below mentioned command.
 
     ```bash
     cd AVW-SAP-on-Azure/Sap-on-AzureV2/Implementors/terraform
     ```
     
-13. Check the default values defined in variables.tf, you can do this by running the below given command. After reviewing, press **Ctrl + X** to exit from the editor window.
+13. Check the default values defined in variables.tf, by running the below mentioned command. After reviewing, press **Ctrl + X** to exit from the editor window.
 
     ```bash
     nano variables.tf
@@ -68,7 +68,7 @@ In this Exercise, you are using Terraform to deploy the azure resources.
     
     ![](media/change-dir.png)
     
-14. You need to update the **Deployment_ID** and **User Object_ID** in the ```main.tf``` file. For that run the below command to get into the editor window and press ```i``` for Insert mode.
+14. You need to update the **Deployment_ID** and **User Object_ID** in the ```main.tf``` file. Run the below mentined command to get into the editor window and press ```i``` for Insert mode.
 
     ```bash
     vi main.tf
@@ -76,7 +76,7 @@ In this Exercise, you are using Terraform to deploy the azure resources.
     
     ![](media/vi-editor-main.png)
     
-15. In the Create Resource Group part, make sure to replace the Deployment_ID in the name of the resource group as **microhack-rg-<inject key="DeploymentID" enableCopy="false"/>**.
+15. In the Create Resource Group part, make sure to replace the Deployment_ID in the resource group name as **microhack-rg-<inject key="DeploymentID" enableCopy="false"/>**.
 
     ![](media/latest-rgname.png)
         
@@ -88,9 +88,9 @@ In this Exercise, you are using Terraform to deploy the azure resources.
 
     ![](media/replace-userid-2.png)
     
-18. After updating the Deployment_ID and User Object_ID you need to press **Esc** to enter Command mode, and then type **:wq** to write and quit the file.
+18. After updating the Deployment_ID and User Object_ID, press **Esc** to enter Command mode and then type **:wq** to write and quit the file.
 
-19. You need to need to run the below command to initialize a working directory containing Terraform configuration files.
+19. Run the below mentioned command to initialize a working directory containing Terraform configuration files.
 
     ```bash
     terraform init
@@ -106,8 +106,7 @@ In this Exercise, you are using Terraform to deploy the azure resources.
     terraform import azurerm_resource_group.rg /subscriptions/{SUBSCRIPTION_ID}/resourceGroups/{RESOURCEGROUP_NAME}
     ```
     
-
-21. Run the below command to execute the actions proposed in a terraform deployment, and choose ```yes``` once prompted to deploy the script.
+21. Run the below mentioned command to execute the actions proposed in a terraform deployment, and choose ```yes``` once prompted to deploy the script.
 
     ```bash
     terraform apply
@@ -125,7 +124,7 @@ In this Exercise, you are using Terraform to deploy the azure resources.
 
     ![](media/microhack-rg-verify.png)
     
-In this exercise, you have completed the resource deployment using terraform.
+In this exercise, you have completed resource deployment using terraform.
     
    
     
