@@ -140,46 +140,4 @@ In this Task, you will now display the Sales & predicted payment forecast in Pow
 3. In the below picture you can judge how well your `forecasted` payment values are compared to the past actual payment values.
 
    ![](media/ex6-t3-step3.png)
-   
-### Task 4: Publish the Power BI Reports
-
-1. Navigate to the URL below to open Power BI portal.
-
-   ```
-   https://www.powerbi.com/
-   ```
-   
-1. Complete the Sign-in process using the credentials below.
-
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
-   * Password: <inject key="AzureAdUserPassword"></inject>   
-
-1. Select **Workspaces** from the Power BI menu and click on more button next to **My workspace**.
-
-   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/Automated-Lab/media/powerbi1.png?raw=true)
-   
-1. Click on **Edit this workspace**.
-
-   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/Automated-Lab/media/powerbi2.png?raw=true)
-
-1. On the **Edit workspace** blade, select **License mode** as **Premium per capacity** and click on **Save**.
-
-   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/Automated-Lab/media/powerbi3.png?raw=true)
-
-1. Navigate back to Power BI Desktop application and click on **Publish** at the top right corner of the application.
-
-   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/Automated-Lab/media/powerbi4.png?raw=true)
-
-1. Complete the Sign-in process using the credentials below.
-
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
-   * Password: <inject key="AzureAdUserPassword"></inject>   
-
-1. On the **Publish to Power BI** blade, click on **Select**.
-
-   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/Automated-Lab/media/powerbi5.png?raw=true)
-
-1. Wait for the Publish operation to succeed. Once succeeded, you will be presented with blade below, click on **Got it**.
-
-   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/Automated-Lab/media/powerbi6.png?raw=true)
 
