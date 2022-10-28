@@ -461,7 +461,7 @@ from CosmosDB using a third pipeline.
 4. Enter the below values in the New linked service pane:
    
     | Parameter                                  | Value                                                                 |
-    | ----------------------------------------   | ---------------------------------------------------------------       |
+    | ------------------------------------------ | --------------------------------------------------------------------- |
     |  Name **(1)**                              |  **CosmosDbLS<inject key="DeploymentID" enableCopy="false"/>**        |
     |  Connecte via integration runtime **(2)**  |  **AutoResolveIntegrationRuntime**                                    |
     |  Authentication type **(3)**               |  **Account key**                                                      |
