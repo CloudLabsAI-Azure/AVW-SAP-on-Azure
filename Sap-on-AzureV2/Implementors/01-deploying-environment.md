@@ -88,15 +88,15 @@ In this Exercise, you will use Terraform to deploy the azure resources.
 
     ![](media/ex1-objectid2.png)
     
-18. After updating the Deployment_ID and User Object_ID, move the cursor to the top right corner to get **More** **(1)** option menu and select **Save** **(2)**.
+18. After updating the Deployment_ID and User Object_ID, move the cursor to the top right corner to get **More** **(1)** options menu and select **Save** **(2)**.
 
     ![](media/ex1-codesave.png)
     
-19. To close the code editor window, move the cursor to the top right corner to get **More** **(1)** option menu and select **Close Editor** **(2)**.
+19. To close the code editor window, move the cursor to the top right corner to get **More** **(1)** options menu and select **Close Editor** **(2)**.
 
     ![](media/ex1-codeclose.png)   
 
-19. Run the below mentioned command to initialize a working directory containing Terraform configuration files.
+20. Run the below mentioned command to initialize a working directory containing Terraform configuration files.
 
     ```bash
     terraform init
@@ -104,7 +104,7 @@ In this Exercise, you will use Terraform to deploy the azure resources.
     
     ![](media/terraform-init.png)
 
-20. Replace the Subscription ID with "<inject key="Subscription ID" />" and replace Deployment ID in the Resource group name with "microhack-rg-<inject key="DeploymentID" />" in the below command, then run the below command to import the resource group.
+21. Replace the Subscription ID with "<inject key="Subscription ID" />" and replace Deployment ID in the Resource group name with "microhack-rg-<inject key="DeploymentID" />" in the below command, then run the below command to import the resource group.
 
     > **Info**: You will be running below command to import the existing resource group for deploying the required resources.
 
@@ -112,7 +112,7 @@ In this Exercise, you will use Terraform to deploy the azure resources.
     terraform import azurerm_resource_group.rg /subscriptions/{SUBSCRIPTION_ID}/resourceGroups/microhack-rg-{DEPLOYMENT_ID}
     ```
     
-21. Run the below mentioned command to execute the actions proposed in a terraform deployment, and choose ```yes``` once prompted to deploy the script.
+22. Run the below mentioned command to execute the actions proposed in a terraform deployment, and choose ```yes``` once prompted to deploy the script.
 
     ```bash
     terraform apply
@@ -122,11 +122,11 @@ In this Exercise, you will use Terraform to deploy the azure resources.
   
     ![](media/enter-yes.png)
     
-22. Once the script execution is finished you will get output as shown in the below image.
+23. Once the script execution is finished you will get output as shown in the below image.
 
     ![](media/terraformapply-complete.png)
     
-23. Navigate to the **microhack-rg-<inject key="DeploymentID" enableCopy="false"/>** resource group and go through the resources deployed in the resource group.
+24. Navigate to the **microhack-rg-<inject key="DeploymentID" enableCopy="false"/>** resource group and go through the resources deployed in the resource group.
 
     ![](media/microhack-rg-verify.png)
     
