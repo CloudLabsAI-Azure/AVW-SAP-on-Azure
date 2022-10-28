@@ -208,7 +208,7 @@ from CosmosDB using a third pipeline.
     |  User name **(7)**                         |  **azureadmin**                                                 |
     |  Password **(8)**                          |  **Sapdata!pass123**                                            |
     
-   After adding all the above values, click on **Test connection** **(9)** to ensure that connection is successful and then click on **Create** **(10)**.
+   After adding all the above values, click on **Test connection** **(9)** to ensure that connection is successful and then select **Create** **(10)**.
    
    ![](media/t4-ex3-3.png)
    
