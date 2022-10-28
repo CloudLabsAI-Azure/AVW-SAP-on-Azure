@@ -214,7 +214,7 @@ from CosmosDB using a third pipeline.
    
 ### Task 4: Create an Integration DataSet for the Synapse Sales Orders
 
-1. Now, click on **Data** from the left-menu of Synapse studio and select **Linked**.
+1. Click on **Data** from the left-menu of Synapse studio and select **Linked**.
 
    ![](media/ex3-datalinked.png)
    
@@ -226,17 +226,17 @@ from CosmosDB using a third pipeline.
 
    ![](media/t5-ex3-2.png)
    
-4. In Set properties pane, enter Name as **SynapseTable<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **SynapseLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you have created earlier. Wait for few seconds to load the tables, search for  **dbo.SalesOrderHeaders** **(3)** table and select it from the drop-down. Then click on **Ok** **(4)**.
+4. In the Set properties pane, enter Name as **SynapseTable<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **SynapseLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you have created earlier. Wait for few seconds for the tables to load, search for  **dbo.SalesOrderHeaders** **(3)** table and select it from the drop-down. Then click on **Ok** **(4)**.
 
    ![](media/t5-ex3-3.png)
    
-5. Once the Integration dataset is created, click on **Preview data** to see the column names for the selected table is the previous step.
+5. Once the Integration dataset is created, click on **Preview data** to see the column names for the selected table from the previous step.
 
    ![](media/t5-ex3-4.png)
 
 ### Task 5: Create an Integration pipeline to extract SalesOrderHeaders data
 
-1. Now, click on **Integrate** from the left-menu of Synapse studio.
+1. Click on **Integrate** from the left-menu of Synapse studio.
 
    ![](media/t6-ex3-1.png)
    
@@ -244,7 +244,7 @@ from CosmosDB using a third pipeline.
 
    ![](media/t6-ex3-2.png)
    
-3. In Properties, under General enter the name as **ExtractSalesOrderHeaders** **(1)**. Under Move & transform from Activities menu, drag and drop the **Copy data** **(2)** option to the pipeline canvas. Then enter the name as **ExtractSalesOrderHeaders** **(3)** under General.
+3. In the Properties, under General enter the name as **ExtractSalesOrderHeaders** **(1)**. Under Move & transform from Activities menu, drag and drop the **Copy data** **(2)** option to the pipeline canvas. Then enter the name as **ExtractSalesOrderHeaders** **(3)** under General.
 
    ![](media/t6-ex3-3.png)
    
@@ -260,7 +260,7 @@ from CosmosDB using a third pipeline.
 
    ![](media/t6-ex3-6.png)
 
-7. Once the Import schemas is completed, you will be able to see the Mapping tab as shown below.
+7. Once the Import schemas has been completed, you will be able to see the Mapping tab as shown below.
 
    ![](media/t6-ex3-7.png)
 
@@ -319,7 +319,7 @@ from CosmosDB using a third pipeline.
 
 ### Task 6: Create an Integration Dataset for the SAP Sales Order Items
 
-1. Now, click on **Data** from the left-menu of Synapse studio and select **Linked**.
+1. Click on **Data** from the left-menu of Synapse studio and select **Linked**.
 
    ![](media/ex3-datalinked.png)
    
@@ -331,11 +331,11 @@ from CosmosDB using a third pipeline.
 
    ![](media/ex3-newid.png)
    
-4. In Set properties pane, enter Name as **SapHanaTableItems<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **SapHanaLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you have created earlier. Wait for few seconds to load the tables, search for  **SALES.Sales_Orders_items** **(3)** table and select it from the drop-down. Then click on **Ok** **(4)**.
+4. In the Set properties pane, enter Name as **SapHanaTableItems<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **SapHanaLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you have created earlier. Wait for few seconds for the tables to load, search for  **SALES.Sales_Orders_items** **(3)** table and select it from the drop-down. Then click on **Ok** **(4)**.
 
    ![](media/t6-orderitems-1.png)
    
-5. Once the Integration dataset is created, click on **Preview data** to see the data for the selected table is the previous step.
+5. Once the Integration dataset is created, click on **Preview data** to see the data for the selected table from the previous step.
 
    ![](media/t6-orderitems-2.png)   
 
@@ -353,17 +353,17 @@ from CosmosDB using a third pipeline.
 
    ![](media/t5-ex3-2.png)
    
-4. In Set properties pane, enter Name as **SynapseTableItems<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **SynapseLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you have created earlier. Wait for few seconds to load the tables, search for  **dbo.SalesOrderItems** **(3)** table and select it from the drop-down. Then click on **Ok** **(4)**.
+4. In the Set properties pane, enter Name as **SynapseTableItems<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **SynapseLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you have created earlier. Wait for few seconds to load the tables, search for  **dbo.SalesOrderItems** **(3)** table and select it from the drop-down. Then click on **Ok** **(4)**.
 
    ![](media/t7-synapseitems-1.png)
    
-5. Once the Integration dataset is created, click on **Preview data** to see the column names for the selected table is the previous step.
+5. Once the Integration dataset is created, click on **Preview data** to see the column names for the selected table from the previous step.
 
    ![](media/t7-synapseitems-2.png)
    
 ### Task 8: Create the integration pipeline to extract SalesOrderItems data
 
-1. Now, click on **Integrate** from the left-menu of Synapse studio.
+1. Click on **Integrate** from the left-menu of Synapse studio.
 
    ![](media/t6-ex3-1.png)
    
@@ -371,7 +371,7 @@ from CosmosDB using a third pipeline.
 
    ![](media/t6-ex3-2.png)
    
-3. In Properties, under General enter the name as **ExtractSalesOrderItems** **(1)**. Under Move & transform from Activities menu, drag and drop the **Copy data** **(2)** option to the pipeline canvas. Then enter the name as **ExtractSalesOrderItems** **(3)** under General.
+3. In the Properties, under General enter the name as **ExtractSalesOrderItems** **(1)**. Under Move & transform from Activities menu, drag and drop the **Copy data** **(2)** option to the pipeline canvas. Then enter the name as **ExtractSalesOrderItems** **(3)** under General.
 
    ![](media/t8-item-1.png)
    
@@ -387,7 +387,7 @@ from CosmosDB using a third pipeline.
 
    ![](media/t6-ex3-6.png)
 
-7. Once the Import schemas is completed, you will be able to see the Mapping tab as shown below.
+7. Once the Import schemas has been completed, you will be able to see the Mapping tab as shown below.
 
    ![](media/t8-item-4.png)
 
@@ -454,7 +454,7 @@ from CosmosDB using a third pipeline.
 
    ![](media/t4-ex3-1.png)
    
-3. In New linked service pane, search for **Cosmos** **(1)** and select **Azure Cosmos DB (SQL API)** **(2)**. Then click on **Continue** **(3)**.
+3. In the New linked service pane, search for **Cosmos** **(1)** and select **Azure Cosmos DB (SQL API)** **(2)**. Then click on **Continue** **(3)**.
 
    ![](media/t10-ex3-1.png)   
    
@@ -469,7 +469,7 @@ from CosmosDB using a third pipeline.
     |  Azure Cosmos DB account name **(5)**      |  **sap-data-cosmos-SUFFIX**                                           |
     |  Database name **(6)**                     |  **SAPS4D**                                                           |
     
-   After adding all the above values, click on **Test connection** **(7)** to ensure that connection is successful and then click on **Create** **(8)**.
+   After adding all the above values, click on **Test connection** **(7)** to ensure that connection is successful and select **Create** **(8)**.
    
    ![](media/t10-ex3-2.png)
    
@@ -487,7 +487,7 @@ from CosmosDB using a third pipeline.
 
    ![](media/t11-ex3-1.png)
    
-4. In Set properties pane, enter Name as **CosmosDbIDS<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **CosmosDbLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you have created earlier. For Conatiner select **paymentData** **(3)** from the drop-down and then click on **Ok** **(4)**.
+4. In the Set properties pane, enter Name as **CosmosDbIDS<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **CosmosDbLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you have created earlier. For Conatiner select **paymentData** **(3)** from the drop-down and then click on **Ok** **(4)**.
 
    ![](media/t11-ex3-2.png)    
 
@@ -595,7 +595,7 @@ from CosmosDB using a third pipeline.
 
    ![](media/t6-ex3-2.png)
 
-3. In Properties, under General enter the name as **ExtractPaymentsData** **(1)**. Under Move & transform from Activities menu, drag and drop the **Copy data** **(2)** option to the pipeline canvas. Then enter the name as **ExtractPaymentsData** **(3)** under General.
+3. In the Properties, under General enter the name as **ExtractPaymentsData** **(1)**. Under Move & transform from Activities menu, drag and drop the **Copy data** **(2)** option to the pipeline canvas. Then enter the name as **ExtractPaymentsData** **(3)** under General.
 
    ![](media/t14-ex3-1.png)
    
