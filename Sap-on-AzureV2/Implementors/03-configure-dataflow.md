@@ -10,7 +10,7 @@ from CosmosDB using a third pipeline.
    
 ### Task 1: Create Synapse Tables in SQL Pool
 
-1. From the Synapse Studio, click on **Develop** from the left-menu.
+1. From Synapse Studio, click on **Develop** from the left-menu.
 
    ![](media/ex3-develop.png)
    
@@ -18,7 +18,7 @@ from CosmosDB using a third pipeline.
 
    ![](media/ex3-create1.png)
    
-3. In the Properties, enter the Name as **CreateSalesOrderHeaders** **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then copy the below code and paste it in the codespace **(3)** and click on **Run** **(4)**.
+3. In the Properties, enter the Name as **CreateSalesOrderHeaders** **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then copy the code below and paste it in the codespace **(3)** and click on **Run** **(4)**.
 
    ```sql
    CREATE TABLE SalesOrderHeaders(
@@ -60,7 +60,7 @@ from CosmosDB using a third pipeline.
 
    ![](media/ex3-create2.png) 
    
-5. In the Properties, enter the Name as **CreateSalesOrderItems** **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then copy the below code and paste it in the codespace **(3)** and click on **Run** **(4)**.
+5. In the Properties, enter the Name as **CreateSalesOrderItems** **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then copy the code below and paste it in the codespace **(3)** and click on **Run** **(4)**.
 
    ```sql
    CREATE TABLE SalesOrderItems(
@@ -104,7 +104,7 @@ from CosmosDB using a third pipeline.
 
    ![](media/ex3-create3.png) 
    
-7. In the Properties, enter the Name as **CreatePayments** **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then copy the below code and paste it in the codespace **(3)** and click on **Run** **(4)**.
+7. In the Properties, enter the Name as **CreatePayments** **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then copy the code below and paste it in the codespace **(3)** and click on **Run** **(4)**.
 
    ```sql
    CREATE TABLE Payments(
@@ -142,7 +142,7 @@ from CosmosDB using a third pipeline.
 
    ![](media/ex3-linkedservicesh.png)
    
-3. In New linked service pane, search for **SAP** **(1)** and select **SAP HANA** **(2)**. Then click on **Continue** **(3)**.
+3. In the New linked service pane, search for **SAP** **(1)** and select **SAP HANA** **(2)**. Then click on **Continue** **(3)**.
 
    ![](media/ex3-saphanals.png)
    
@@ -157,7 +157,7 @@ from CosmosDB using a third pipeline.
     |  User name **(5)**                         |  **SYSTEM**                                                     |
     |  Password **(6)**                          |  **Password#1219**                                              |
    
-   After adding all the above values, click on **Test connection** **(7)** to ensure that connection is successful and then click on **Create** **(8)**.
+   After adding all the above values, click on **Test connection** **(7)** to ensure that connection is successful and then select **Create** **(8)**.
    
    ![](media/ex3-shlscreate.png)
 
@@ -173,11 +173,11 @@ from CosmosDB using a third pipeline.
 
    ![](media/ex3-newid.png)
    
-8. In Set properties pane, enter Name as **SapHanaTable<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **SapHanaLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you have created earlier. Wait for few seconds to load the tables, search for  **SALES.Sales_Orders_Headers** **(3)** table and select it from the drop-down. Then click on **Ok** **(4)**.
+8. In the Set properties pane, enter Name as **SapHanaTable<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **SapHanaLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you created earlier. Wait for few seconds for the tables to load, search for  **SALES.Sales_Orders_Headers** **(3)** table and select it from the drop-down. Then click on **Ok** **(4)**.
 
    ![](media/ex3-id-setprop.png)
    
-9. Once the Integration dataset is created, click on **Preview data** to see the data for the selected table is the previous step.
+9. Once the Integration dataset is created, click on **Preview data** to see the data for the selected table from the previous step.
 
    ![](media/ex3-previewdata.png) 
    
@@ -191,7 +191,7 @@ from CosmosDB using a third pipeline.
 
    ![](media/t4-ex3-1.png)
    
-3. In New linked service pane, search for **Synapse** **(1)** and select **Azure Synapse Analytics** **(2)**. Then click on **Continue** **(3)**.
+3. In the New linked service pane, search for **Synapse** **(1)** and select **Azure Synapse Analytics** **(2)**. Then click on **Continue** **(3)**.
 
    ![](media/t4-ex3-2.png)
 
