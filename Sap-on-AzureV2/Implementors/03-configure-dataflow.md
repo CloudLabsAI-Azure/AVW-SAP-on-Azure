@@ -146,20 +146,20 @@ from CosmosDB using a third pipeline.
 
    ![](media/ex3-saphanals.png)
    
-4. Now, enter the below values in New linked service pane:
+4. Enter the below values in New linked service pane:
    
-    | Parameter                                  | Value                                                           |
-    | -----------------------------------------  | --------------------------------------------------------------- |
-    |  Name **(1)**                              |  **SapHanaLS<inject key="DeploymentID" enableCopy="false"/>**   |
-    |  Connecte via integration runtime **(2)**  |  **sap-intrun-<inject key="DeploymentID" enableCopy="false"/>** |
-    |  Server name **(3)**                       |  **10.0.1.6:30213**                                             |
-    |  Authentication type **(4)**               |  **Basic authentication**                                       |
-    |  User name **(5)**                         |  **SYSTEM**                                                     |
-    |  Password **(6)**                          |  **Password#1219**                                              |
+     | Parameter                                  | Value                                                           |
+     | -----------------------------------------  | --------------------------------------------------------------- |
+     |  Name **(1)**                              |  **SapHanaLS<inject key="DeploymentID" enableCopy="false"/>**   |
+     |  Connecte via integration runtime **(2)**  |  **sap-intrun-<inject key="DeploymentID" enableCopy="false"/>** |
+     |  Server name **(3)**                       |  **10.0.1.6:30213**                                             |
+     |  Authentication type **(4)**               |  **Basic authentication**                                       |
+     |  User name **(5)**                         |  **SYSTEM**                                                     |
+     |  Password **(6)**                          |  **Password#1219**                                              |
    
-   After adding all the above values, click on **Test connection** **(7)** to ensure that connection is successful and then select **Create** **(8)**.
+     After adding all the above values, click on **Test connection** **(7)** to ensure that connection is successful and then select **Create** **(8)**.
    
-   ![](media/ex3-shlscreate.png)
+     ![](media/ex3-shlscreate.png)
 
 5. Now, click on **Data** from the left-menu of Synapse studio and select **Linked**.
 
@@ -469,9 +469,9 @@ from CosmosDB using a third pipeline.
      |  Azure Cosmos DB account name **(5)**      |  **sap-data-cosmos-SUFFIX**                                           |
      |  Database name **(6)**                     |  **SAPS4D**                                                           |
     
-    After adding all the above values, click on **Test connection** **(7)** to ensure that connection is successful and select **Create** **(8)**.
+     After adding all the above values, click on **Test connection** **(7)** to ensure that connection is successful and select **Create** **(8)**.
    
-    ![](media/t10-ex3-2.png)
+     ![](media/t10-ex3-2.png)
    
 ### Task 10: Create an Integration Dataset for the Cosmos DB Payments
 
