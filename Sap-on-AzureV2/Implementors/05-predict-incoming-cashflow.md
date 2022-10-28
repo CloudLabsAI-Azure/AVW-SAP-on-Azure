@@ -2,7 +2,7 @@
 
 In this exercise you will create a model to predict incoming cashflow based on historical payment delays for previous sales.
 
-You wll be using [Azure Machine Learning](https://ml.azure.com/) for this.
+You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
 ### Task 1: Create a View in Synapse Workspace
 
