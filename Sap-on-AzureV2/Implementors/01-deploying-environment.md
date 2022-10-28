@@ -80,11 +80,11 @@ In this Exercise, you will use Terraform to deploy the azure resources.
 
     ![](media/ex1-rgname.png)
         
-16. Scroll-down to Assign Storage role to user part and make sure to replace the User Object_ID with "<inject key="ObjectID" />" in the principal_id.
+16. Scroll-down to Assign Storage role to user part and make sure to replace the User Object_ID with "**<inject key="ObjectID" />**" in the principal_id.
 
     ![](media/ex-1objectid1.png)
     
-17. Scroll-down to Create Key Vault part and make sure to replace the User Object_ID with "<inject key="ObjectID" />" in the object_id.
+17. Scroll-down to Create Key Vault part and make sure to replace the User Object_ID with "**<inject key="ObjectID" />**" in the object_id.
 
     ![](media/ex1-objectid2.png)
     
@@ -104,7 +104,7 @@ In this Exercise, you will use Terraform to deploy the azure resources.
     
     ![](media/terraform-init.png)
 
-21. Replace the Subscription ID with "<inject key="Subscription ID" />" and replace Deployment ID in the Resource group name with "microhack-rg-<inject key="DeploymentID" />" in the below command, then run the below command to import the resource group.
+21. Replace the Subscription ID with "**<inject key="Subscription ID" />**" and replace Deployment ID in the Resource group name with "**microhack-rg-<inject key="DeploymentID" />**" in the below command, then run the below command to import the resource group.
 
     > **Info**: You will be running below command to import the existing resource group for deploying the required resources.
 
