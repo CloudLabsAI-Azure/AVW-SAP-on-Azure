@@ -20,9 +20,9 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
    ![](media/ex4-t1-step2.png)
   
-5. In the **Get data** pane, search for **Synapse** **(1)** and select **Azure Synapse Analytics (SQL DW)** **(2)**. Then click on **Connect** **(3)**.
+5. In the **Get data** pane, search for **Synapse** **(1)** and select **Azure Synapse Analytics SQL** **(2)**. Then click on **Connect** **(3)**.
 
-   ![](media/ex4-t1-step3.png)
+   ![](media/ex4-synapsepbi.png)
 
 6. On the SQL Server database dialog, enter the below values:
 
@@ -229,23 +229,29 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
     ![](media/ex4-t3-step25new.png)
     
-26. On the Power BI visuals window, search for **Box and Whisker** **(1)**. Then choose the **Box and Whisker chart** **(2)** by DataScenarios.
+26. You will see a pop-up to enter your email address. Enter the below **Username** and click on **Continue**.
+
+    * Email/Username: <inject key="AzureAdUserEmail"></inject>
+
+    ![](media/ex4-pbivisuallogin.png)
+
+27. On the Power BI visuals window, search for **Box and Whisker** **(1)**. Then choose the **Box and Whisker chart** **(2)** by DataScenarios.
 
     ![](media/ex4-t3-step26new.png)
     
-27. On the AppSource window, select the **Add** button to add the Box and Whisker chart.
+28. On the AppSource window, select the **Add** button to add the Box and Whisker chart.
 
     ![](media/ex4-t3-step27new.png)
     
-28. On the Visualizations pane, select the newly added **Box and Whisker chart** **(1)**. In the **Category** field, drag-and-drop the **SalesOrderPayments.CUSTOMERGROUP** **(2)**, **SalesOrderPayments.Offset** **(3)** into the **Sampling** field, and **SalesOrderPayments.Offset** **(4)** into the **Value** field.
+29. On the Visualizations pane, select the newly added **Box and Whisker chart** **(1)**. In the **Category** field, drag-and-drop the **SalesOrderPayments.CUSTOMERGROUP** **(2)**, **SalesOrderPayments.Offset** **(3)** into the **Sampling** field, and **SalesOrderPayments.Offset** **(4)** into the **Value** field.
 
     ![](media/ex4-t3-step28.png) 
 
-29. Expand the menu in the **Value** field and select the **Average** option.
+30. Expand the menu in the **Value** field and select the **Average** option.
 
     ![](media/ex4-t3-step29.png)
     
-30. Adjust the sizing of the chart on the report canvas as desired.    
+31. Adjust the sizing of the chart on the report canvas as desired.    
    
     ![](media/ex4-t3-step30.png)
 
