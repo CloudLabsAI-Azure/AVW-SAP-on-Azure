@@ -64,9 +64,13 @@ You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
    ![](media/ex5-t2-step2.1.png)
    
-3. From **Machine Learning Studio**, scroll-down to **Manage** from left-menu. Click on **Datastores** **(1)** and select ```+ Create``` **(2)** to create a new datastore.
+3. From **Machine Learning Studio**, scroll-down to **Assets** from left-menu. Click on **Data (1)** then **Datastores** **(2)**.
 
-   ![](media/ex5-t2-step3.png)
+   ![](media/ex5-t2-step3.1.png)
+   
+6. On the **Datastores** **(1)** tab and select **+ Create** **(2)** to create a new datastore.
+
+   ![](media/ex5-t2-step3.2.png)
    
 4. In the Create datastore pane, enter the following values in the respective fields and click on **Create** **(11)**.
 
@@ -77,7 +81,7 @@ You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
    | Account Selection method (3)  | select `Enter Manually`      |
    | Enter your Synapse Workspace name as Server Name (4) | **sapdatasynwsSUFFIX** |
    | Enter your Synapse SQL Pool as Database Name (5) | **sapdatasynsql** |
-   | Select your Subscription (6)  | Select the subscription in which **microhack-<inject key="DeploymentID" enableCopy="false"/>-rg** resource group is deployed |
+   | Select your Subscription (6)  | Select the subscription in which **microhack-rg-<inject key="DeploymentID" enableCopy="false"/>** resource group is deployed |
    | Enter your resource group name (7) | **microhack-<inject key="DeploymentID" enableCopy="false"/>-rg** |
    | Authentication Type (8) | **SQL Authentication** |
    | Enter UserId (9)        | **azureadmin**         |
@@ -95,27 +99,31 @@ You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
    ![](media/ex5-t3-step1.png)
    
-2. On the Create a new Automated ML job select a data asset step, expand the **Create** **(1)** menu and select **From datastore** **(2)**.
+2. On the **Select data asset** step, click on **Create**.
 
-   ![](media/ex5-t3-step2.png)
+   ![](media/ex5-t3-step2.1.png)
    
-3. On the **Create dataset from datastore** blade Basic info step, name the dataset **SalesPaymentsView** **(1)**. Select **Next** **(2)**.
+3. On the **Set the name and type for your data asset** blade,  name the dataset as **SalesPaymentsView** **(1)** then click on **Next** **(2)**.
 
-   ![](media/ex5-t3-step3.png)
+   ![](media/ex5-t3-step3.1.png)
    
-4. From **Datastore selection** step, select the **sap_data_ml_ds** **(1)** datastore. Add the below SQL query **(2)** to get all the data from the view defined above and then click **Next** **(3)**. 
+1. On the **Choose a source for your data asset** blade, select **From SQL databases** **(1)** then click on **Next** **(2)**.
+
+   ![](media/ex5-t3-step3.2.png)
+
+1. On the **Select a datastore** blade, select the **sap_data_ml_ds** **(1)** datastore then click on **Next** **(2)**.
+
+   ![](media/ex5-t3-step3.3.png)
+   
+4. On the **Query the database** blade, add the below SQL query **(2)** in the editor and click on **Run query** to get all the data from the view defined above. Click on **Next** **(3)**. 
 
    ```sql
    select * from SalesPaymentsFull
    ```  
    
-   ![](media/ex5-t3-step4.png)
-   
-5. In the **Settings and preview** step, visualize the data in the next window to verify that the data for the query is working fine. Click **Next**.
+   ![](media/ex5-t3-step4.1.png)
 
-   ![](media/ex5-t3-step5.png)
-   
-6. In the **Schema** step, toggle the following **fields off** to exclude them from the dataset and then select **Next**:
+6. On the **Schema** step, toggle the following **fields off** to exclude them from the dataset and then select **Next**:
 
     - SALESDOCUMENT
     - BILLINGDOCUMENTDATE
@@ -123,12 +131,14 @@ You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
     - SALESGROUP
     - SALESOFFICE
 
-   ![](media/ex5-t3-step6.png)
+   ![](media/ex5-t3-step6.1.png)
    
-7. In the **Confirm** details step, select **Create**.
+7. On the **Review** blade, review the details and click on **Create**.
 
-   ![](media/ex5-t3-step7.png)
+   ![](media/ex5-t3-step7.1.png)
    
+   > Note: If you are not able to see the datset, click on **Refresh** on the **Select data asset** blade to fetch the recent data.
+
 8. On the Select data asset step, select **SalesPaymentsView** **(1)** from the list and select **Next** **(2)**.
 
    ![](media/ex5-t3-step8.png)
@@ -158,7 +168,7 @@ You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
     
     ![](media/ex5-t3-step11.png)
     
-12. Once the compute cluster is created successfully, you will be reverted back to the Configure job step. Select the **sap-data-ml-vm** **(1)** computer cluster For Select Azure ML compute cluster from the drop-down and select **Next** **(2)**.
+12. Once the compute cluster is created successfully, you will be navigated back to the Configure job step. Select the **sap-data-ml-vm** **(1)** computer cluster For Select Azure ML compute cluster from the drop-down and select **Next** **(2)**.
 
     ![](media/ex5-t3-step12.png)
      
@@ -166,7 +176,8 @@ You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
     ![](media/ex5-t3-step13.png)
     
-14. In the Additional configurations blade, select the Primary metric of **Normalized root mean squared error** **(1)**, then **expand the Blocked models** **(2)** drop down, check the following items, and select **Save** **(3)**. This will reduce the time to train the model. Make sure that the **DecisionTree** and **XGBoostRegressor** are unchecked.
+14. In the Additional configurations blade, select the Primary metric as **Normalized root mean squared error** **(1)**, then expand the **Blocked models** **(2)** drop down, check the following items, and select **Save** **(3)**. 
+     > Info: This will reduce the time to train the model. Make sure that the **DecisionTree** and **XGBoostRegressor** are unchecked.
 
      - ElasticNet
      - GradientBoosting
