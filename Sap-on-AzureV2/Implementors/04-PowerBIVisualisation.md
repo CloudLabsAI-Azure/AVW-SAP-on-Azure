@@ -310,11 +310,11 @@ In this exercise you will be setting up the powerBI reports for the extracted da
    
 1. Select **My Workspace** from the left-hand menu and click on **SalesOrderPayments** report from the workspace.
 
-   ![](media/report1.png)
+   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/media/report1.png?raw=true)
    
 1. You can observe the published **SalesOrderPayments** report.
 
-   ![](media/report2.png)
+   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/media/report2.png?raw=true)
       
 >**Note**: Keep this report open in Power BI desktop for future exercises.
    
