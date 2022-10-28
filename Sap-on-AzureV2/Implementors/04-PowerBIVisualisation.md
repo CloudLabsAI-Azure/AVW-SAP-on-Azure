@@ -8,7 +8,7 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
    ![](media/ex2-latestsynapse.png)
    
-2. In the **Overview** of **sapdatasynwsSUFFIX** Synapse workspace, copy the **Dedicated SQL endpoint** and paste it in notepad for later use.
+2. In the **Overview** of **sapdatasynwsSUFFIX** Synapse workspace, copy the **Dedicated SQL endpoint** and paste it in notepad to be used later.
 
    ![](media/ex4-t1-copydep.png)
    
@@ -36,17 +36,17 @@ In this exercise you will be setting up the powerBI reports for the extracted da
    
    ![](media/ex4-t1-step4.png)
    
-7. An authentication dialog displays, select **Microsoft account** **(1)** from the left menu and then select the **Sign in** **(2)** button.
+7. An authentication dialog will appear, select **Microsoft account** **(1)** from the left menu and then select the **Sign in** **(2)** button.
 
    ![](media/ex4-t1-step5.png)
    
-8. You will see the Sign in dialog apperas, enter the following username, and, then click on **Next**.
+8. A Sign in tab will appear, enter the following username, and, then click on **Next**.
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
    ![](media/ex4-t1-step6.png)
    
-9. Now enter the following password and click on **Sign in**. 
+9. Enter the following password and click on **Sign in**. 
 
    * Password: <inject key="AzureAdUserPassword"></inject>
 
@@ -60,7 +60,7 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
     ![](media/ex4-t1-step9.png)
     
-12. Once the data is transformed, you will be seeing the Power Query editor window as shown below:
+12. Once the data is transformed, the Power Query editor window will be visible as shown below:
 
     ![](media/ex4-t1-step10.png)
 
@@ -83,7 +83,7 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
     ![](media/ex4-t1-step13.png)
     
-16. Once the data loading is completed, you will be able to see all the three tables under the Fields in Power BI Desktop application.
+16. Once the data loading has been completed, you will be able to see all three tables under the Fields in Power BI Desktop application.
 
     ![](media/ex4-t1-step14.png)
   
@@ -97,7 +97,7 @@ In this exercise you will be setting up the powerBI reports for the extracted da
    
    ![](media/ex4-t2-step2new.png)
    
-3. Now you can look at the relationship details by double clicking on the connection link between **SalesOrderHeaders** and **SalesOrderItems** tables. After reviewing the relationship details, click **Ok** to close the Edit relationship dialog.
+3. Double click on the connection link between **SalesOrderHeaders** and **SalesOrderItems** tables to see the relationship details. After reviewing the relationship details, click **Ok** to close the Edit relationship dialog.
 
    ![](media/ex4-t2-step3.png)   
    
@@ -105,7 +105,7 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
    ![](media/ex4-t2-step4new.png)
 
-5. Now you can look at the relationship details by double clicking on the connection link between **Payments** and **SalesOrderHeaders** tables. After reviewing the relationship details, click **Ok** to close the Edit relationship dialog.
+5. Double click on the connection link between **Payments** and **SalesOrderHeaders** tables to see the relationship details. After reviewing the relationship details, click **Ok** to close the Edit relationship dialog.
 
    ![](media/ex4-t2-step5.png)
    
@@ -174,9 +174,9 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
     ![](media/ex4-t3-step13.png)    
 
-14. Rename the Merge query by right-clicking the Merge query in the Queries pane, and selecting **Rename**. Name the merged query **SalesOrderPayments**.
+14. Rename the Merge query by right clicking the Merge query in the Queries pane, and selecting **Rename**. Name the merged query **SalesOrderPayments**.
 
-15. With the **SalesOrderPayments** **(1)** query selected, scroll the table completely to the right. Expand the **Payments** **(2)** column menu, and choose to include the following **fields** **(3)**: **PaymentNr**, **PaymentDate**, **PaymentValue** and **Currency**. Make sure to **Uncheck** **(4)** for Use original column name as prefix and select **OK** **(5)**.
+15. With the **SalesOrderPayments** **(1)** query selected, scroll the table completely to the right. Expand the **Payments** **(2)** column menu and choose to include the following **fields** **(3)**: **PaymentNr**, **PaymentDate**, **PaymentValue** and **Currency**. Make sure to **Uncheck** **(4)** for Use original column name as prefix and select **OK** **(5)**.
 
     ![](media/ex4-t3-step15new.png)
     
@@ -229,7 +229,7 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
     ![](media/ex4-t3-step25new.png)
     
-26. You will see a pop-up to enter your email address. Enter the below **Username** and click on **Continue**.
+26. A pop-up to enter your email address will appear. Enter the below **Username** and click on **Continue**.
 
     * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
