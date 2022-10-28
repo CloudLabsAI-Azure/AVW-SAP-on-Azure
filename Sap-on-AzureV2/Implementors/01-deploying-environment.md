@@ -78,7 +78,7 @@ In this Exercise, you are using Terraform to deploy the azure resources.
     
 15. In the Create Resource Group part, make sure to replace the Deployment_ID in the name of the resource group as **microhack-rg-<inject key="DeploymentID" enableCopy="false"/>**.
 
-    ![](media/create-microhack-rg.png)
+    ![](media/latest-rgname.png)
         
 16. Scroll-down to Assign Storage role to user part and make sure to replace the provided User Object_ID in the principal_id.
 
@@ -97,8 +97,14 @@ In this Exercise, you are using Terraform to deploy the azure resources.
     ```
     
     ![](media/terraform-init.png)
-    
-20. Run the below command to execute the actions proposed in a terraform deployment, and choose ```yes``` once prompted to deploy the script.
+
+20. Now, you need to import the existing resource group for deploying the resources. Run the below command to import the resource group.
+
+    ```
+    terraform import azurerm_resource_group.rg /subscriptions/{SUBSCRPTION_ID}/resourceGroups/mircohack-rg-<inject key="DeploymentID" enableCopy="false"/>
+    ```
+
+21. Run the below command to execute the actions proposed in a terraform deployment, and choose ```yes``` once prompted to deploy the script.
 
     ```bash
     terraform apply
@@ -108,11 +114,11 @@ In this Exercise, you are using Terraform to deploy the azure resources.
   
     ![](media/enter-yes.png)
     
-21. Once the script execution is finished you will get output as shown in the below image.
+22. Once the script execution is finished you will get output as shown in the below image.
 
     ![](media/terraformapply-complete.png)
     
-22. Navigate to the **microhack-<inject key="DeploymentID" enableCopy="false"/>-rg** resource group and go through the resources deployed in the resource group.
+23. Navigate to the **microhack-rg-<inject key="DeploymentID" enableCopy="false"/>** resource group and go through the resources deployed in the resource group.
 
     ![](media/microhack-rg-verify.png)
     
