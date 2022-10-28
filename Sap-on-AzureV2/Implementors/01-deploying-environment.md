@@ -128,7 +128,7 @@ In this Exercise, you will use Terraform to deploy the azure resources.
     
 24. Navigate to the **microhack-rg-<inject key="DeploymentID" enableCopy="false"/>** resource group and go through the resources deployed in the resource group.
 
-    ![](media/microhack-rg-verify.png)
+    ![](media/ex1-rgoverview.png)
     
 In this exercise, you have completed resource deployment using terraform.
     
