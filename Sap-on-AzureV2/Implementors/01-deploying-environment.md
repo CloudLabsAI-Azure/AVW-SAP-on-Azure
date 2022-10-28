@@ -98,11 +98,14 @@ In this Exercise, you are using Terraform to deploy the azure resources.
     
     ![](media/terraform-init.png)
 
-20. Now, you need to import the existing resource group for deploying the resources. Run the below command to import the resource group.
+20. Replace the Subscription ID with "<inject key="Subscription ID" />" and Resource group name with "mircohack-rg-<inject key="DeploymentID" enableCopy="false"/>" in the below command, then run the below command to import the resource group.
 
+    > **Info**: You will be running below command to import the existing resource group for deploying the required resources.
+
+    ```bash
+    terraform import azurerm_resource_group.rg /subscriptions/{SUBSCRIPTION_ID}/resourceGroups/{RESOURCEGROUP_NAME}
     ```
-    terraform import azurerm_resource_group.rg /subscriptions/{SUBSCRPTION_ID}/resourceGroups/mircohack-rg-<inject key="DeploymentID" enableCopy="false"/>
-    ```
+    
 
 21. Run the below command to execute the actions proposed in a terraform deployment, and choose ```yes``` once prompted to deploy the script.
 
