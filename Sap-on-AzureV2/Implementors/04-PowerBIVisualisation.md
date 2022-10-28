@@ -4,9 +4,9 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
 ### Task 1: Setup & Importing Data to Power BI
 
-1. Navigate to the **microhack-<inject key="DeploymentID" enableCopy="false"/>-rg** resource group in the Azure portal and open the Synapse workspace named **sapdatasynwsSUFFIX** from the resources.
+1. Navigate to the **microhack-rg-<inject key="DeploymentID" enableCopy="false"/>** resource group in the Azure portal and open the Synapse workspace named **sapdatasynwsSUFFIX** from the resources.
 
-   ![](media/ex4-t1-opensynapse.png)
+   ![](media/ex2-latestsynapse.png)
    
 2. In the **Overview** of **sapdatasynwsSUFFIX** Synapse workspace, copy the **Dedicated SQL endpoint** and paste it in notepad for later use.
 
