@@ -1,16 +1,16 @@
 # Exercise 2: Configure Synapse Workspace
 
-In this Exercise, you will be registring an integration runtime in Synapse Workspace.
+In this Exercise, you will be registering an integration runtime in Synapse Workspace.
 
 ## Task 1: Register Integration Runtime
 
-1. Navigate to the **microhack-<inject key="DeploymentID" enableCopy="false"/>-rg** resource group and open Synapse workspace with the name **sapdatasynwsSUFFIX**.
+1. Navigate to the **microhack-rg-<inject key="DeploymentID" enableCopy="false"/>** resource group and open Synapse workspace with the name **sapdatasynwsSUFFIX**.
 
-   ![](media/ex2-opensynapse.png)
+   ![](media/ex2-latestsynapse.png)
    
 2. From the Overview pane of Synapse workspace, scroll-down to Getting started and click on **Open** to Open Synapse Studio.
 
-   ![](media/ex2-openstudio.png)
+   ![](media/ex2-latest-openstudio.png)
 
 3. You will see that Synapse studio opened in the new tab. Click on **Manage** from the left-menu to register the integration runtime.
 
