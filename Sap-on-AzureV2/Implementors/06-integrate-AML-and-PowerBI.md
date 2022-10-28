@@ -1,6 +1,6 @@
 # Exercise 6: Integrate Azure Machine Learning and PowerBI
 
-In this exercise, you can now integrate the Azure Machine Learning Model within PowerBI. The Azure Machine Learning exposes a REST interface which you can integrate in PowerBI.
+In this exercise, you will integrate the Azure Machine Learning Model within PowerBI. The Azure Machine Learning exposes a REST interface which you can integrate in PowerBI.
 
 ### Task 1: Add Machine Learning info to the PowerBI Datamodel
 
@@ -16,7 +16,7 @@ In this exercise, you can now integrate the Azure Machine Learning Model within 
 
    ![](media/ex6-t1-step3.png)
    
-4. In the Power Query Editor, with the SalesOrderPayments table selected in the Queries pane, scroll all the way to the right of the displayed table. Right-click the **AzureML.sap-data-ml-model** **(1)** field menu and choose **Rename** **(2)**. Rename the field to **predOffset** **(2)**.
+4. In the Power Query Editor, with the SalesOrderPayments table selected in the Queries pane, scroll all the way to the right of the displayed table. Right-click on the **AzureML.sap-data-ml-model** **(1)** field menu and choose **Rename** **(2)**. Rename the field to **predOffset** **(2)**.
 
    ![](media/ex6-t1-step4.png)
 
@@ -46,7 +46,7 @@ In this exercise, you can now integrate the Azure Machine Learning Model within 
    
 ### Task 2: PowerBI Report Creation   
 
-In this Task, you will now display the Sales & predicted payment forecast in PowerBI. Since you want to display the Sales and Payment figures aggregated by different days (BILLINGDOCUMENTDATE, predPaymentDate), you need to create a `calendar` table with the timeslots by which to aggregate.
+In this Task, you will now display the Sales & predicted payment forecast in PowerBI. Since you want to display the Sales and Payment figures aggregated by different days (BILLINGDOCUMENTDATE, predPaymentDate), you need to create a `calendar` table with the timeslots by which you wish to aggregate.
 
 * Create Date Table
 
@@ -119,7 +119,7 @@ In this Task, you will now display the Sales & predicted payment forecast in Pow
     Payment at pred Date = CALCULATE(sum('SalesOrderPayments'[PaymentValue]), USERELATIONSHIP('Date'[Date], SalesOrderPayments[predPaymentDate]))
     ```
 
-8. Once adding all the four measures, verify it from the Field section under Date table.
+8. After adding all the four measures, verify it from the Field section under Date table.
 
    ![](media/ex6-t2-step8new.png)
    
@@ -143,34 +143,34 @@ In this Task, you will now display the Sales & predicted payment forecast in Pow
    
 ### Task 4: Publish the Power BI Reports
 
-1. Navigate to the below URL to open Power BI portal.
+1. Navigate to the URL below to open Power BI portal.
 
    ```
    https://www.powerbi.com/
    ```
    
-1. Complete the Sign-in process using the below credentials.
+1. Complete the Sign-in process using the credentials below.
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
    * Password: <inject key="AzureAdUserPassword"></inject>   
 
-1. Select **Workspaces** from the Power BI menu and click on more button that is next to **My workspace**.
+1. Select **Workspaces** from the Power BI menu and click on more button next to **My workspace**.
 
    ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/Automated-Lab/media/powerbi1.png?raw=true)
    
-1. Now, click on **Edit this workspace**.
+1. Click on **Edit this workspace**.
 
    ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/Automated-Lab/media/powerbi2.png?raw=true)
 
-1. One the **Edit workspace** blade, select **License mode** as **Premium per capacity** and click on **Save**.
+1. On the **Edit workspace** blade, select **License mode** as **Premium per capacity** and click on **Save**.
 
    ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/Automated-Lab/media/powerbi3.png?raw=true)
 
-1. Navigate back to Power BI Desktop application and click on **Publish** that is present at the top right corner of the application.
+1. Navigate back to Power BI Desktop application and click on **Publish** at the top right corner of the application.
 
    ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/Automated-Lab/media/powerbi4.png?raw=true)
 
-1. Complete the Sign-in process using the below credentials.
+1. Complete the Sign-in process using the credentials below.
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
    * Password: <inject key="AzureAdUserPassword"></inject>   
@@ -179,12 +179,7 @@ In this Task, you will now display the Sales & predicted payment forecast in Pow
 
    ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/Automated-Lab/media/powerbi5.png?raw=true)
 
-1. Wait for the Publish operation to succeed. Once succeeded, you will be presented with below blade, click on **Got it**.
+1. Wait for the Publish operation to succeed. Once succeeded, you will be presented with blade below, click on **Got it**.
 
    ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/Automated-Lab/media/powerbi6.png?raw=true)
-
-
-
-
-
 
