@@ -16,7 +16,7 @@ In this task, you will create instant cloud flow in Power Automate.
    https://flow.microsoft.com/en-us/
    ```
    
-1. Now, select the **Sign in** option from the right-top to sign in to the Power Automate Portal.
+1. Select the **Sign in** option from the top right to sign in to the Power Automate Portal.
 
    ![](media/ex6-t1-step2.png)
    
@@ -24,7 +24,7 @@ In this task, you will create instant cloud flow in Power Automate.
 
    ![](media/ex6-t1-step1.png)
 
-1. Select **My flows** **(1)** from the left hand side menu then click on **+ New flow** **(2)** and select **Instant cloud flow** **(3)** from the drop=down.
+1. Select **My flows** **(1)** from the left-hand side menu then click on **+ New flow** **(2)** and select **Instant cloud flow** **(3)** from the drop=down.
 
    ![](media/ex7-t1-createinstantflow.png)
    
@@ -36,7 +36,7 @@ In this task, you will create instant cloud flow in Power Automate.
 
    ![](media/ex7-t1-titleflow.png)
    
-1. Now, search for **Schedule** **(1)** and select **Recurrence** **(2)** under Triggers.
+1. Search for **Schedule** **(1)** and select **Recurrence** **(2)** under Triggers.
 
    ![](media/ex7-t1-recurrence.png)
    
@@ -48,11 +48,11 @@ In this task, you will create instant cloud flow in Power Automate.
 
    ![](media/ex7-t1-powerbi1.png)
    
-1. Now, search for **Export** **(1)** and select **Export To File for Power BI Reports** **(2)** under Actions.
+1. Search for **Export** **(1)** and select **Export To File for Power BI Reports** **(2)** under Actions.
 
    ![](media/ex7-t1-powerbi2.png)
    
-1. In Export To File for Power BI Reports, enter the below given values:
+1. In Export To File for Power BI Reports, enter the values given below:
 
      | Field              | Value                      |
      |------------------- |--------------------------- |
@@ -68,17 +68,17 @@ In this task, you will create instant cloud flow in Power Automate.
    
     ![](media/ex7-t1-newstep2.png)
    
-1. Open a new browser tab and navigate to the below URL to open the **Encodian Signup** page.
+1. Open a new browser tab and navigate to the URL below to open the **Encodian Signup** page.
 
    ```
    https://www.encodian.com/apikey
    ```
    
-1. Enter your personal details for the ask as shown below screenshot then click on **Submit** to activate the free trial account.
+1. Enter your personal details for the ask as shown screenshot below then click on **Submit** to activate the free trial account.
 
    ![](media/setup-encodian.png)
    
-1. Once you click on **Submit**, you can see the API Key as shown in the below screenshot. Copy the **API Key** and save it in notepad. You will be using it in the next steps.
+1. Once you click on **Submit**, you can see the API Key as shown in the screenshot below. Copy the **API Key** and save it in notepad. You will be using it in the next steps.
 
     ![](media/copy-encodian-apikey.png)
    
@@ -90,7 +90,7 @@ In this task, you will create instant cloud flow in Power Automate.
 
    ![](media/ex7-t1-convertptoi.png)
    
-1. In Encodian step, enter the Connection name as **SAP-Encodian** **(1)** and paste the **Encodian API Key** **(2)** which you have copied in the earlier steps. Click on **Create** **(3)**.
+1. In the Encodian step, enter the Connection name as **SAP-Encodian** **(1)** and paste the **Encodian API Key** **(2)** which you have copied in the earlier steps. Click on **Create** **(3)**.
 
    ![](media/ex7-t1-encodiancreate.png)
    
