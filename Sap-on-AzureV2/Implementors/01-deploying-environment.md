@@ -66,11 +66,11 @@ In this Exercise, you will use Terraform to deploy the azure resources.
     code variables.tf
     ```
     
-    ![](media/codevariables.png)    
+    ![](media/ex1-codevariables.png)    
 
 14. You need to update the variable location default value with "**<inject key="Region" />**" region.
 
-    ![](media/coderegion.png)
+    ![](media/ex1-region.png)
     
 15. After updating the default value for location , move the cursor to the top right corner to get **More** **(1)** options menu and select **Save** **(2)**.
 
@@ -136,7 +136,7 @@ In this Exercise, you will use Terraform to deploy the azure resources.
     
 26. Once the script execution is finished you will get output as shown in the below image.
 
-    ![](media/terraformapply-complete.png)
+    ![](media/ex1-tdc.png)
     
 27. Navigate to the **microhack-rg-<inject key="DeploymentID" enableCopy="false"/>** resource group and go through the resources deployed in the resource group.
 
