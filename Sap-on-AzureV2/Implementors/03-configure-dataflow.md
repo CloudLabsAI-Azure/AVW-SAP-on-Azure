@@ -391,11 +391,11 @@ from CosmosDB using a third pipeline.
 
    ![](media/t8-item-4.png)
 
-8. For the prediction model we will calculate the offset between the billing document date and the actual payment data. For this we need to have these date fields mapped to SQL Date fields. Therefore, go to the **View JSON Code** **{}** for the pipeline.
+8. For the prediction model we will calculate the offset between the billing document date and the actual payment data. For this we need to have these date fields mapped to SQL Date fields. Go to the **View JSON Code** **{}** for the pipeline.
 
    ![](media/t8-item-5.png)
 
-9. Add the parameters **convertDateToDatetime** and **convertTimeToTimespan** at the existing **typeproperties > source** element. The resulting document should looks as follows :
+9. Add the parameters **convertDateToDatetime** and **convertTimeToTimespan** at the existing **typeproperties > source** element. The resulting document should look as follows :
 
    ```bash
      "typeProperties": {
@@ -411,7 +411,7 @@ from CosmosDB using a third pipeline.
 
     ![](media/t8-item-6.png)
 
-10. In the **Settings** **(1)** blade, check the box for **Enable staging** **(2)** and use the existing staging account linked service **sapdatasynwsSUFFIX** **(3)** to the Synapse Data Lake. Click on **Browse** **(4)** to the staging directory **sap-data-adls/staging** **(5)**, which was already created by the Terraform script.
+10. In the **Settings** **(1)** blade, check the box for **Enable staging** **(2)** and use the existing staging account linked service **sapdatasynwsSUFFIX** **(3)** to the Synapse Data Lake. Click on **Browse** **(4)** to the staging directory **sap-data-adls/staging** **(5)**, already created by the Terraform script.
 
     ![](media/t6-ex3-10.png)
 
@@ -421,21 +421,21 @@ from CosmosDB using a third pipeline.
 
     ![](media/t8-item-8.png)
 
-12. Once the Publish completed. click on **Add trigger** **(1)** and select **Trigger now** **(2)** to trigger the pipeline. In the Pipeline run pane, click on **Ok** to confirm.
+12. Once the Publish has been completed. click on **Add trigger** **(1)** and select **Trigger now** **(2)** to trigger the pipeline. In the Pipeline run pane, click on **Ok** to confirm.
 
     ![](media/t8-item-9.png)
     
     ![](media/t6-ex3-14.png)
 
-13. Swith to **Monitor** **(1)** from the left-menu, click on **Pipeline runs** **(2)** under Integration and select the **ExtractSalesOrderItems** pipeline which got **Succeeded**.
+13. Switch to **Monitor** **(1)** from the left-menu, click on **Pipeline runs** **(2)** under Integration and select the **ExtractSalesOrderItems** pipeline which was **Successful**.
 
     ![](media/t8-item-10.png)
 
-14. Check the result in Synapse using SQL. You can do this via the **Develop** **(1)**, click on ```+``` **(2)** and select **SQL script** **(3)** to create a new SQL script.
+14. Check the result in Synapse using SQL. You can do this via **Develop** **(1)**, click on ```+``` **(2)** and select **SQL script** **(3)** to create a new SQL script.
 
     ![](media/t6-ex3-16.png)
 
-15. Enter the below SQL script into the codespace **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then click on **Run** **(3)** and explore the **Results** **(4)**.
+15. Enter the below SQL script into the codespace **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Click on **Run** **(3)** and explore the **Results** **(4)**.
 
     ```bash
     select count(*) from SalesOrderItems
@@ -454,11 +454,11 @@ from CosmosDB using a third pipeline.
 
    ![](media/t4-ex3-1.png)
    
-3. In the New linked service pane, search for **Cosmos** **(1)** and select **Azure Cosmos DB (SQL API)** **(2)**. Then click on **Continue** **(3)**.
+3. In the New linked service pane, search for **Cosmos** **(1)** and select **Azure Cosmos DB (SQL API)** **(2)**. Click on **Continue** **(3)**.
 
    ![](media/t10-ex3-1.png)   
    
-4. Now, enter the below values in New linked service pane:
+4. Enter the below values in the New linked service pane:
    
     | Parameter                                  | Value                                                                 |
     | ----------------------------------------   | ---------------------------------------------------------------       |
@@ -475,7 +475,7 @@ from CosmosDB using a third pipeline.
    
 ### Task 10: Create an Integration Dataset for the Cosmos DB Payments
 
-1. Now, click on **Data** from the left-menu of Synapse studio and select **Linked**.
+1. Click on **Data** from the left-menu of Synapse studio and select **Linked**.
 
    ![](media/ex3-datalinked.png)
    
@@ -483,21 +483,21 @@ from CosmosDB using a third pipeline.
 
    ![](media/t5-ex3-1.png)
    
-3. Search for **Cosmos** **(1)** and select **Azure Cosmos DB (SQL API)** **(2)**. Then click on **Continue** **(3)** in New integration dataset pane. 
+3. Search for **Cosmos** **(1)** and select **Azure Cosmos DB (SQL API)** **(2)**. Click on **Continue** **(3)** in the New integration dataset pane. 
 
    ![](media/t11-ex3-1.png)
    
-4. In the Set properties pane, enter Name as **CosmosDbIDS<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **CosmosDbLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you have created earlier. For Conatiner select **paymentData** **(3)** from the drop-down and then click on **Ok** **(4)**.
+4. In the Set properties pane, enter Name as **CosmosDbIDS<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **CosmosDbLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you created earlier. For Container select **paymentData** **(3)** from the drop-down and then click on **Ok** **(4)**.
 
    ![](media/t11-ex3-2.png)    
 
 ### Task 11: Setup Payments Integration Dataset and create an Integration Dataset for the Synapse Payments
 
-1. Now, click on **Data** from the left-menu of Synapse studio and select **Linked**.
+1. Click on **Data** from the left-menu of Synapse studio and select **Linked**.
 
    ![](media/ex3-datalinked.png)
 
-2. An Azure Synapse is deployed with an underlying Azure Data Lake Storage Gen2 linked service which was already created by the Terraform script. Click on down arrow of **Azure Data Lake Storage Gen2** **(1)**, followed by click on down arrow of **sapdatasynwsSUFFIX** **(2)** and then double-click on **sap-data-adls (Primary)** **(3)**. Ensure that you are inside the **sap-data-adls >staging** **(4)** directory.
+2. An Azure Synapse is deployed with an underlying Azure Data Lake Storage Gen2 linked service which was already created by the Terraform script. Click on the down arrow of **Azure Data Lake Storage Gen2** **(1)**, followed by click on the down arrow of **sapdatasynwsSUFFIX** **(2)** and then double-click on **sap-data-adls (Primary)** **(3)**. Ensure that you are inside the **sap-data-adls >staging** **(4)** directory.
 
    ![](media/t7-ex3-1.png)
 
@@ -505,7 +505,7 @@ from CosmosDB using a third pipeline.
 
    ![](media/t7-ex3-2.png)
    
-4. Once File upload completed, select the **paymentData_CAL2021.csv** **(1)** file and click on **New integration dataset** **(2)**.
+4. Once File upload completed, select the **paymentData_CAL2021.csv** **(1)** file and click on the **New integration dataset** **(2)**.
 
    ![](media/t7-ex3-3.png)
    
@@ -513,11 +513,11 @@ from CosmosDB using a third pipeline.
 
    ![](media/t7-ex3-4.png)
 
-6. From the **PaymentDataset<inject key="DeploymentID" enableCopy="false"/>** integration dataset pane, select **Semicolon(;)** **(1)** for **Column delimiter** and ensure to **check box** **(2)** for **First row as header**. Then click on **Preview data** **(3)** to see the the payments data.
+6. From the **PaymentDataset<inject key="DeploymentID" enableCopy="false"/>** integration dataset pane, select **Semicolon(;)** **(1)** for **Column delimiter** and ensure to **check box** **(2)** for **First row as header**. Then click on **Preview data** **(3)** to see the payments data.
 
    ![](media/t7-ex3-5.png)
    
-7. Now create a new synapse integration dataset for payments, click on ```+``` **(1)** and select **Integration dataset** **(2)**.
+7. Create a new synapse integration dataset for payments, click on ```+``` **(1)** and select **Integration dataset** **(2)**.
 
    ![](media/t5-ex3-1.png)
    
@@ -525,15 +525,15 @@ from CosmosDB using a third pipeline.
 
    ![](media/t5-ex3-2.png)
    
-9. In Set properties pane, enter Name as **SynapsePaymentsIDS<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **SynapseLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you have created earlier. Wait for few seconds to load the tables, search for  **dbo.Payments** **(3)** table and select it from the drop-down. Then click on **Ok** **(4)**.
+9. In the Set properties pane, enter Name as **SynapsePaymentsIDS<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **SynapseLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you have created earlier. Wait for few seconds for the tables to load, search for  **dbo.Payments** **(3)** table and select it from the drop-down. Then click on **Ok** **(4)**.
 
    ![](media/t12-ex3-1.png)
    
-10. Once the Integration dataset is created, click on **Preview data** to see the column names for the selected table is the previous step.
+10. Once the Integration dataset is created, click on **Preview data** to see the column names for the selected table from the previous step.
 
     ![](media/t12-ex3-2.png)
     
-11. Now click **Publish all** at the top of the Synapse studio.
+11. Click **Publish all** at the top of the Synapse studio.
 
     ![](media/t11-payments-publish.png)    
 
@@ -543,7 +543,7 @@ from CosmosDB using a third pipeline.
     
 ### Task 12: Create an Integration Pipeline for extracting data from Payment Integration dataset to Cosmos DB Integration dataset
 
-1. Now, click on **Integrate** from the left-menu of Synapse studio.
+1. Click on **Integrate** from the left-menu of Synapse studio.
 
    ![](media/t6-ex3-1.png)
    
@@ -551,7 +551,7 @@ from CosmosDB using a third pipeline.
 
    ![](media/t6-ex3-2.png)
 
-3. In Properties, under General enter the name as **ExtractPayments** **(1)**. Under Move & transform from Activities menu, drag and drop the **Copy data** **(2)** option to the pipeline canvas. Then enter the name as **ExtractPayments** **(3)** under General.
+3. In the Properties, under General enter the name as **ExtractPayments** **(1)**. Under Move & transform from Activities menu, drag and drop the **Copy data** **(2)** option to the pipeline canvas. Then enter the name as **ExtractPayments** **(3)** under General.
 
    ![](media/t13-ex3-1.png)
    
@@ -563,17 +563,17 @@ from CosmosDB using a third pipeline.
 
    ![](media/t13-ex3-3new.png)
 
-6. Now click on **Publish all** at the top of the Synapse studio. In the Publish all pane, click on **Publish** to confirm.
+6. Click on **Publish all** at the top of Synapse studio. In the Publish all pane, click on **Publish** to confirm.
 
     ![](media/t13-ex3-6.png)
 
-7. Once the Publish completed. click on **Add trigger** **(1)** and select **Trigger now** **(2)** to trigger the pipeline. In the Pipeline run pane, click on **Ok** to confirm.
+7. Once the Publish has been completed. click on **Add trigger** **(1)** and select **Trigger now** **(2)** to trigger the pipeline. In the Pipeline run pane, click on **Ok** to confirm.
 
     ![](media/t13-ex3-8.png)
     
     ![](media/t6-ex3-14.png)
 
-8. Swith to **Monitor** **(1)** from the left-menu, click on **Pipeline runs** **(2)** under Integration and select the **ExtractPayments** pipeline which got **Succeeded**.
+8. Switch to **Monitor** **(1)** from the left-menu, click on **Pipeline runs** **(2)** under Integration and select the **ExtractPayments** pipeline which was **Successful**.
 
     ![](media/t13-ex3-9.png)
 
@@ -587,7 +587,7 @@ from CosmosDB using a third pipeline.
 
 ### Task 13: Create an Integration Pipeline for moving data from Cosmos DB Integration dataset to Synapse payments Integration dataset
     
-1. Now, click on **Integrate** from the left-menu of Synapse studio.
+1. Click on **Integrate** from the left-menu of Synapse studio.
 
    ![](media/t6-ex3-1.png)
    
@@ -611,29 +611,29 @@ from CosmosDB using a third pipeline.
 
    ![](media/t13-ex3-4.png)
 
-7. Once the Import schemas is completed, make sure to **remove the mappings by unchecking** **(1)** the checkbox behind them and for mapping with the name **Value**, select the **Column name** as **PaymentValue** **(2)** from the drop-down as shown in the below screenshot.
+7. Once the Import schemas has been completed, make sure to **remove the mappings by unchecking** **(1)** the checkbox behind them. For mapping with the name **Value**, select the **Column name** as **PaymentValue** **(2)** from the drop-down as shown in the screenshot below.
 
    ![](media/t13-ex3-5new.png)
 
-8. In the **Settings** **(1)** blade, check the box for **Enable staging** **(2)** and use the existing staging account linked service **sapdatasynwsSUFFIX** **(3)** to the Synapse Data Lake. Click on **Browse** **(4)** to the staging directory **sap-data-adls/staging** **(5)**, which was already created by the Terraform script.
+8. In the **Settings** **(1)** blade, check the box for **Enable staging** **(2)** and use the existing staging account linked service **sapdatasynwsSUFFIX** **(3)** to the Synapse Data Lake. Click on **Browse** **(4)** to the staging directory **sap-data-adls/staging** **(5)**, already created by the Terraform script.
 
     ![](media/t6-ex3-10.png)
 
-9. Now click on **Publish all** at the top of the Synapse studio. In the Publish all pane, click on **Publish** to confirm.
+9. Click on **Publish all** at the top of the Synapse studio. In the Publish all pane, click on **Publish** to confirm.
 
     ![](media/t14-ex3-2.png)
 
-10. Once the Publish completed. click on **Add trigger** **(1)** and select **Trigger now** **(2)** to trigger the pipeline. In the Pipeline run pane, click on **Ok** to confirm.
+10. Once the Publish has been completed. click on **Add trigger** **(1)** and select **Trigger now** **(2)** to trigger the pipeline. In the Pipeline run pane, click on **Ok** to confirm.
 
     ![](media/t14-ex3-3.png)
     
     ![](media/t6-ex3-14.png)
 
-11. Swith to **Monitor** **(1)** from the left-menu, click on **Pipeline runs** **(2)** under Integration and select the **ExtractPaymentsData** pipeline which got **Succeeded**.
+11. Switch to **Monitor** **(1)** from the left-menu, click on **Pipeline runs** **(2)** under Integration and select the **ExtractPaymentsData** pipeline which got **Succeeded**.
 
     ![](media/t14-ex3-4.png)
 
-12. Check the result in Synapse using SQL. You can do this via the **Develop** **(1)**, click on ```+``` **(2)** and select **SQL script** **(3)** to create a new SQL script.
+12. Check the result in Synapse using SQL. You can do this via **Develop** **(1)**, click on ```+``` **(2)** and select **SQL script** **(3)** to create a new SQL script.
 
     ![](media/t6-ex3-16.png)
 
