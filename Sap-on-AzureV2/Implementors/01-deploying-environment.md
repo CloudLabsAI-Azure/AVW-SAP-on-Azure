@@ -60,15 +60,27 @@ In this Exercise, you will use Terraform to deploy the azure resources.
     cd AVW-SAP-on-Azure/Sap-on-AzureV2/Implementors/terraform
     ```
     
-13. Check the default values defined in variables.tf, by running the below mentioned command. After reviewing, press **Ctrl + X** to exit from the editor window.
+13. You need to Check the default values defined in variables.tf, by running the below mentioned command.
 
     ```bash
-    nano variables.tf
+    code variables.tf
     ```
     
-    ![](media/change-dir.png)
+    ![](media/codevariables.png)    
+
+14. You need to update the variable location default value with "**<inject key="Region" />**" region.
+
+    ![](media/coderegion.png)
     
-14. You need to update the **Deployment_ID** and **User Object_ID** in the ```main.tf``` file. Run the below mentined command to get into the code editor window.
+15. After updating the default value for location , move the cursor to the top right corner to get **More** **(1)** options menu and select **Save** **(2)**.
+
+    ![](media/ex1-coderegionsave.png)
+    
+16. To close the code editor window, move the cursor to the top right corner to get **More** **(1)** options menu and select **Close Editor** **(2)**.
+
+    ![](media/ex1-coderegionclose.png)    
+
+17. You need to update the **Deployment_ID** and **User Object_ID** in the ```main.tf``` file. Run the below mentined command to get into the code editor window.
     
     ```bash
     code main.tf
@@ -76,27 +88,27 @@ In this Exercise, you will use Terraform to deploy the azure resources.
     
     ![](media/ex1-codemain.png)
     
-15. In the Create Resource Group part, make sure to replace the Deployment_ID in the resource group name as **microhack-rg-<inject key="DeploymentID" />**.
+18. In the Create Resource Group part, make sure to replace the Deployment_ID in the resource group name as **microhack-rg-<inject key="DeploymentID" />**.
 
     ![](media/ex1-rgname.png)
         
-16. Scroll-down to Assign Storage role to user part and make sure to replace the User Object_ID with "**<inject key="ObjectID" />**" in the principal_id.
+19. Scroll-down to Assign Storage role to user part and make sure to replace the User Object_ID with "**<inject key="ObjectID" />**" in the principal_id.
 
     ![](media/ex-1objectid1.png)
     
-17. Scroll-down to Create Key Vault part and make sure to replace the User Object_ID with "**<inject key="ObjectID" />**" in the object_id.
+20. Scroll-down to Create Key Vault part and make sure to replace the User Object_ID with "**<inject key="ObjectID" />**" in the object_id.
 
     ![](media/ex1-objectid2.png)
     
-18. After updating the Deployment_ID and User Object_ID, move the cursor to the top right corner to get **More** **(1)** options menu and select **Save** **(2)**.
+21. After updating the Deployment_ID and User Object_ID, move the cursor to the top right corner to get **More** **(1)** options menu and select **Save** **(2)**.
 
     ![](media/ex1-codesave.png)
     
-19. To close the code editor window, move the cursor to the top right corner to get **More** **(1)** options menu and select **Close Editor** **(2)**.
+22. To close the code editor window, move the cursor to the top right corner to get **More** **(1)** options menu and select **Close Editor** **(2)**.
 
     ![](media/ex1-codeclose.png)   
 
-20. Run the below mentioned command to initialize a working directory containing Terraform configuration files.
+23. Run the below mentioned command to initialize a working directory containing Terraform configuration files.
 
     ```bash
     terraform init
@@ -104,7 +116,7 @@ In this Exercise, you will use Terraform to deploy the azure resources.
     
     ![](media/terraform-init.png)
 
-21. Replace the Subscription ID with "**<inject key="Subscription ID" />**" and replace Deployment ID in the Resource group name with "**microhack-rg-<inject key="DeploymentID" />**" in the below command, then run the below command to import the resource group.
+24. Replace the Subscription ID with "**<inject key="Subscription ID" />**" and replace Deployment ID in the Resource group name with "**microhack-rg-<inject key="DeploymentID" />**" in the below command, then run the below command to import the resource group.
 
     > **Info**: You will be running below command to import the existing resource group for deploying the required resources.
 
@@ -114,7 +126,7 @@ In this Exercise, you will use Terraform to deploy the azure resources.
     
     ![](media/ex1-importrg.png)
     
-22. Run the below mentioned command to execute the actions proposed in a terraform deployment, and choose ```yes``` once prompted to deploy the script.
+25. Run the below mentioned command to execute the actions proposed in a terraform deployment, and choose ```yes``` once prompted to deploy the script.
 
     ```bash
     terraform apply
@@ -122,15 +134,13 @@ In this Exercise, you will use Terraform to deploy the azure resources.
   
     ![](media/enter-yes.png)
     
-23. Once the script execution is finished you will get output as shown in the below image.
+26. Once the script execution is finished you will get output as shown in the below image.
 
     ![](media/terraformapply-complete.png)
     
-24. Navigate to the **microhack-rg-<inject key="DeploymentID" enableCopy="false"/>** resource group and go through the resources deployed in the resource group.
+27. Navigate to the **microhack-rg-<inject key="DeploymentID" enableCopy="false"/>** resource group and go through the resources deployed in the resource group.
 
     ![](media/ex1-rgoverview.png)
     
 In this exercise, you have completed resource deployment using terraform.
-    
    
-    
