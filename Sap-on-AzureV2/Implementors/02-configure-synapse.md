@@ -24,7 +24,7 @@ In this Exercise, you will be registering an integration runtime in Synapse Work
 
    ![](media/ex2-selfhosted.png)
    
-6. Choose **Self-Hosted** as the Network enviornment and click on **Continue**.
+6. Choose **Self-Hosted** as the Network environment and click on **Continue**.
 
    ![](media/ex2-networksh.png)
    
@@ -32,15 +32,15 @@ In this Exercise, you will be registering an integration runtime in Synapse Work
 
    ![](media/ex2-nameir.png)
    
-8. Once the integration runtime is created, you will see Authentication keys under Option 2: Manual setup. Make sure to **copy** **(1)** those keys to notepad, in the next step you need one of these keys. 
+8. Once the integration runtime is created, Authentication keys under Option 2: Manual setup will appear. **Copy** **(1)** those keys to notepad, as you will need one of these keys in the next step.
 
    ![](media/ex2-copykeys.png)
    
-9. In Option 2: Manual setup, you can download the integration runtime via Step 1. Click on **Download and install integration runtime**.
+9. In Option 2: Manual setup, download the integration runtime via Step 1. Click on **Download and install integration runtime**.
 
    ![](media/ex2-downloadir.png)
  
-10. You will see a new tab to Download Microsoft Integration Runtime, scroll-down and click on **Download**.
+10. A new tab to Download Microsoft Integration Runtime will appear, scroll-down and click on **Download**.
 
     ![](media/ex2-microsoftir.png)
     
@@ -48,11 +48,11 @@ In this Exercise, you will be registering an integration runtime in Synapse Work
 
     ![](media/ex2-latestvir.png)
     
-12. Once the downloading is completed, click on **Open file** of the downloaded integration runtime from Downloads.
+12. Once the downloading is complete, click on **Open file** of the downloaded integration runtime from Downloads.
 
     ![](media/ex2-installir.png)
     
-13. In Welcome to the Microsoft Integrartion Runtime Setup Wizard pane, leave default English language selected and click on **Next**.
+13. In Welcome to the Microsoft Integration Runtime Setup Wizard pane, leave default English language selected and click on **Next**.
 
     ![](media/ex2-irinstall1.png)
 
@@ -76,11 +76,11 @@ In this Exercise, you will be registering an integration runtime in Synapse Work
 
     ![](media/ex2-registerfinish.png)
     
-19. Once you see the Integration Runtime (Self-Hosted) node has been registered successfully, then click on **Launch Configuration Manager**.
+19. Once the Integration Runtime (Self-Hosted) node has been registered successfully, click on **Launch Configuration Manager**.
 
     ![](media/ex2-launchir.png)
     
-20. Now you can see the Self-hosted node is connedted to the cloud service.
+20. The Self-hosted node is connected to the cloud service.
 
     ![](media/ex2-shnode.png)
 
@@ -92,5 +92,5 @@ In this Exercise, you will be registering an integration runtime in Synapse Work
 
     ![](media/ex2-refreshir.png)     
     
-In this Exercise, you have registered and installated the Integration Runtime and the self-hosted node is connected. You can proceed with the next exercise. 
+In this Exercise, you have registered and installed the Integration Runtime and the self-hosted node is connected. You can proceed with the next exercise. 
     
