@@ -260,5 +260,47 @@ In this exercise you will be setting up the powerBI reports for the extracted da
     * CustomerGroup2 pays within 30days +/- 5 days
     * Other customergroups pay after 10 days
 
+### Task 4: Publish the Power BI Reports
+
+1. Navigate to the URL below to open Power BI portal.
+
+   ```
+   https://www.powerbi.com/
+   ```
+   
+1. Complete the Sign-in process using the credentials below.
+
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+   * Password: <inject key="AzureAdUserPassword"></inject>   
+
+1. Select **Workspaces** from the Power BI menu and click on more button next to **My workspace**.
+
+   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/media/powerbi1.png?raw=true)
+   
+1. Click on **Edit this workspace**.
+
+   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/media/powerbi2.png?raw=true)
+
+1. On the **Edit workspace** blade, select **License mode** as **Premium per capacity** and click on **Save**.
+
+   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/media/powerbi3.png?raw=true)
+
+1. Navigate back to Power BI Desktop application and click on **Publish** at the top right corner of the application.
+
+   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/media/powerbi4.png?raw=true)
+
+1. Complete the Sign-in process using the credentials below.
+
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+   * Password: <inject key="AzureAdUserPassword"></inject>   
+
+1. On the **Publish to Power BI** blade, click on **Select**.
+
+   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/media/powerbi5.png?raw=true)
+
+1. Wait for the Publish operation to succeed. Once succeeded, you will be presented with blade below, click on **Got it**.
+
+   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/media/powerbi6.png?raw=true)
+
 >**Note**: Keep this report open in Power BI desktop for future exercises.
    
