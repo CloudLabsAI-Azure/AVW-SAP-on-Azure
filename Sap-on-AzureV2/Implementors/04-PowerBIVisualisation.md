@@ -32,9 +32,9 @@ In this exercise you will be setting up the powerBI reports for the extracted da
     | Database **(2)** | **sapdatasynsql** |
     | Data Connectivity mode **(3)** | Select **Import**. |
     
-   After adding all the above values, click on **Ok** **(4)**.
+    After adding all the above values, click on **Ok** **(4)**.
    
-   ![](media/ex4-t1-step4.png)
+    ![](media/ex4-t1-step4.png)
    
 7. An authentication dialog displays, select **Microsoft account** **(1)** from the left menu and then select the **Sign in** **(2)** button.
 
