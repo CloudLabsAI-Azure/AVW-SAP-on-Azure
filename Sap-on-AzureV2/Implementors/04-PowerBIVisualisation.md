@@ -20,7 +20,7 @@ In this exercise you will be setting up the powerBI reports for the extracted da
 
    ![](media/ex4-t1-step2.png)
   
-5. In the **Get data** pane, search for **Synapse** **(1)** and select **Azure Synapse Analytics SQL** **(2)**. Then click on **Connect** **(3)**.
+5. In the **Get Data** pane, search for **Synapse** **(1)** and select **Azure Synapse Analytics SQL** **(2)**. Then click on **Connect** **(3)**.
 
    ![](media/ex4-synapsepbi.png)
 
