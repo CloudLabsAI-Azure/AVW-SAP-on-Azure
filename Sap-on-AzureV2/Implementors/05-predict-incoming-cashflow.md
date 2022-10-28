@@ -6,7 +6,7 @@ You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
 
 ### Task 1: Create a View in Synapse Workspace
 
-1. From the Synapse Studio, click on **Develop** **(1)** from the left-menu. Click on```+``` **(2)** and select **SQL script** **(3)** to create a new view.
+1. Navigate to browser tab in which **Synapse Studio** is open. From the Synapse Studio, click on **Develop** **(1)** from the left-menu. Click on```+``` **(2)** and select **SQL script** **(3)** to create a new view.
 
    ![](media/ex5-t1-step1.png)
    
@@ -38,7 +38,7 @@ You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
    
    ![](media/ex5-t1-step2.png)
    
-3. From **Data** **(1)**, click on **Workspace** **(2)** and select **sapdatasynsql** SQL database **(3)**. You will see the created **dbo.SalesPaymentsFull** view under **Views** **(4)**. If you are not able to see, click on eclipse **(...)** button next to **Views** and select **Refresh**.
+3. From the **Data** **(1)** tab, click on **Workspace** **(2)** and select **sapdatasynsql** SQL database **(3)**. You will see the created **dbo.SalesPaymentsFull** view under **Views** **(4)**. If you are not able to see, click on eclipse **(...)** button next to **Views** and select **Refresh**.
 
    ![](media/ex5-t1-step3.png)
    
@@ -56,13 +56,13 @@ You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
    
 ### Task 2: Configure the Data store in ML studio
 
-1. Navigate to the **microhack-<inject key="DeploymentID" enableCopy="false"/>-rg** resource group in the Azure portal and open the Azure Machine Learning workspace named **sap-data-ml-ws** from the resources.
+1. Navigate to the **microhack-rg-<inject key="DeploymentID" enableCopy="false"/>** resource group in the Azure portal and open the Azure Machine Learning workspace named **sap-data-ml-ws** from the resources.
 
-   ![](media/ex5-t2-step1.png)
+   ![](media/ex5-t2-step1.1.png)
    
-2. In the Overview of **sapdatasynwsSUFFIX** Azure Machine Learning workspace, click on **Launch studio**. You will be navigated to Microsoft Azure Machine Learning Studio.
+2. In the Overview of **sap-data-ml-ws** Azure Machine Learning workspace, click on **Launch studio**. You will be navigated to Microsoft Azure Machine Learning Studio.
 
-   ![](media/ex5-t2-step2.png)
+   ![](media/ex5-t2-step2.1.png)
    
 3. From **Machine Learning Studio**, scroll-down to **Manage** from left-menu. Click on **Datastores** **(1)** and select ```+ Create``` **(2)** to create a new datastore.
 
