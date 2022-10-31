@@ -460,18 +460,18 @@ from CosmosDB using a third pipeline.
    
 4. Enter the below values in the New linked service pane:
    
-     | Parameter                                  | Value                                                                 |
-     | ------------------------------------------ | --------------------------------------------------------------------- |
-     |  Name **(1)**                              |  **CosmosDbLS<inject key="DeploymentID" enableCopy="false"/>**        |
-     |  Connecte via integration runtime **(2)**  |  **AutoResolveIntegrationRuntime**                                    |
-     |  Authentication type **(3)**               |  **Account key**                                                      |
-     |  Azure subscription **(4)**                |  **Select the available subscription in which Cosmos DB is deployed** |
-     |  Azure Cosmos DB account name **(5)**      |  **sap-data-cosmos-SUFFIX**                                           |
-     |  Database name **(6)**                     |  **SAPS4D**                                                           |
+    | Parameter                                  | Value                                                                 |
+    | ------------------------------------------ | --------------------------------------------------------------------- |
+    |  Name **(1)**                              |  **CosmosDbLS<inject key="DeploymentID" enableCopy="false"/>**        |
+    |  Connecte via integration runtime **(2)**  |  **AutoResolveIntegrationRuntime**                                    |
+    |  Authentication type **(3)**               |  **Account key**                                                      |
+    |  Azure subscription **(4)**                |  **Select the available subscription in which Cosmos DB is deployed** |
+    |  Azure Cosmos DB account name **(5)**      |  **sap-data-cosmos-SUFFIX**                                           |
+    |  Database name **(6)**                     |  **SAPS4D**                                                           |
     
-     After adding all the above values, click on **Test connection** **(7)** to ensure that connection is successful and select **Create** **(8)**.
+    After adding all the above values, click on **Test connection** **(7)** to ensure that connection is successful and select **Create** **(8)**.
    
-     ![](media/t10-ex3-2.png)
+    ![](media/t10-ex3-2.png)
    
 ### Task 10: Create an Integration Dataset for the Cosmos DB Payments
 
