@@ -18,6 +18,14 @@ When customers buy goods, the corresponding payments are not completed immediate
 
 To tackle this, Contoso wants to use Azure tooling to predict the incoming cashflow. To predict cash flow, historical Sales Orders and payments data is required. 
 
+### Azure services and related products
+
+- SAP HANA
+- Power BI
+- Power Automate
+- Azure Machine Learning
+- Azure Automated ML
+- Azure Synapse Analytics
 
 ## Solution architecture
 The solution architecture diagram displays as described below.
@@ -64,12 +72,5 @@ In this exercise, you will be reviewing the pre-deployed Automated ML Run and be
 
 In this exercise, you will establish connections for Power BI, One Drive for business, Approvals, Microsoft Teams, and Encodian in Power Automate. You will also import and trigger a flow to export the Power BI report and share it to Teams
 
-### Azure services and related products
 
-- SAP HANA
-- Power BI
-- Power Automate
-- Azure Machine Learning
-- Azure Automated ML
-- Azure Synapse Analytics
 
