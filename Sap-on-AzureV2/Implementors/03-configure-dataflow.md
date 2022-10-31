@@ -652,4 +652,6 @@ In this exercise, you will create Synapse Pipelines and will run the SQL scripts
 
     ![](media/t14-ex3-5.png)
 
+## Summary
 
+In this exercise, you have created pipelines for **SalesOrderHeaders data**, **SalesOrderItems data**, and **Payments data**.
