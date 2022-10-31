@@ -142,5 +142,7 @@ In this Exercise, you will use Terraform to deploy the azure resources.
 
     ![](media/ex1-rgoverview.png)
     
+## Summary
+
 In this exercise, you have completed resource deployment using terraform.
    
