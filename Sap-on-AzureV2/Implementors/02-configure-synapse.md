@@ -1,6 +1,9 @@
 # Exercise 2: Configure Synapse Workspace
 
-In this Exercise, you will be registering an integration runtime in Synapse Workspace.
+In this Exercise, you will be registering an integration runtime in Synapse Workspace. The Integration Runtime (IR) is the compute infrastructure used by Azure Synapse pipelines to provide the following data integration capabilities across different network environments:
+
+   * Data Flow: Execute a Data Flow in a managed Azure compute environment.
+   * Data movement: Copy data across data stores in a public or private networks (for both on-premises or virtual private networks). The service provides support for built-in connectors, format conversion, column mapping, and performant and scalable data transfer.
 
 ## Task 1: Register Integration Runtime
 
@@ -91,6 +94,8 @@ In this Exercise, you will be registering an integration runtime in Synapse Work
 22. Click on **Refresh** to see the registered **sap-intrun-<inject key="DeploymentID" enableCopy="false"/>** self-hosted Integration runtime with status **Running**.
 
     ![](media/ex2-refreshir.png)     
-    
+
+## Summary
+
 In this Exercise, you have registered and installed the Integration Runtime and the self-hosted node is connected. You can proceed with the next exercise. 
     
