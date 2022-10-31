@@ -1,6 +1,13 @@
 # Exercise 4: Power BI Visualization
 
+Azure Synapse Analytics and Power BI become more powerful when used together, combining to provide a unique, modern approach to data analytics. Azure Synapse enables Power BI professionals across a diverse set of use cases to deliver the scale, performance, and cost management your projects require. To learn more about Power BI refer: `https://learn.microsoft.com/en-us/power-bi/connect-data/service-azure-and-power-bi`
+
 In this exercise you will be setting up the powerBI reports for the extracted data in the last exercise. You will be using [PowerBI Desktop](https://powerbi.microsoft.com/en-us/desktop/) for this.
+
+This exercise includes the following tasks:
+
+ * Data Visualization
+ * Publish the Power BI Reports
 
 ### Task 1: Setup & Importing Data to Power BI
 
@@ -318,3 +325,9 @@ In this exercise you will be setting up the powerBI reports for the extracted da
       
 >**Note**: Keep this report open in Power BI desktop for future exercises.
    
+## Summary
+
+In this exercise, you have covered the following: 
+
+ - Built and Visualized the PowerBI reports in **PowerBI application** that are built against the **Sales Orders data and Payments**.
+ - Published the reports to Power BI Workspace.
