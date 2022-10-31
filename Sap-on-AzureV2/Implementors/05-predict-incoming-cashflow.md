@@ -1,8 +1,10 @@
 # Exercise 5: Predict Incoming Cashflow
 
-In this exercise you will create a model to predict incoming cashflow based on historical payment delays for previous sales.
+Azure Machine Learning is a cloud service for accelerating and managing the machine learning project lifecycle. Machine learning professionals, data scientists, and engineers can use it in their day-to-day workflows: Train and deploy models, and manage MLOps. To learn more about Azure Machine Learning refer: `https://learn.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-machine-learning`
 
-You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
+In this exercise, you will be creating **Automated ML Run** and deploying **best-trained model** that predicts incoming cash flow based on historical payment delays for previous sales. You will also test the best model using the **SalesPaymentFull** data which is the integrated data of **SalesOrdersHeaders** and **Payments** and also you will review the test end results.
+
+The best model is selected based on the error between the predicted **Payment Offset** and the **Actual offset**. The model with the least error is selected. You can find more refernces about how automated ML works from here: `https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml#how-automated-ml-works`
 
 ### Task 1: Create a View in Synapse Workspace
 
@@ -276,6 +278,18 @@ You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
    ```
    
    ![](media/ex5-t4-step6.png)
+   
+  >**Info :**
+
+  - In this exercise, you have used the best model to forecast the Payment delay in days for SalesOrderHeaders data.
+  - To forecast the Payments that have been paid for SalesOrderHeaders data, we integrated the SalesOrderHeaders and Payments data and created a new view called **SalesPaymentFull**.
+  - As part of the pre-requisite, the SalesPaymentFull View has been already created and published in the Synapse Workspace.
+
+       - To explore on SalesPaymentFull view, navigate to synapse workspace-> click on Data ->click on Workspace- >and select sapdatasynsql SQL database. You will see the created dbo.SalesPaymentsFull view under **Views**.
+
+  - In the above step, you have inserted the values of SalesPaymentsFull to test the best model.
+  - Once, the test has been run successfully, you were provided with the values in the Test result box.
+  - These values will include the **predicted payment delay in days** for SalesOrderHeaders data.
      
 ### Task 6: Automated ML - Best Model Additional Info (Optional)
 
@@ -293,4 +307,9 @@ You will be using [Azure Machine Learning](https://ml.azure.com/) for this.
    
    From the above view, you can see that **CUSTOMERGROUP** was the most important feature to determine the offset.
    
-   
+## Summary
+
+In this exercise, you have covered the following:
+
+* Created Automated ML Run and deployed best-trained model.
+* Tested the best-trained Model and reviewed the results.   
