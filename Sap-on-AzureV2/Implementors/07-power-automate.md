@@ -288,7 +288,6 @@ In this task, you will review the Power BI report is being sent to Microsoft Tea
 
    ![](media/iotdatapng.png)
    
-
 ## Summary
 
 In this exercise, you have covered the following:
