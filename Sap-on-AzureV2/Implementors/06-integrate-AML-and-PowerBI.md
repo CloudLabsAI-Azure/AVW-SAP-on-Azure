@@ -141,3 +141,10 @@ In this Task, you will now display the Sales & predicted payment forecast in Pow
 
    ![](media/ex6-t3-step3.png)
 
+
+## Summary
+
+In this exercise, you have covered the following:
+
+* Integrated the Azure Machine Learning Info to Power BI.
+* Created Sales and Payment Forecast report.
