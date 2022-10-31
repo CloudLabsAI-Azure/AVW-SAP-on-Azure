@@ -1,5 +1,9 @@
 # Exercise 2: Configure Synapse Workspace
 
+## Overview
+
+Azure Synapse Analytics is a limitless analytics service that brings together data integration, enterprise data warehousing, and big data analytics. It gives you the freedom to query data on your terms, using either serverless or dedicated resources at scale. Azure Synapse brings these worlds together with a unified experience to ingest, explore, prepare, transform, manage and serve data for immediate BI and machine learning needs. To learn more about Azure Synape refer: `https://learn.microsoft.com/en-us/azure/synapse-analytics/overview-what-is`
+
 In this Exercise, you will be registering an integration runtime in Synapse Workspace. The Integration Runtime (IR) is the compute infrastructure used by Azure Synapse pipelines to provide the following data integration capabilities across different network environments:
 
    * Data Flow: Execute a Data Flow in a managed Azure compute environment.
