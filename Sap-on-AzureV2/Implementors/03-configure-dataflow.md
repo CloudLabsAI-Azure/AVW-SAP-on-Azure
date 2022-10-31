@@ -8,6 +8,12 @@ from CosmosDB using a third pipeline.
 
    ![](media/ex3-architectureOverview.png)
    
+In this exercise, you will create Synapse Pipelines and will run the SQL scripts to review the data for the tables **SalesOrderHeaders, SalesOrderItems, Payments
+
+ * The **SalesOrderHeaders** data is extracted from the SAP Hana database using the Pipeline **ExtractSalesOrderHeaders**, and then it is copied to the SalesOrderHeaders table in the Synapse workspace.
+ * The **SalesOrderItems** data is extracted from the SAP Hana database using the Pipeline **ExtractSalesOrderItems**, and then it is copied to the SalesOrderItems table in the Synapse workspace.
+ * The  **Payments data** is extracted from the Cosmos DB using the Pipeline **ExtractPaymentsData**, and then it is copied to the Payments table in the Synapse workspace.
+   
 ### Task 1: Create Synapse Tables in SQL Pool
 
 1. From Synapse Studio, click on **Develop** from the left-menu.
