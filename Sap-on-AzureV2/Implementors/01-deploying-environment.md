@@ -150,11 +150,9 @@ In this Exercise, you will use Terraform to deploy the azure resources.
 
      * **Azure Cosmos Database**: You will be using the Cosmos Database to store the raw Payment data. After the Pipeline is successfully deployed, the Payment data will be transferred from Azure Data Lake Storage Gen2 Storage Account to Cosmos Database.
 
-    * **Key Vault**: You will be using the Key Vault to store secrets and other sensitive information that is needed by the Azure Machine Learning workspace.
+     * **Key Vault**: You will be using the Key Vault to store secrets and other sensitive information that is needed by the Azure Machine Learning workspace.
 
-    * **Application Insights**: You will be using the Application Insights to store monitoring information about the deployed models in the Azure Machine Learning workspace.
-
-    * **Container Registry**: You will be using the Container Registry to register the docker images which are being used in training the models in the Azure Machine Learning workspace.
+     * **Application Insights**: You will be using the Application Insights to store monitoring information about the deployed models in the Azure Machine Learning workspace.
 
     ![](media/ex1-rgoverview.png)
     
