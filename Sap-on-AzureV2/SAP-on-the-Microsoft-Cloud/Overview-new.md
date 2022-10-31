@@ -23,7 +23,7 @@ To tackle this, Contoso wants to use Azure tooling to predict the incoming cashf
 The solution architecture diagram displays as described below.
 
 
- ![](../Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/media/sap.png)
+![](media/sap.png)
 
 1. **Sales Order** information is stored in an **SAP system** and **payments data** is stored in Cosmos DB. 
 2. **Synapse Pipelines** are used to ingest historical data from both sources (**SAP system** and **Azure Cosmos DB**). 
