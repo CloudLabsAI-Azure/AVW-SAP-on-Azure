@@ -300,18 +300,6 @@ This exercise includes the following tasks:
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
    * Password: <inject key="AzureAdUserPassword"></inject>   
-
-1. Select **Workspaces** from the Power BI menu and click on more button next to **My workspace**.
-
-   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/media/powerbi1.png?raw=true)
-   
-1. Click on **Edit this workspace**.
-
-   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/media/powerbi2.png?raw=true)
-
-1. On the **Edit workspace** blade, select **License mode** as **Premium per capacity** and click on **Save**.
-
-   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/media/powerbi3.png?raw=true)
    
 1. Select **My Workspace** from the left-hand menu and click on **SalesOrderPayments** report from the workspace.
 
