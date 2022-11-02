@@ -309,4 +309,4 @@ In this exercise, you have covered the following:
 
 * Created Connections in Power Automate.
 * Imported the workflow in Power Automate.
-* Reviewed the PowerBI report in teams
+* Reviewed the PowerBI report in teams.
