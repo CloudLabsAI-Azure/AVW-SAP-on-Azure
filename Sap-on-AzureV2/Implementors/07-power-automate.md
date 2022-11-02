@@ -117,7 +117,22 @@ In this task, you will create instant cloud flow in Power Automate.
 1. Click inside the edit box of **Select an output from the previous step** and seach for **Documents (1)** in the dynamic content list appears on the right side of the designer, then select **Documents (2)**.
 
     ![](media/documents.png)
-    
+
+1. Open a new browser tab and navigate to the below URL to sign-in to OneDrive.
+
+   ```
+   https://onedrive.live.com/about/en-ca/signin/
+   ```
+   
+   >**Info :** To establish the connection for OneDrive in Power Automate, you need to sign in to OneDrive to avoid the authorization failure error(s). 
+   
+1.  Complete the **Sign-in** process using the below credentials.
+
+      * Email/Username: <inject key="AzureAdUserEmail"></inject>
+      * Password: <inject key="AzureAdUserPassword"></inject>
+
+1. Wait until OneDrive set up is complete and close the browser tab by clicking on **X**.
+
 1. After selecting the **Documents**, click on **Add an Action**.
 
     ![](media/ex7-t1-addaction1.png)
