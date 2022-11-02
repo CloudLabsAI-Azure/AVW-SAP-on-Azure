@@ -118,6 +118,10 @@ In this task, you will create instant cloud flow in Power Automate.
 
     ![](media/documents.png)
 
+1. After selecting the **Documents**, click on **Add an Action**.
+
+    ![](media/ex7-t1-addaction1.png)
+    
 1. Open a new browser tab and navigate to the below URL to sign-in to OneDrive.
 
    ```
@@ -133,10 +137,6 @@ In this task, you will create instant cloud flow in Power Automate.
 
 1. Wait until OneDrive set up is complete and close the browser tab by clicking on **X**.
 
-1. After selecting the **Documents**, click on **Add an Action**.
-
-    ![](media/ex7-t1-addaction1.png)
-    
 1. Now, serach for **Create file (1)** in search bar and select **Create file (2)** from Actions tab.
 
     ![](media/ex7-t1-createafile.png)
