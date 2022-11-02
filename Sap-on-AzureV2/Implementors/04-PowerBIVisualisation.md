@@ -128,7 +128,7 @@ This exercise includes the following tasks:
 
    ![](media/ex4-t3-step2new.png)
    
-3. You can adjust the sizing of the chart on the report canvas as desired.
+3. You can adjust the sizing of the chart on the report canvas as desired and click on white space of the canvas in Power BI report section to add other tiles. 
 
    ![](media/ex4-t3-step3.png)
    
@@ -142,7 +142,7 @@ This exercise includes the following tasks:
 
    ![](media/ex4-t3-step5.png)
    
-6. You can select a Year and CustomerGroup in the Sales Report, the Map report will automatically update and only show this data.
+6. You can select a Year and CustomerGroup in the Sales Report, the Map report will automatically update and only show this data. Click on white space of the canvas in Power BI report section to add other tiles
 
    ![](media/ex4-t3-step6.png)
    
@@ -162,7 +162,7 @@ This exercise includes the following tasks:
 
    ![](media/ex4-t3-step9new.png)
    
-10. Adjust the sizing of the chart on the report canvas as desired.
+10. Adjust the sizing of the chart on the report canvas as desired and click on white space of the canvas in Power BI report section to add other tiles.
 
     ![](media/ex4-t3-step10.png)
 
@@ -225,7 +225,7 @@ This exercise includes the following tasks:
 
     ![](media/ex4-t3-step23.png)
     
-24. Adjust the sizing of the chart on the report canvas as desired.
+24. Adjust the sizing of the chart on the report canvas as desired and click on white space of the canvas in Power BI report section to add other tiles.
 
     ![](media/ex4-t3-step24.png)
     
@@ -258,7 +258,7 @@ This exercise includes the following tasks:
 
     ![](media/ex4-t3-step29.png)
     
-31. Adjust the sizing of the chart on the report canvas as desired.    
+31. Adjust the sizing of the chart on the report canvas as desired and click on white space of the canvas in Power BI report section to add other tiles.    
    
     ![](media/ex4-t3-step30.png)
 
@@ -271,9 +271,7 @@ This exercise includes the following tasks:
 
 33. Enter the name for the report as **SalesOrderPayments** and save it to this path `C:\LabFiles`.
 
-
 ### Task 4: Publish the Power BI Reports
-
 
 1. Navigate back to Power BI Desktop application and click on **Publish** at the top right corner of the application.
 
