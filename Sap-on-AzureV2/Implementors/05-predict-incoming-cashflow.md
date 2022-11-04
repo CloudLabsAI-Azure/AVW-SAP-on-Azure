@@ -290,7 +290,9 @@ The best model is selected based on the error between the predicted **Payment Of
   - In the above step, you have inserted the values of SalesPaymentsFull to test the best model.
   - Once, the test has been run successfully, you were provided with the values in the Test result box.
   - These values will include the **predicted payment delay in days** for SalesOrderHeaders data.
-     
+ 
+ >**Note :** Make sure to run the **Validations** before moving to next exerise.
+ 
 ### Task 6: Automated ML - Best Model Additional Info (Optional)
 
 1. Navigate to **Automated ML** **(1)** section from left-menu, click on the created Automated ML job **(2)**.
