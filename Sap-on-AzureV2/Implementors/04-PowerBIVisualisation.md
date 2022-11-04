@@ -300,6 +300,18 @@ This exercise includes the following tasks:
 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
    * Password: <inject key="AzureAdUserPassword"></inject>   
+
+1. Select **Workspaces** from the Power BI menu and click on the more button that is next to **My workspace**.
+
+   ![](media/powerbi1.png)
+   
+1. Now, click on **Edit this workspace**.
+
+   ![](media/powerbi2.png)
+
+1. On the **Edit workspace** blade, select **License mode** as **Premium per capacity** and click on **Save**.
+
+   ![](media/powerbi3.png)
    
 1. Select **My Workspace** from the left-hand menu and click on **SalesOrderPayments** report from the workspace.
 
