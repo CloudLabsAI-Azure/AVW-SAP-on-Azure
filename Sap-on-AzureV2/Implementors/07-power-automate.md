@@ -301,7 +301,7 @@ In this task, you will review the Power BI report is being sent to Microsoft Tea
 
 1. Review the messages which are being sent as a part of the Power Automate flow run into the **SAP on Azure-<inject key="DeploymentID" />** teams channel.
 
-   ![](media/iotdatapng.png)
+   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/media/iotdatapng.png?raw=true)
    
 ## Summary
 
