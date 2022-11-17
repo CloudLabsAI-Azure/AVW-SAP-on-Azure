@@ -288,7 +288,7 @@ This exercise includes the following tasks:
 
 1. Wait for the Publish operation to succeed. Once succeeded, you will be presented with blade below, click on **Got it**.
 
-   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/media/powerbi6.png?raw=true)
+   ![](media/updatedd4.png)
 
 1. Open a new browser tab and navigate to the below URL to open Power BI portal.
 

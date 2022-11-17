@@ -57,11 +57,11 @@ In this task, you will create instant cloud flow in Power Automate.
      | Field              | Value                      |
      |------------------- |--------------------------- |
      | Workspace (1)      | **My Workspace**           |
-     | Report (2)         | **sap-final-report**       |
+     | Report (2)         | **SalesOrderPayments**       |
      | Export Format (3)  | select `PDF`               |
    
    
-     ![](media/ex7-t1-exportpbi.png)
+     ![](media/updatedd5.png)
    
 1. Click on **Export To File for Power BI Reports** to minimize and then click on **+ New step**.
 
