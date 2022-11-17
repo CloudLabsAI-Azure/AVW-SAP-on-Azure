@@ -70,7 +70,7 @@ In this Exercise, you will use Terraform to deploy the azure resources.
 
 14. You need to update the variable location default value with "**<inject key="Region" />**" region.
 
-    ![](media/updatedd3.png)
+    ![](media/ex1-region.png)
     
 15. After updating the default value for location , move the cursor to the top right corner to get **More** **(1)** options menu and select **Save** **(2)**.
 
