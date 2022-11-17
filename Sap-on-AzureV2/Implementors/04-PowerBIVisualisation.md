@@ -303,15 +303,15 @@ This exercise includes the following tasks:
 
 1. Select **Workspaces** from the Power BI menu and click on the more button that is next to **My workspace**.
 
-   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/media/powerbi1.png)
+    ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/media/powerbi1.png)
    
 1. Now, click on **Edit this workspace**.
 
-   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/media/powerbi2.png)
+    ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/media/powerbi2.png)
 
 1. On the **Edit workspace** blade, select **License mode** as **Premium per capacity** and click on **Save**.
 
-   ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/media/powerbi3.png)
+    ![](https://github.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/blob/prod/Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/media/powerbi3.png)
    
 1. Select **My Workspace** from the left-hand menu and click on **SalesOrderPayments** report from the workspace.
 
