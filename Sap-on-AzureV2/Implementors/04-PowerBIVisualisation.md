@@ -298,8 +298,8 @@ This exercise includes the following tasks:
    
 1. Complete the Sign-in process using the credentials below.
 
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
-   * Password: <inject key="AzureAdUserPassword"></inject>   
+    - Email/Username: <inject key="AzureAdUserEmail"></inject>
+    - Password: <inject key="AzureAdUserPassword"></inject>   
 
 1. Select **Workspaces** from the Power BI menu and click on the more button that is next to **My workspace**.
 
