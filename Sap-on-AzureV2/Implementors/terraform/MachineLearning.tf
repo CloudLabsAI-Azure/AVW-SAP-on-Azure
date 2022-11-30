@@ -8,6 +8,7 @@ resource "azurerm_application_insights" "insights" {
   location              = azurerm_resource_group.rg.location
   application_type      = "web"
   tags                  = var.tags
+  publicNetworkAccess   = "Enabled"
 }
 
 #######################################################################
@@ -21,6 +22,7 @@ resource "azurerm_storage_account" "blobaccount" {
   account_tier              = "Standard"
   account_replication_type  = "LRS"
   tags                      = var.tags
+  publicNetworkAccess       = "Enabled"
 }
 
 #######################################################################
@@ -35,6 +37,7 @@ resource "azurerm_machine_learning_workspace" "mlws" {
   key_vault_id              = azurerm_key_vault.keyvault.id
   storage_account_id        = azurerm_storage_account.blobaccount.id
   tags                      = var.tags
+  publicNetworkAccess       = "Enabled"
 
   identity {
     type = "SystemAssigned"
