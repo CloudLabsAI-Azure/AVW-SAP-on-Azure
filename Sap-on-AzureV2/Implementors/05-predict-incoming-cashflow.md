@@ -84,12 +84,12 @@ The best model is selected based on the error between the predicted **Payment Of
    | Enter your Synapse Workspace name as Server Name (4) | **sapdatasynwsSUFFIX** |
    | Enter your Synapse SQL Pool as Database Name (5) | **sapdatasynsql** |
    | Select your Subscription (6)  | Select the subscription in which **microhack-rg-<inject key="DeploymentID" enableCopy="false"/>** resource group is deployed |
-   | Enter your resource group name (7) | **microhack-<inject key="DeploymentID" enableCopy="false"/>-rg** |
+   | Enter your resource group name (7) | **microhack-rg-<inject key="DeploymentID" enableCopy="false"/>** |
    | Authentication Type (8) | **SQL Authentication** |
    | Enter UserId (9)        | **azureadmin**         |
    | Enter Password (10)     |  **Sapdata!pass123**   |
    
-   ![](media/ex5-t2-step4.png)
+   ![](media/EX5-T2-S5.png)
    
 5. Once the Datastore is Successfully created, you will be able to see the **sap_data_ml_ds** listed under Datastores.
 
