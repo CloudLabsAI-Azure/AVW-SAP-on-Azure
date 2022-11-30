@@ -38,7 +38,8 @@ resource "azurerm_machine_learning_workspace" "mlws" {
 
   identity {
     type = "SystemAssigned"
-  },
+  }
+  
   properties {
     publicNetworkAccess = "Enabled"
   }
