@@ -226,6 +226,10 @@ In this task, you will create instant cloud flow in Power Automate.
      - Post in : Select **Channel** from the drop-down list.
      - Team : Selct **SAP on Azure-<inject key="DeploymentID" enableCopy="false"/>** from the drop-down list
      - Channel : Select **SAP Channel** from the drop-down list.
+     - Click on **Code View**.
+     
+     ![](media/EX7-T1-S43.png)
+     
      - Message : Click inside the message box and enter the following content.
          
         ```
@@ -239,7 +243,7 @@ In this task, you will create instant cloud flow in Power Automate.
 
 1. Remove **Relace with URL** which is next to **img src** and select **URL** from the dynamic content list.
 
-    ![](media/URL.png)
+    ![](media/EX7-T1-S44.png)
     
 1. Select **Save** which is at the top right corner to save the flow.
 
