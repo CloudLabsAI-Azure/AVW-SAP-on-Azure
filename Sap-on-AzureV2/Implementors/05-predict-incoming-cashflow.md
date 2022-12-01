@@ -62,19 +62,23 @@ The best model is selected based on the error between the predicted **Payment Of
 
    ![](media/ex5-t2-step1.1.png)
    
-2. In the Overview of **sap-data-ml-ws** Azure Machine Learning workspace, click on **Launch studio**. You will be navigated to Microsoft Azure Machine Learning Studio.
+2. Once you are in Overview page of **sap-data-ml-ws** Azure Machine Learning workspace, click on **Networking(1)** under Settings, select **All networks(2)** for Public network access, and click **save(3)**. 
 
-   ![](media/ex5-t2-step2.1.png)
+	![](media/EX5-T2-S2.png)
+
+3. Navigate back to **Overview(1)** page of **sap-data-ml-ws** Azure Machine Learning workspace, click on **Launch studio(2)**. You will be navigated to Microsoft Azure Machine Learning Studio.
+
+   ![](media/EX5-T2-S3.png)
    
-3. From **Machine Learning Studio**, scroll-down to **Assets** from left-menu. Click on **Data (1)** then **Datastores** **(2)**.
+4. From **Machine Learning Studio**, scroll-down to **Assets** from left-menu. Click on **Data (1)** then **Datastores** **(2)**.
 
    ![](media/ex5-t2-step3.1.png)
    
-6. On the **Datastores** **(1)** tab and select **+ Create** **(2)** to create a new datastore.
+5. On the **Datastores** **(1)** tab and select **+ Create** **(2)** to create a new datastore.
 
    ![](media/ex5-t2-step3.2.png)
    
-4. In the Create datastore pane, enter the following values in the respective fields and click on **Create** **(11)**.
+6. In the Create datastore pane, enter the following values in the respective fields and click on **Create** **(11)**.
 
    | Field                         | Value                        |
    |------------------------------ |----------------------------- |
@@ -91,7 +95,7 @@ The best model is selected based on the error between the predicted **Payment Of
    
    ![](media/EX5-T2-S5.png)
    
-5. Once the Datastore is Successfully created, you will be able to see the **sap_data_ml_ds** listed under Datastores.
+7. Once the Datastore is Successfully created, you will be able to see the **sap_data_ml_ds** listed under Datastores.
 
    ![](media/ex5-t2-step5.png)    
 
