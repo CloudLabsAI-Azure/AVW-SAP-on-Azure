@@ -460,9 +460,9 @@ In this exercise, you will create Synapse Pipelines and will run the SQL scripts
 
    ![](media/t4-ex3-1.png)
    
-3. In the New linked service pane, search for **Cosmos** **(1)** and select **Azure Cosmos DB (SQL API)** **(2)**. Click on **Continue** **(3)**.
+3. In the New linked service pane, search for **Cosmos** **(1)** and select **Azure Cosmos DB for NoSQL** **(2)**. Click on **Continue** **(3)**.
 
-   ![](media/t10-ex3-1.png)   
+   ![](media/newlatest16.png)   
    
 4. Enter the below values in the New linked service pane:
    
@@ -489,9 +489,9 @@ In this exercise, you will create Synapse Pipelines and will run the SQL scripts
 
    ![](media/t5-ex3-1.png)
    
-3. Search for **Cosmos** **(1)** and select **Azure Cosmos DB (SQL API)** **(2)**. Click on **Continue** **(3)** in the New integration dataset pane. 
+3. Search for **Cosmos** **(1)** and select **Azure Cosmos DB for NoSQL** **(2)**. Click on **Continue** **(3)** in the New integration dataset pane. 
 
-   ![](media/t11-ex3-1.png)
+   ![](media/newlatest16.png)
    
 4. In the Set properties pane, enter Name as **CosmosDbIDS<inject key="DeploymentID" enableCopy="false"/>** **(1)** and select **CosmosDbLS<inject key="DeploymentID" enableCopy="false"/>** **(2)** for linked service from the drop-down which you created earlier. For Container select **paymentData** **(3)** from the drop-down and then click on **Ok** **(4)**.
 
