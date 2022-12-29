@@ -36,7 +36,7 @@ In this exercise, you will integrate the Azure Machine Learning Model within Pow
     
    ![](media/ex6-t1-step7.png)
    
-8. Right-click the new **predPaymentDate** **(1)** column and expand the **Change Type** **(2)** option and choose **Date** **(3)**.
+8. Right-click on the new **predPaymentDate** **(1)** column and expand the **Change Type** **(2)** option and choose **Date** **(3)**.
 
    ![](media/ex6-t1-step8.png)
    
@@ -144,7 +144,7 @@ In this Task, you will now display the Sales & predicted payment forecast in Pow
 
 ## Summary
 
-In this exercise, you have covered the following:
+In this exercise, you:
 
 * Integrated the Azure Machine Learning Info to Power BI.
 * Created Sales and Payment Forecast report.
