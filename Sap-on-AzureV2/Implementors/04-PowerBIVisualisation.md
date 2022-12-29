@@ -90,7 +90,7 @@ This exercise includes the following tasks:
 
     ![](media/ex4-t1-step13.png)
     
-16. Once the data loading has been completed, you will be able to see all three tables under the Fields in Power BI Desktop application.
+16. Once the data loading is complete, you will be see all three tables under the Fields in Power BI Desktop application.
 
     ![](media/ex4-t1-step14.png)
   
@@ -225,7 +225,7 @@ This exercise includes the following tasks:
 
     ![](media/ex4-t3-step23.png)
     
-24. Adjust the sizing of the chart on the report canvas as desired and click on white space of the canvas in Power BI report section to add other tiles.
+24. Adjust the size of the chart on the report canvas as desired and click on white space of the canvas in Power BI report section to add other tiles.
 
     ![](media/ex4-t3-step24.png)
     
@@ -325,7 +325,7 @@ This exercise includes the following tasks:
    
 ## Summary
 
-In this exercise, you have covered the following: 
+In this exercise, you: 
 
  - Built and Visualized the PowerBI reports in **PowerBI application** that are built against the **Sales Orders data and Payments**.
  - Published the reports to Power BI Workspace.
