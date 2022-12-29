@@ -95,7 +95,7 @@ In this task, you will create instant cloud flow in Power Automate.
    ![](media/ex7-t1-encodiancreate.png)
    
 
-1. On **Convert PDF to Images** filed, enter te below instaructions:
+1. On **Convert PDF to Images** filed, enter te below instructions:
 
     - File Content : Click inside the edit box of **File Content** and select **File Content** from the dynamic content list appears on the right side of the designer.
     
@@ -309,7 +309,7 @@ In this task, you will review the Power BI report is being sent to Microsoft Tea
    
 ## Summary
 
-In this exercise, you have covered the following:
+In this exercise, you:
 
 * Created Connections in Power Automate.
 * Imported the workflow in Power Automate.
