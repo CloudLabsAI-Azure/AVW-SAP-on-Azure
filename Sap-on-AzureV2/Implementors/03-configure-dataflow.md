@@ -262,7 +262,7 @@ In this exercise, you will create Synapse Pipelines and will run the SQL scripts
 
    ![](media/t6-ex3-5.png)
 
-6. In the **Mapping** **(1)** tab, choose **Import schemas** (2). Since source and target fields have the same name, the system can auto-generate the mapping.
+6. In the **Mapping** **(1)** tab, choose **Import schemas** (2). Since the source and target fields have the same name, the system can auto-generate the mapping.
 
    ![](media/t6-ex3-6.png)
 
