@@ -1,6 +1,19 @@
 # Exercise 6: Integrate Azure Machine Learning and PowerBI
 
-In this exercise, you will integrate the Azure Machine Learning Model within PowerBI. The Azure Machine Learning exposes a REST interface which you can integrate in PowerBI.
+A dashboard in Power BI using data from the best-trained ML model can provide valuable insights and improve decision-making within your organization. By following these steps and considering these tips, you can create a powerful and effective dashboard that supports data-driven insights and actions.
+
+To create a dashboard in Power BI using data from the best-trained ML model, you can follow these steps:
+
+1.	Connect to the web service endpoint of the best-trained ML model in Power BI.
+2.	Import the data returned by the web service into Power BI as a new dataset.
+3.	Create data models in Power BI that align with your reporting requirements and integrate the ML data with other data sources as needed.
+4.	Use Power BI visualization tools to create charts, graphs, tables, and other visualizations that accurately represent the ML data.
+5.	Customize the visualizations as needed to support user requirements and preferences.
+6.	Add the visualizations to a new or existing dashboard in Power BI.
+7.	Share the dashboard with others and schedule data refreshes as needed to ensure that the dashboard is up-to-date.
+
+
+In this exercise, you will integrate the Azure Machine Learning Model within PowerBI. The Azure Machine Learning exposes a REST interface which you can integrate in PowerBI. 
 
 ### Task 1: Add Machine Learning info to the PowerBI Datamodel
 
