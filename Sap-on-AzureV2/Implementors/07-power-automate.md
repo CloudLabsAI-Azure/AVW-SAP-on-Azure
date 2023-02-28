@@ -2,9 +2,21 @@
 
 ## Overview
 
-Power Automate is a tool that helps users create workflows between desired applications to synchronize files, get notifications, and collect data. This intelligent cloud-based solution uses triggers and actions to create chain reactions within a workflow so that repetitive, manual, and time-consuming tasks are accomplished without human intervention.
+Power Automate is a tool that helps users create workflows between desired applications to synchronize files, get notifications, and collect data. This intelligent cloud-based solution uses triggers and actions to create chain reactions within a workflow so that repetitive, manual, and time-consuming tasks are accomplished without human intervention. You can find more information about Power Automate here: `https://docs.microsoft.com/en-us/power-automate/`.
 
-> You can find complete information about Power Automate here: `https://docs.microsoft.com/en-us/power-automate/`.
+Creating a workflow using Power Automate to export and share Power BI reports to Microsoft Teams can help automate routine tasks and improve collaboration and decision-making within your organization. By following these steps and considering these tips, you can create a powerful and effective workflow that supports your business requirements and goals.
+
+To create a workflow using Power Automate to automatically export and share Power BI reports to Microsoft Teams, you can follow these steps:
+
+1.	Create a new Power Automate flow and select the "Power BI - Get Report" trigger.
+2.	Specify the report you want to export and the format you want to export it in, such as PDF, PowerPoint, or Excel.
+3.	Use the "Create File" action to save the exported report to your preferred cloud storage service, such as OneDrive or SharePoint.
+4.	Use the "SharePoint - Get File Content" action to retrieve the URL of the exported report file.
+5.	Use the "Microsoft Teams - Post a Message (V3)" action to share the report with others in Microsoft Teams.
+6.	Specify the channel or chat where you want to share the report, and include any additional context or comments.
+7.	Save and activate the Power Automate flow.
+
+Once the flow is activated, it will automatically export and share the Power BI report based on the specified trigger and actions. You can also customize the flow to include additional actions or conditions based on your specific requirements.
 
 ### Task 1: Create Instant cloud flow
 
