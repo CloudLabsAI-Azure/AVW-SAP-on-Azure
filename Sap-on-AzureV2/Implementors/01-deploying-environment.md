@@ -1,6 +1,6 @@
 # Exercise 1: Deploying the Microhack environment with Terraform
 
-In this Exercise, you will use Terraform to deploy the azure resources.
+In this Exercise, you will use Terraform to deploy the azure resources. 
 
 ## Task 1: Getting started with Resource deployment using Terraform in Azure cloud shell
 
