@@ -1,6 +1,21 @@
 # Exercise 1: Deploying the Microhack environment with Terraform
 
-In this Exercise, you are using Terraform to build the environment. 
+In this Exercise, you are using Terraform to build the environment. Each part of the solution is described here:
+
+1.	**SAP HANA**: A high-performance, in-memory database management system that is used for real-time analytics and applications. In this demo, SAP HANA is used to store and analyze large amounts of data.
+
+2.	**Azure Machine Learning**: A cloud-based service for building and deploying machine learning models. In this demo, Azure Machine Learning is used to create and train predictive models based on the data stored in SAP HANA.
+
+3.	**Azure Automated ML**: An automated machine learning service that helps users build high-quality models without extensive knowledge of machine learning or programming. In this demo, Azure Automated ML is used to automate the process of building and training machine learning models.
+
+4.	**Azure Synapse Analytics**: A cloud-based analytics service that provides a unified experience for data warehousing, big data, and real-time analytics. In this demo, Azure Synapse Analytics is used to query and analyze the data stored in SAP HANA.
+
+5.  **Power BI**: A business analytics service that provides interactive visualizations and business intelligence capabilities with an interface that is simple enough for end users to create their own reports and dashboards.
+
+6.	**Power Automate**: A cloud-based service that enables users to create automated workflows between applications and services. In this demo, Power Automate is used to automate repetitive tasks, such as data transfers and notifications.
+
+7.	**Terraform**: A tool for building, changing, and versioning infrastructure safely and efficiently. In this demo, Terraform is used to provision and manage the infrastructure required for the demo, including virtual machines, storage accounts, and networking resources.
+
 
 ## Task 1: Getting started with Resource deployment using Terraform in Azure cloud shell
 
