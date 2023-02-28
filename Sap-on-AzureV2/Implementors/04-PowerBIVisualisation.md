@@ -2,9 +2,19 @@
 
 Azure Synapse Analytics and Power BI become more powerful when used together, combining to provide a unique, modern approach to data analytics. Azure Synapse enables Power BI professionals across a diverse set of use cases to deliver the scale, performance, and cost management your projects require. To learn more about Power BI refer: `https://learn.microsoft.com/en-us/power-bi/connect-data/service-azure-and-power-bi`
 
-In this exercise you will be setting up the powerBI reports for the extracted data in the last exercise. You will be using [PowerBI Desktop](https://powerbi.microsoft.com/en-us/desktop/) for this.
+The process for visualizing data from Azure Synapse Workspace in Power BI involves several steps that can be summarized as follows:
 
-This exercise includes the following tasks:
+1.	Connect to the Synapse Workspace data source using Power BI.
+2.	Import the data into Power BI and create data models that align with your reporting requirements.
+3.	Use Power BI visualization tools to create charts, graphs, tables, and other visualizations that accurately represent the data.
+4.	Customize the visualizations as needed to support user requirements and preferences.
+5.	Publish the Power BI report to the Power BI service or embed it in a web application or portal.
+6.	Share the report with others and schedule data refreshes as needed to ensure that the report is up-to-date.
+
+The process of visualizing data from Synapse Workspace in Power BI involves a combination of technical and design considerations. Technical considerations include data source connectivity, data modeling, and data preparation. Design considerations include chart selection, color schemes, layout, and formatting. By addressing both technical and design considerations, you can create effective and engaging data visualizations that support decision-making and data-driven insights.
+
+
+In this exercise you will be setting up the powerBI reports for the extracted data in the last exercise. You will be using [PowerBI Desktop](https://powerbi.microsoft.com/en-us/desktop/) for this. This exercise includes the following tasks:
 
  * Data Visualization
  * Publish the Power BI Reports
