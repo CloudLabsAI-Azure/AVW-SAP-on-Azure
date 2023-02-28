@@ -1,28 +1,6 @@
 # Exercise 1: Deploying the Microhack environment with Terraform
 
-In this Exercise, you are using Terraform to build the environment. Each part of the solution is described here:
-
-In order to ingest historical data from both sources, as previously stated, the solution uses Synapse Pipelines (SAP system and Azure Cosmos DB). Moreover, Synapse requires data integration services in order to connect to external data sources.
-
-**Azure Synapse Workspace** is a cloud-based analytics service that combines big data and data warehousing. It provides users with tools to store and analyze large amounts of data and build data pipelines. Here are the components of Synapse Workspace:
-
-1.	Synapse Studio: This is the main interface for Synapse Workspace. It provides unified experience for managing data, building pipelines, and creating visualizations.
-2.	Apache Spark Pools: These are cloud-based Spark clusters that can be used for big data processing. They can be scaled up or down based on demand.
-3.	SQL Pools: These are cloud-based data warehouses that can be used for storing and analyzing structured data. They can be scaled up or down based on demand.
-4.	Data Flow: This is a data transformation service that can be used to build ETL (extract, transform, load) pipelines without writing code.
-5.	Integration Runtimes: These are data integration services that can be used to connect to external data sources and move data to and from Synapse Workspace.
-
-### Steps for setting up a Synapse Workspace environment:
-
-1.	Create an Azure Synapse Workspace resource in the Azure portal.
-2.	Once the resource is created, navigate to the Synapse Studio interface.
-3.	Create an Apache Spark pool and/or SQL pool based on your data processing and storage needs.
-4.	Create a Data Flow if you need to build ETL pipelines.
-5.	Create an Integration Runtime if you need to connect to external data sources.
-6.	Load data into your SQL pool or Spark pool using the Synapse Studio interface or other tools.
-7.	Build data pipelines, create visualizations, and run analytics queries using the Synapse Studio interface.
-
-> **Note**: There are many configuration options available for each component of Synapse Workspace, so it's important to carefully plan your environment based on your data needs and processing requirements.
+In this Exercise, you are using Terraform to build the environment. 
 
 ## Task 1: Getting started with Resource deployment using Terraform in Azure cloud shell
 
