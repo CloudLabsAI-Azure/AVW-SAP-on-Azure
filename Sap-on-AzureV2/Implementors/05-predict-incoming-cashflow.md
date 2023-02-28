@@ -2,6 +2,16 @@
 
 Azure Machine Learning is a cloud service for accelerating and managing the machine learning project lifecycle. Machine learning professionals, data scientists, and engineers can use it in their day-to-day workflows: Train and deploy models, and manage MLOps. To learn more about Azure Machine Learning refer: `https://learn.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-machine-learning`
 
+Machine learning (ML) models are used for making predictions or identifying patterns in data that are not immediately visible to human analysts. These models can be used to solve a wide range of business problems, including customer segmentation, fraud detection, and predictive maintenance.
+
+The process of creating an ML model involves training the model on historical data and then using the trained model to make predictions on new, unseen data. The accuracy and reliability of the predictions depend on the quality of the training data, the selection of the ML algorithm, and the tuning of the model hyperparameters.
+
+Automated ML provides a way to streamline the process of creating ML models by automating many of the tedious and time-consuming tasks involved in the process. By automating the process, data scientists and analysts can focus on higher-level tasks such as feature engineering, model selection, and performance evaluation.
+
+Deploying the best-trained model as a web service makes it easy to integrate the model into existing applications or workflows and to make real-time predictions on new data. This can help organizations make better decisions based on data-driven insights and can lead to improved efficiency, productivity, and profitability.
+
+In summary, ML run, and the best-trained model are essential components of the machine learning pipeline and enable organizations to make accurate and reliable predictions on new data.
+
 In this exercise, you will be creating **Automated ML Run** and deploying **best-trained model** that predicts incoming cash flow based on historical payment delays for previous sales. You will also test the best model using the **SalesPaymentFull** data which is the integrated data of **SalesOrdersHeaders** and **Payments** and also you will review the test end results.
 
 The best model is selected based on the error between the predicted **Payment Offset** and the **Actual offset**. The model with the least error is selected. You can find more refernces about how automated ML works from here: `https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml#how-automated-ml-works`
