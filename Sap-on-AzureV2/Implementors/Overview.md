@@ -14,7 +14,9 @@ To tackle this, Contoso wants to use Azure tooling to predict the incoming cashf
 
 ## Hands-on lab
 
-In this hands-on lab, you will extract (historical) Sales Orders from SAP system and historical payments from a non-SAP system, in this case Cosmos DB using Azure Synapse Analytics pipelines. You will visualize the extracted Sales Orders and invoice data with Power BI. Next, you will unleash the power of data using Azure Machine Learning to train a model to predict incoming cash flow. You will learn to implement dashboards using Power BI and Power Automate. Finally, you will add the ability to share the Power BI reports to users in Teams channel based on the Approver's response status (Approve/Reject).
+To assist Contoso retail, we must develop a solution for predicting cashflow by analysing historical sales orders and payments and employing an Azure machine learning model. To improve the solution even further, we can create powerful dashboards with insights and add the ability to easily share these reports via teams channel.
+
+In this hands-on session, you will learn how to use Azure Synapse Analytics pipelines to extract Sales Order data from SAP and payment information from a non-SAP system (Cosmos DB). The extracted sales orders and invoice data will then be visualised using Power BI. Then, using Azure Machine Learning, you will create a model for forecasting incoming cash flow. Finally, based on the Approver's response status, you will be able to use Power Automate to share the Power BI reports with customers via Teams channels (whether it is approved or rejected).
 
 
 ### Azure services and related products
