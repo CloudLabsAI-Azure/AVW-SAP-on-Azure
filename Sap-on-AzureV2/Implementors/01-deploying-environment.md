@@ -149,7 +149,7 @@ In this Exercise, you are using Terraform to build the environment. Each part of
   
     ![](media/enter-yes.png)
     
-26. Once the script execution is finished you will get output as shown in the below image.
+26. Terraform deployment will take around 15 - 20 minutes, wait untill the execution gets completed. Once the script execution is finished you will get output as shown in the below image.
 
     ![](media/ex1-tdc.png)
     
