@@ -18,6 +18,10 @@ The best model is selected based on the error between the predicted **Payment Of
 
 ### Task 1: Create a View in Synapse Workspace
 
+In SQL, a view is a virtual table based on the result-set of an SQL statement.
+
+A view contains rows and columns, just like a real table. The fields in a view are fields from one or more real tables in the database. A view always shows up-to-date data! The database engine recreates the view, every time a user queries it.
+
 1. Navigate to browser tab in which **Synapse Studio** is open. From the Synapse Studio, click on **Develop** **(1)** from the left-menu. Click on```+``` **(2)** and select **SQL script** **(3)** to create a new view.
 
    ![](media/ex5-t1-step1.png)
