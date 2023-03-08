@@ -654,4 +654,4 @@ In this exercise, you will create Synapse Pipelines to extract the data from the
 
 ## Summary
 
-In this exercise, you have created pipelines for **SalesOrderHeaders data**, **SalesOrderItems data**, and **Payments data**.
+In this exercise, you have extracted the data from the pre-installed SAP database by creating pipelines for **SalesOrderHeaders data**, **SalesOrderItems data**, and **Payments data** in Synapse workspace. Also, you have run the SQL scripts to review the extracted data in the tables named SalesOrderHeaders, SalesOrderItems, and Payments.
