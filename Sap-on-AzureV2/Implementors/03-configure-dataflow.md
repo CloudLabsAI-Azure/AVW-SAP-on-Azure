@@ -24,7 +24,7 @@ In this exercise, you will create Synapse Pipelines and will run the SQL scripts
 
    ![](media/ex3-create1.png)
    
-3. In the Properties, enter the Name as **CreateSalesOrderHeaders** **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then copy the code below and paste it in the codespace **(3)** and click on **Run** **(4)**.
+3. In the Properties, enter the Name as **CreateSalesOrderHeaders** **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then copy the code below and paste it in the codespace **(3)** and click on **Run** **(4)**. This SQL statement creates a empty table named **CreateSalesOrderHeaders** in the database.
 
    ```sql
    CREATE TABLE SalesOrderHeaders(
@@ -66,7 +66,7 @@ In this exercise, you will create Synapse Pipelines and will run the SQL scripts
 
    ![](media/ex3-create2.png) 
    
-5. In the Properties, enter the Name as **CreateSalesOrderItems** **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then copy the code below and paste it in the codespace **(3)** and click on **Run** **(4)**.
+5. In the Properties, enter the Name as **CreateSalesOrderItems** **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then copy the code below and paste it in the codespace **(3)** and click on **Run** **(4)**. This SQL statement creates a empty table named **CreateSalesOrderItems** in the database.
 
    ```sql
    CREATE TABLE SalesOrderItems(
@@ -110,7 +110,7 @@ In this exercise, you will create Synapse Pipelines and will run the SQL scripts
 
    ![](media/ex3-create3.png) 
    
-7. In the Properties, enter the Name as **CreatePayments** **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then copy the code below and paste it in the codespace **(3)** and click on **Run** **(4)**.
+7. In the Properties, enter the Name as **CreatePayments** **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then copy the code below and paste it in the codespace **(3)** and click on **Run** **(4)**. This SQL statement creates a empty table named **CreatePayments** in the database.
 
    ```sql
    CREATE TABLE Payments(
