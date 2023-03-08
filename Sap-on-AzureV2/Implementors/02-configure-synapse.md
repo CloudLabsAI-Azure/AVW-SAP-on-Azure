@@ -2,7 +2,14 @@
 
 ## Overview
 
-In this Exercise, you will be registering an integration runtime in Synapse Workspace. Each part of the solution is described here:
+In this Exercise, you will be registering an integration runtime in Synapse Workspace. The Integration Runtime (IR) is the compute infrastructure used in Azure Synapse pipelines to provide the following data integration capabilities across different network environments:
+
+* Data Flow: Execute a Data Flow in a managed Azure compute environment.
+* Data movement: Copy data across data stores in a public or private networks (for both on-premises or virtual private networks). The service provides support for built-in connectors, format conversion, column mapping, and performant and scalable data transfer.
+
+A self-hosted IR is capable of running copy activity between a cloud data stores and a data store in private network. Here, you will be using self-hosted integration runtime to support data stores that require bring-your-own driver, such as SAP Hana, MySQL, etc.
+
+Each part of the solution is described here:
 
 In order to ingest historical data from both sources, as previously stated, the solution uses Synapse Pipelines (SAP system and Azure Cosmos DB). Moreover, Synapse requires data integration services in order to connect to external data sources.
 
