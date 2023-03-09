@@ -475,7 +475,8 @@ In this exercise, you will create Synapse Pipelines to extract the data from the
     |  Azure Cosmos DB account name **(5)**      |  **sap-data-cosmos-SUFFIX**                                           |
     |  Database name **(6)**                     |  **SAPS4D**                                                           |
     
-    After adding all the above values, click on **Test connection** **(7)** to ensure that connection is successful and select **Create** **(8)**.
+   
+   After adding all the above values, click on **Test connection** **(7)** to ensure that connection is successful and select **Create** **(8)**.
    
     ![](media/t10-ex3-2.png)
    
