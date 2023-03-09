@@ -185,7 +185,11 @@ In this exercise, you will create Synapse Pipelines to extract the data from the
    
 9. Once the Integration dataset is created, click on **Preview data** to see the data for the selected table from the previous step.
 
-   ![](media/ex3-previewdata.png) 
+   ![](media/ex3-previewdata.png)
+   
+10. In the Preview data pop-up, you can observe the data stored in the table **SALES.Sales_Orders_Headers** from the pre-installed SAP database.
+
+    ![](media/ex3-t2-previewdata.png)
    
 ### Task 3: Create a Linked Service to the Synapse SQL Pool
 
@@ -239,6 +243,10 @@ In this exercise, you will create Synapse Pipelines to extract the data from the
 5. Once the Integration dataset is created, click on **Preview data** to see the column names for the selected table from the previous step.
 
    ![](media/t5-ex3-4.png)
+   
+6. In the Preview data pop-up, you can observe the created table with fields named **dbo.SalesOrderHeaders** in task 1.
+
+    ![](media/ex3-t4-previewdata.png)
 
 ### Task 5: Create an Integration pipeline to extract SalesOrderHeaders data
 
@@ -343,7 +351,11 @@ In this exercise, you will create Synapse Pipelines to extract the data from the
    
 5. Once the Integration dataset is created, click on **Preview data** to see the data for the selected table from the previous step.
 
-   ![](media/t6-orderitems-2.png)   
+   ![](media/t6-orderitems-2.png)
+   
+6. In the Preview data pop-up, you can observe the data stored in the table **SALES.Sales_Orders_items** from the pre-installed SAP database.
+
+    ![](media/ex3-t6-previewdata.png)
 
 ### Task 7: Create an Integration Dataset for the Synapse Sales Order Items
 
@@ -366,6 +378,10 @@ In this exercise, you will create Synapse Pipelines to extract the data from the
 5. Once the Integration dataset is created, click on **Preview data** to see the column names for the selected table from the previous step.
 
    ![](media/t7-synapseitems-2.png)
+   
+6. In the Preview data pop-up, you can observe the created table with fields named **dbo.SalesOrderItems** in task 1.
+
+    ![](media/ex3-t4-previewdata.png)
    
 ### Task 8: Create the integration pipeline to extract SalesOrderItems data
 
@@ -524,6 +540,8 @@ In this exercise, you will create Synapse Pipelines to extract the data from the
 
    ![](media/t7-ex3-5.png)
    
+   ![](media/ex3-t11-previewdata.png)
+   
 7. Create a new synapse integration dataset for payments, click on ```+``` **(1)** and select **Integration dataset** **(2)**.
 
    ![](media/t5-ex3-1.png)
@@ -540,11 +558,15 @@ In this exercise, you will create Synapse Pipelines to extract the data from the
 
     ![](media/t12-ex3-2.png)
     
-11. Click **Publish all** at the top of the Synapse studio.
+11. In the Preview data pop-up, you can observe the created table with fields named **dbo.Payments** in task 1.
+
+    ![](media/ex3-t11-previewdata2.png)
+    
+12. Click **Publish all** at the top of the Synapse studio.
 
     ![](media/t11-payments-publish.png)    
 
-12. In the Publish all pane, click on **Publish** to confirm.
+13. In the Publish all pane, click on **Publish** to confirm.
 
     ![](media/t11-payments-publishall.png)
     
