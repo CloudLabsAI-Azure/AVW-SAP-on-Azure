@@ -322,7 +322,7 @@ In this exercise, you will create Synapse Pipelines to extract the data from the
 
     ![](media/t6-ex3-16.png)
 
-15. Enter the below SQL script into the codespace **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then click on **Run** **(3)** and explore the **Results** **(4)**.
+15. Enter the below SQL script into the codespace **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then click on **Run** **(3)** and explore the **Results** **(4)**. You can verify the extracted data from pre-installed SAP database by running the SQL query to review the data for the table **SalesOrderHeaders**.
 
     ```bash
     select count(*) from SalesOrderHeaders
@@ -457,7 +457,7 @@ In this exercise, you will create Synapse Pipelines to extract the data from the
 
     ![](media/t6-ex3-16.png)
 
-15. Enter the below SQL script into the codespace **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Click on **Run** **(3)** and explore the **Results** **(4)**.
+15. Enter the below SQL script into the codespace **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Click on **Run** **(3)** and explore the **Results** **(4)**. You can verify the extracted data from pre-installed SAP database by running the SQL query to review the data for the table **SalesOrderItems**.
 
     ```bash
     select count(*) from SalesOrderItems
@@ -666,7 +666,7 @@ In this exercise, you will create Synapse Pipelines to extract the data from the
 
     ![](media/t6-ex3-16.png)
 
-13. Enter the below SQL script into the codespace **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then click on **Run** **(3)** and explore the **Results** **(4)**.
+13. Enter the below SQL script into the codespace **(1)** and change the SQL pool ```Connect to``` **sapdatasynsql** **(2)**. Then click on **Run** **(3)** and explore the **Results** **(4)**. You can verify the extracted data from pre-installed SAP database by running the SQL query to review the data for the table **Payments**.
 
     ```bash
     select count(*) from Payments
