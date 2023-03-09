@@ -101,7 +101,7 @@ In this Exercise, you are using Terraform to build the environment. Each part of
     code main.tf
     ```
     
-    ![](media/ex1-codemain.png)
+    ![](media/latest-main-azurerm.png)
     
 18. In the Create Resource Group part, make sure to replace the Deployment_ID in the resource group name as **microhack-rg-<inject key="DeploymentID" />**.
 
@@ -126,10 +126,10 @@ In this Exercise, you are using Terraform to build the environment. Each part of
 23. Run the below mentioned command to initialize a working directory containing Terraform configuration files.
 
     ```bash
-    terraform init
+    terraform init -upgrade
     ```
     
-    ![](media/terraform-init.png)
+    ![](media/tf-upgrade.png)
 
 24. Replace the Subscription ID with "**<inject key="Subscription ID" />**" and replace Deployment ID in the Resource group name with "**microhack-rg-<inject key="DeploymentID" />**" in the below command, then run the below command to import the resource group.
 
