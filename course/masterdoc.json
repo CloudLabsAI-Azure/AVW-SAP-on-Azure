@@ -1,0 +1,18 @@
+[ {
+  "Name": "Monitoring & Backup SAP Infrastructure with Azure Services",
+  "Language": "English",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/course/get-start-page.md",
+      "Order": 1
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/course/1.md",
+      "Order": 2
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/course/2.md",
+      "Order": 3
+    }
+  ]
+} ]
