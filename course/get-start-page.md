@@ -8,7 +8,7 @@ In this exercise, you will log in to the Azure Portal and review the pre-deploye
 
 1. Once the environment is provisioned, a virtual machine and lab guide will get loaded in your browser. Use this virtual machine throughout the workshop to perform the lab.
 
-    ![](../Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/media/miw1.png)
+    ![](../Sap-on-AzureV2/SAP-on-the-Microsoft-Cloud/media/miwaa.png)
 
 1. To get the lab environment details, you can select the **Environment Details** tab. Additionally, the credentials will also be emailed to your email address provided at registration.
 
