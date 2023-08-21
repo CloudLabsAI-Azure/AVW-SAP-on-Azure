@@ -13,12 +13,7 @@ In this exercise, you will log in to the Azure Portal and review the pre-deploye
 1. To get the lab environment details, you can select the **Environment Details** tab. Additionally, the credentials will also be emailed to your email address provided at registration.
 
     ![](media/miw1a.png)
-    
-1. You can also open the Lab Guide in a separate full window by selecting the **Split Window** icon at the bottom right corner.
-
-    ![](media/miw2a.png) 
-    
-    
+        
 ## Task 1: Log in to Azure Portal and verify the pre-deployed resources
 
 1. Open Azure Portal from the desktop by double-clicking on it.
