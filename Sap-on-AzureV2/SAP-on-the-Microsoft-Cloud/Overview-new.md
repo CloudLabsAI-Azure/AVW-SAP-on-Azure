@@ -9,14 +9,14 @@ SAP uses Microsoft Cloud to run these solutions in a software-as-a-service (SaaS
 
 ## Hands-on Labs Scenario
 
-**Contoso Retail** processes and distributes food to supermarkets and other small-to-medium sized companies. Generous credit terms based on relationships instead of data analytics has put the company in financial difficulty. 
+**Contoso Retail** processes and distributes food to supermarkets and other small-to-medium-sized companies. Generous credit terms based on relationships instead of data analytics have put the company in financial difficulty. 
 
-**Contoso** have challenges identifying customers payment behaviours and notifying customers when they are behind on invoice payments. The accounting department uses manual processes to identify delinquent accounts making the accounts receivable (AR) management time consuming. Also, lenders and have capped CFD’s line of credit and increased the interest rate until they can lower their AR balance and be able to predict near term future cash flow.
+**Contoso** has challenges identifying customer's payment behaviours and notifying customers when they are behind on invoice payments. The accounting department uses manual processes to identify delinquent accounts making the accounts receivable (AR) management time-consuming. Also, lenders have capped CFD’s line of credit and increased the interest rate until they can lower their AR balance and be able to predict near-term future cash flow.
 
 
-When customers buy goods, the corresponding payments are not completed immediately. Some customers will pay directly while other customers will pay at the end of their payment terms. This makes it difficult for Contoso to predict the incoming cashflow. 
+When customers buy goods, the corresponding payments are not completed immediately. Some customers will pay directly while other customers will pay at the end of their payment terms. This makes it difficult for Contoso to predict the incoming cash flow. 
 
-To tackle this, Contoso wants to use Azure tooling to predict the incoming cashflow. To predict cash flow, historical Sales Orders and payments data is required. 
+To tackle this, Contoso wants to use Azure tooling to predict the incoming cash flow. To predict cash flow, historical Sales Orders and payments data is required. 
 
 ### Azure services and related products
 
@@ -27,24 +27,24 @@ To tackle this, Contoso wants to use Azure tooling to predict the incoming cashf
 - Azure Automated ML
 - Azure Synapse Analytics
 
-## Solution architecture
-The solution architecture diagram displays as described below.
+## Solution Architecture
+The solution architecture diagram is displayed as described below.
 
 
 ![](media/sap.png)
 
 1. **Sales Order** information is stored in an **SAP system** and **payments data** is stored in Cosmos DB. 
 2. **Synapse Pipelines** are used to ingest historical data from both sources (**SAP system** and **Azure Cosmos DB**). 
-3. **Power BI** is used to visualize historical data and create reports.**Azure Machine Learning** is used to create a model to predict incoming cash flow. 
+3. **Power BI** is used to visualize historical data and create reports. **Azure Machine Learning** is used to create a model to predict incoming cash flow.
 4. Finally, a workflow will be triggered from **Power Automate** to share the **Power BI reports to Teams Channel** based on the Approver's response status (Approve/Reject).
 
 
 
  ## Lab Context
 
-In this hands-on lab, you will extract (historical) Sales Orders from SAP system and historical payments from a non-SAP system, in this case Cosmos DB and telemetry data sent by the simulated IoT Hub device to Azure IoT Hub using Azure Synapse Analytics pipelines. You will visualize the extracted Sales Orders, IoT Hub device and invoice data with Power BI. 
+In this hands-on lab, you will extract (historical) Sales Orders from the SAP system and historical payments from a non-SAP system, in this case Cosmos DB and telemetry data sent by the simulated IoT Hub device to Azure IoT Hub using Azure Synapse Analytics pipelines. You will visualize the extracted Sales Orders, IoT Hub device and invoice data with Power BI. 
 
-You will unleash the power of data using Azure Machine Learning to train a model to predict incoming cash flow. You will learn to implement dashboards using Power BI and Power Automate. Finally, you will add the ability to share the Power BI reports to users in Teams channel based on the Approver's response status (Approve/Reject).
+You will unleash the power of data using Azure Machine Learning to train a model to predict incoming cash flow. You will learn to implement dashboards using Power BI and Power Automate. Finally, you will add the ability to share the Power BI reports to users in the Teams channel based on the Approver's response status (Approve/Reject).
 
 This lab includes the following exercises.
 
@@ -54,7 +54,7 @@ In this exercise, you will log in to the Azure Portal and review the pre-deploye
 
 ## Exercise 2: Combine and streamline SAP and non-SAP Data Flow
 
-In this exercise, you will review the pre-deployed **Synapse Pipelines** that are used to extract the  Sales Orders, IoT Hub device and invoice data. You will also run the SQL scripts to review the data for the tables SalesOrderHeaders, SalesOrderItems, Payments, and IoT Hub device.
+In this exercise, you will review the pre-deployed **Synapse Pipelines** that are used to extract the  Sales Orders, IoT Hub device and invoice data. You will also run the SQL scripts to review the data for the tables SalesOrderHeaders, SalesOrderItems, Payments, and IoT Hub devices.
 
 ## Exercise 3: Drive Sales Insight through Power Bi Visualization
 
@@ -70,7 +70,4 @@ In this exercise, you will be reviewing the pre-deployed Automated ML Run and be
 
 ## Exercise 6: Import a workflow to export the PowerBI Sales report and Share it with Teams
 
-In this exercise, you will establish connections for Power BI, One Drive for business, Approvals, Microsoft Teams, and Encodian in Power Automate. You will also import and trigger a flow to export the Power BI report and share it to Teams
-
-
-
+In this exercise, you will establish connections for Power BI, One Drive for Business, Approvals, Microsoft Teams, and Encodian in Power Automate. You will also import and trigger a flow to export the Power BI report and share it with Teams
