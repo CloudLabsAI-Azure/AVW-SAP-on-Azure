@@ -1,6 +1,6 @@
 # Release Notes
 
-### 10 October 2023
+### 07 October 2023
 
  - Major update in the Lab Guide.
   - Accommodated the latest UI updates in Power Automate for Exercise 6: Import a workflow to export the PowerBI Sales report and Share it with Teams.
