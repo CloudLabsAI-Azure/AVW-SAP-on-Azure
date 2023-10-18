@@ -4,35 +4,35 @@
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Implementors/Overview.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Implementors/Overview.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Implementors/01-deploying-environment.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Implementors/01-deploying-environment.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Implementors/02-configure-synapse.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Implementors/02-configure-synapse.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Implementors/03-configure-dataflow.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Implementors/03-configure-dataflow.md",
         "Order": 4
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Implementors/04-PowerBIVisualisation.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Implementors/04-PowerBIVisualisation.md",
         "Order": 5
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Implementors/05-predict-incoming-cashflow.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Implementors/05-predict-incoming-cashflow.md",
         "Order": 6
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Implementors/06-integrate-AML-and-PowerBI.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Implementors/06-integrate-AML-and-PowerBI.md",
         "Order": 7
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Implementors/07-power-automate.md",
+        "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/AVW-SAP-on-Azure/prod/Sap-on-AzureV2/Implementors/07-power-automate.md",
         "Order": 8
       }
     ]
