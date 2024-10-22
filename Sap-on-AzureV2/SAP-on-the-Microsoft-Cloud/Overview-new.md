@@ -1,4 +1,4 @@
-# Microsoft Immersion  Workshop: SAP on the Microsoft Cloud
+# SAP on the Microsoft Cloud
 
 **SAP on the Microsoft Cloud** solution helps you optimize your Enterprise Resource Planning (ERP) in the cloud using the security features, reliability, and scalable SAP-certified infrastructure of Azure.
 
