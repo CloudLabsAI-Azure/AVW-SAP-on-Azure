@@ -6,7 +6,7 @@ Welcome to your SAP on Azure workshop! We've prepared a seamless environment for
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
  
-   ![](media/miw(2).png)
+   ![](media/gs-01.png)
 
 ### **Virtual Machine & Lab Guide**
  
