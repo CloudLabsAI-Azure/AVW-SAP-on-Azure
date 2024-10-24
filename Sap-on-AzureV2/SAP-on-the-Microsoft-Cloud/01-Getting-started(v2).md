@@ -34,7 +34,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
  
 1. On your virtual machine, click on the Azure Portal icon as shown below:
  
-    ![](media/miw(1).png)
+   ![](../Implementors/media/open-azure-portal.png)
 
 2. On the **Sign into Microsoft Azure** tab, you will see the login screen, enter the following username, and, then click on **Next**.
 
