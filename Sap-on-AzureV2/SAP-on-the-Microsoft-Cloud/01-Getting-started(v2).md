@@ -1,6 +1,6 @@
-# **Getting Started with Your AVW-SAP-on-Azure Workshop**
+# **Getting Started with Your SAP on Azure Workshop**
  
-Welcome to your AVW-SAP-on-Azure workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+Welcome to your SAP on Azure workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
  
 ## **Accessing Your Lab Environment**
  
