@@ -60,7 +60,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
    ![](https://github.com/CloudLabsAI-Azure/AIW-SAP-on-Azure/blob/main/media/M2-Ex1-rg.png?raw=true)
 
-1. Click on the **aiw-sap-<inject key="DeploymentID" enableCopy="false" />** Resource group and go through with the pre-deployed resources.
+1. Click on the **db-sap-<inject key="DeploymentID" enableCopy="false" />** Resource group and go through with the pre-deployed resources.
 
    * In the Resource group we have one **Virtual Machine**, **Service Bus**, **IoT Hub**, **Synapse Workspace**, **Azure Machine Learning workspace**, **Storage Account**, **Azure Cosmos Database**, **Container Registry**, **Key Vault** and **Application Insights** deployed.
 
